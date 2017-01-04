@@ -53,6 +53,12 @@ a:focus {
 	display: inline-block;
 	margin-right: 4rem;
 }
+.nav-menu__link {
+	@include animate(.4s);
+	&:hover {
+		color: $accent;
+	}
+}
 .nav-menu__item_support-btn {
 	border: 2px solid transparentize($accent, 0.9);
 	border-radius: .3em;

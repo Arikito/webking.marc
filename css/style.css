@@ -42,6 +42,15 @@ a:focus {
   display: inline-block;
   margin-right: 4rem; }
 
+.nav-menu__link {
+  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+  .nav-menu__link:hover {
+    color: #2e9afe; }
+
 .nav-menu__item_support-btn {
   border: 2px solid rgba(46, 154, 254, 0.1);
   border-radius: .3em;
