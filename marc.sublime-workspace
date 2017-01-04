@@ -449,7 +449,7 @@
 	},
 	"expanded_folders":
 	[
-		"/D/www/projects/webking.marc"
+		"/D/www/webking.marc"
 	],
 	"file_history":
 	[
@@ -584,7 +584,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -766,12 +766,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"folders":
-	[
-		{
-			"path": "D:\\www\\projects\\webking.marc"
-		}
-	],
 	"groups":
 	[
 		{
@@ -782,7 +776,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -832,10 +826,10 @@
 		"height": 100.0
 	},
 	"pinned_build_system": "",
-	"project": "",
+	"project": "marc.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 48.0
 	},
 	"save_all_on_build": false,
 	"select_file":
