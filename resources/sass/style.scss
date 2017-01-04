@@ -37,7 +37,7 @@ a:focus {
 .header {
 	line-height: 80px;
 	height: 80px;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid $border-bottom-color;
     color: $font-color-basic;
 }
 .logo-block {
@@ -51,7 +51,7 @@ a:focus {
 }
 .nav-menu__item {
 	display: inline-block;
-	margin-right: 40px;
+	margin-right: 4rem;
 }
 .nav-menu__item_support-btn {
 	border: 2px solid transparentize($accent, 0.9);
