@@ -70,7 +70,6 @@ a:focus {
 }
 .nav-menu {
 	float: right;
-	// display: none;
 }
 .nav-menu__list {
 	float: left;
@@ -122,10 +121,12 @@ a:focus {
 /* mobile header */
 .nav-menu-mobile {
 	float: right;
-    font-size: 30px;
+    font-size: 24px;
     color: #2e9afe;
-    line-height: 1;
-    margin-top: 25px;
+    .glyphicon {
+		line-height: 80px;
+		top: auto;
+    }
 	.dropdown-menu {
 		right: 0;
 	    left: auto;
