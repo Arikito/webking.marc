@@ -75,10 +75,78 @@ a:focus {
 	padding-right: 2.5rem;
 	color: $accent;
 }
-
+.benefits {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	.benefits__title {
+		@extend .section-title;
+	}
+	.benefits__flex-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.benefits__item {
+		padding: 30px 0;
+		height: 100%;
+		border-bottom: 1px solid $border-bottom-color;
+	}
+	.benefits__item_no-border {
+		border: 0;
+	}
+	.benefits__item-icon {
+		text-align: center;
+		height: 100px;
+	}
+	.benefits__item-title {
+		font-size: 1.875em;
+		line-height: 1em;
+		margin-bottom: 1.5rem;
+		font-weight: 300;
+		color: $black;
+	}
+	.benefits__item-description {
+		font-size: 0.875em;
+		color: $font-color-basic
+	}
+}
+.no-risks {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		display: block;
+		background-image: url(../img/no-risks-bg.png);
+		background-size: cover;
+		width: 50%;
+		left: 0;
+		top: 0;
+		bottom: 0;
+	}
+	.no-risks__container {
+		@extend .box-shadow;
+		padding: 4.375em;
+		background: $white;
+	}
+	.no-risks__title {
+		@extend .section-title;
+		text-align: left;
+	}
+	.no-risks__subtitle {
+		font-size: 1.125em;
+		color: $font-color-basic;
+		margin-bottom: 1.5em;
+	}
+	.no-risks__description {
+		font-size: 0.875em;
+		color: $font-color-lightgray;
+	}
+}
 .clients {
-	background:$light-gray;
-	padding: 80px;
+	background: $light-gray;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	.clients__title {
 		@extend .section-title;
 	}
