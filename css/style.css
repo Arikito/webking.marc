@@ -118,7 +118,14 @@ a:focus {
   background: #fff; }
 
 .products-tabs__nav {
-  display: flex; }
+  display: flex;
+  border: 0; }
+
+.products-tabs__nav-item {
+  margin: 0 !important;
+  border-bottom: 1px solid #ededed; }
+  .products-tabs__nav-item:hover {
+    background-color: #fafafa; }
 
 .products-tabs__nav-item.active {
   border-bottom: 2px solid #2e9afe;
@@ -127,11 +134,16 @@ a:focus {
     color: #2e9afe !important; }
 
 .products-tabs__nav-item-link {
+  color: #999999;
   border: none !important;
+  margin: 0 !important;
   text-align: center;
   font-size: 1.8rem;
   padding-top: 3rem !important;
   padding-bottom: 3rem !important; }
+  .products-tabs__nav-item-link:hover {
+    border-radius: 0 !important;
+    background-color: transparent !important; }
 
 .products-tabs__tab-content-item {
   padding-top: 80px; }
