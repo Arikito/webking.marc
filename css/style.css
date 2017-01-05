@@ -1,3 +1,4 @@
+/* GENERAL STYLES */
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +25,7 @@ a:focus {
 .box-shadow, .benefit .benefit__list {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
 
+/* HEADER */
 .header {
   line-height: 80px;
   height: 80px;
@@ -37,7 +39,8 @@ a:focus {
   float: right; }
 
 .nav-menu__list {
-  float: left; }
+  float: left;
+  margin: 0; }
 
 .nav-menu__item {
   display: inline-block;
@@ -59,6 +62,90 @@ a:focus {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   color: #2e9afe; }
+
+/* PAGE TITLE BLOCK */
+.page-title {
+  margin-top: 80px;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f5f6fa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f5f6fa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #f5f6fa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f6fa',GradientType=0 );
+  /* IE6-9 */ }
+
+.page-title__image {
+  width: calc(100% + 5px);
+  margin-top: 60px; }
+
+.page-title__title {
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+  color: #2e9afe; }
+
+.page-title__descr {
+  color: #999999;
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-align: center; }
+
+/* PRODUCTS TABS BLOCK */
+.products-tabs {
+  background: #fff; }
+
+.products-tabs__nav {
+  display: flex; }
+
+.products-tabs__nav-item.active {
+  border-bottom: 2px solid #2e9afe;
+  color: #2e9afe; }
+  .products-tabs__nav-item.active .products-tabs__nav-item-link {
+    color: #2e9afe !important; }
+
+.products-tabs__nav-item-link {
+  border: none !important;
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; }
+
+.products-tabs__tab-content-item {
+  padding-top: 80px; }
+
+.products-tabs__video-block {
+  width: 100%;
+  height: 440px;
+  background: #f3f3f3; }
+
+.products-tabs__product-drscr-title {
+  font-size: 4.8rem;
+  font-weight: 300;
+  color: #2e9afe;
+  margin-bottom: 50px; }
+
+.products-tabs__descr-descr-text {
+  font-size: 1.4rem;
+  color: #999999; }
+
+.products-tabs__descr-list-item {
+  margin-bottom: 2rem;
+  padding-left: 3.8rem;
+  position: relative; }
+  .products-tabs__descr-list-item:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: .6rem;
+    top: .6rem;
+    height: .6rem;
+    width: .6rem;
+    background: #2e9afe;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 6px rgba(46, 154, 254, 0.1); }
 
 .benefit {
   background: #fff; }
