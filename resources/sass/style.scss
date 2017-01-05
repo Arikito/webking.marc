@@ -143,6 +143,14 @@ a:focus {
 }
 .products-tabs__nav {
 	display: flex;
+	border: 0;
+}
+.products-tabs__nav-item {
+	margin: 0 !important;
+	border-bottom: 1px solid $border-bottom-color;;
+	&:hover {
+		background-color: $light-gray;
+	}
 }
 .products-tabs__nav-item.active {
 	border-bottom: 2px solid $accent;
@@ -152,11 +160,17 @@ a:focus {
 	}
 }
 .products-tabs__nav-item-link {
+	color: $font-color-basic;
 	border: none !important;
+	margin: 0 !important;
 	text-align: center;
 	font-size: 1.8rem;
 	padding-top: 3rem !important;
 	padding-bottom: 3rem !important;
+	&:hover {
+		border-radius: 0 !important;
+		background-color: transparent !important;
+	}
 }
 .products-tabs__tab-content-item {
 	padding-top: 80px;
