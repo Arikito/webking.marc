@@ -75,6 +75,19 @@ a:focus {
   .nav-menu__link:hover {
     color: #2e9afe; }
 
+.nav-menu__link.dropdown {
+  line-height: 2;
+  cursor: pointer; }
+  .nav-menu__link.dropdown .dropdown-menu {
+    border: none;
+    border-radius: 0;
+    min-width: auto; }
+    .nav-menu__link.dropdown .dropdown-menu li {
+      width: 100px; }
+      .nav-menu__link.dropdown .dropdown-menu li a {
+        color: #999999 !important;
+        text-align: center; }
+
 .nav-menu__item_support-btn {
   border: 2px solid rgba(46, 154, 254, 0.1);
   border-radius: .3em;

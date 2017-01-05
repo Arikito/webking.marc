@@ -85,6 +85,22 @@ a:focus {
 		color: $accent;
 	}
 }
+.nav-menu__link.dropdown {
+	line-height: 2;
+	cursor: pointer;
+	.dropdown-menu {
+		border: none;
+    	border-radius: 0;
+    	min-width: auto;
+    	li {
+    		width: 100px;
+	    	a {
+	    		color: $font-color-basic !important;
+	    		text-align: center;
+	    	}
+    	}
+	}
+}
 .nav-menu__item_support-btn {
 	border: 2px solid transparentize($accent, 0.9);
 	border-radius: .3em;
