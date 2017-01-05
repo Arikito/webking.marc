@@ -128,6 +128,7 @@ a:focus {
 .products-tabs__nav {
 	display: flex;
 	border: 0;
+	overflow-x: auto;
 }
 .products-tabs__nav-item {
 	margin: 0 !important;
@@ -170,6 +171,7 @@ a:focus {
 }
 .products-tabs__product-drscr-title {
 	@extend .section-title;
+	line-height: 1;
 	font-size: 4.8rem;
 	margin-bottom: 50px;
 	text-align: left;
@@ -250,7 +252,7 @@ a:focus {
 	}
 	.no-risks__container {
 		@extend .box-shadow;
-		padding: 4.375em;
+		padding: 10%;
 		background: $white;
 	}
 	.no-risks__title {
