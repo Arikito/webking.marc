@@ -1,56 +1,301 @@
-/*
-Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
-        on line 37 of resources/sass/style.scss
+/* GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Helvetica, sans-serif;
+  outline: none; }
 
-32: 	color: inherit;
-33: }
-34: .box-shadow {
-35: 	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
-36: }
-37: <<<<<<< HEAD
-38: 
-39: /* HEADER *\/
-40: =======
-41: .section-title {
-42: 	color: $accent;
+body {
+  font-size: 16px; }
 
-Backtrace:
-resources/sass/style.scss:37
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1105:in `expr!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/static_parser.rb:20:in `parse_selector'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:427:in `visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-C:/Ruby23-x64/bin/sass:23:in `load'
-C:/Ruby23-x64/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 37 of resources/sass/style.scss\A \A 32: 	color: inherit;\A 33: }\A 34: .box-shadow {\A 35: 	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);\A 36: }\A 37: <<<<<<< HEAD\A 38: \A 39: /* HEADER */\A 40: =======\A 41: .section-title {\A 42: 	color: $accent;"; }
+li {
+  list-style-type: none; }
+
+a {
+  color: inherit; }
+
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+a:focus {
+  text-decoration: none;
+  color: inherit; }
+
+.box-shadow, .no-risks .no-risks__container, .benefit .benefit__list {
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
+
+.section-title, .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title {
+  color: #2e9afe;
+  margin: 0;
+  margin-bottom: 2rem;
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center; }
+
+.btn-primary {
+  background-color: #2e9afe;
+  border-color: #2e9afe; }
+  .btn-primary:hover {
+    background-color: #55adfe;
+    border-color: #55adfe; }
+
+/* HEADER */
+.header {
+  line-height: 80px;
+  height: 80px;
+  border-bottom: 1px solid #ededed;
+  color: #999999; }
+
+.logo-block {
+  float: left; }
+
+.nav-menu {
+  float: right; }
+
+.nav-menu__list {
+  float: left;
+  margin: 0; }
+
+.nav-menu__item {
+  display: inline-block;
+  margin-right: 4rem; }
+
+.nav-menu__link {
+  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+  .nav-menu__link:hover {
+    color: #2e9afe; }
+
+.nav-menu__item_support-btn {
+  border: 2px solid rgba(46, 154, 254, 0.1);
+  border-radius: .3em;
+  padding: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  color: #2e9afe; }
+
+/* PAGE TITLE BLOCK */
+.page-title {
+  margin-top: 80px;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f5f6fa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f5f6fa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #f5f6fa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f6fa',GradientType=0 );
+  /* IE6-9 */ }
+
+.page-title__image {
+  width: calc(100% + 5px);
+  margin-top: 60px; }
+
+.page-title__title {
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+  color: #2e9afe; }
+
+.page-title__descr {
+  color: #999999;
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-align: center; }
+
+/* PRODUCTS TABS BLOCK */
+.products-tabs {
+  background: #fff; }
+
+.products-tabs__nav {
+  display: flex; }
+
+.products-tabs__nav-item.active {
+  border-bottom: 2px solid #2e9afe;
+  color: #2e9afe; }
+  .products-tabs__nav-item.active .products-tabs__nav-item-link {
+    color: #2e9afe !important; }
+
+.products-tabs__nav-item-link {
+  border: none !important;
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; }
+
+.products-tabs__tab-content-item {
+  padding-top: 80px; }
+
+.products-tabs__video-block {
+  width: 100%;
+  height: 440px;
+  background: #f3f3f3; }
+
+.products-tabs__descr-block {
+  line-height: 1.3em; }
+
+.products-tabs__product-drscr-title {
+  font-size: 4.8rem;
+  margin-bottom: 50px;
+  text-align: left; }
+
+.products-tabs__descr-descr-text {
+  font-size: 1.4rem;
+  color: #999999; }
+
+.products-tabs__descr-list-item {
+  margin-bottom: 2rem;
+  padding-left: 3.8rem;
+  position: relative; }
+  .products-tabs__descr-list-item:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: .6rem;
+    top: .6rem;
+    height: .6rem;
+    width: .6rem;
+    background: #2e9afe;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 6px rgba(46, 154, 254, 0.1); }
+
+.products-tabs__descr-btn {
+  float: right; }
+
+.benefits {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .benefits .benefits__flex-container {
+    display: flex;
+    flex-wrap: wrap; }
+  .benefits .benefits__item {
+    padding: 30px 0;
+    height: 100%;
+    border-bottom: 1px solid #ededed; }
+  .benefits .benefits__item_no-border {
+    border: 0; }
+  .benefits .benefits__item-icon {
+    text-align: center;
+    height: 100px; }
+  .benefits .benefits__item-title {
+    font-size: 1.875em;
+    line-height: 1em;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+    color: #000; }
+  .benefits .benefits__item-description {
+    font-size: 0.875em;
+    color: #999999; }
+
+.no-risks {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative; }
+  .no-risks:before {
+    content: '';
+    position: absolute;
+    display: block;
+    background-image: url(../img/no-risks-bg.png);
+    background-size: cover;
+    width: 50%;
+    left: 0;
+    top: 0;
+    bottom: 0; }
+  .no-risks .no-risks__container {
+    padding: 4.375em;
+    background: #fff; }
+  .no-risks .no-risks__title {
+    text-align: left; }
+  .no-risks .no-risks__subtitle {
+    font-size: 1.125em;
+    color: #999999;
+    margin-bottom: 1.5em; }
+  .no-risks .no-risks__description {
+    font-size: 0.875em;
+    color: #cccccc; }
+
+.clients {
+  background: #fafafa;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .clients .clients__list {
+    padding: 1em 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden; }
+
+.benefit {
+  background: #fafafa; }
+  .benefit .benefit__list {
+    padding: 20px;
+    padding-right: 0;
+    width: 100%;
+    display: table;
+    z-index: 100;
+    background: #fff; }
+  .benefit .benefit__list-item {
+    display: table-row;
+    font-size: 1.5em; }
+    .benefit .benefit__list-item:last-child .benefit__list-title {
+      border: 0; }
+  .benefit .benefit__list-icon,
+  .benefit .benefit__list-title {
+    display: table-cell;
+    padding: 20px;
+    line-height: 1;
+    vertical-align: middle; }
+  .benefit .benefit__list-icon {
+    height: 70px;
+    max-width: 90px;
+    text-align: center; }
+  .benefit .benefit__list-title {
+    border-bottom: 1px solid #ededed; }
+  .benefit .benefit__title {
+    text-transform: capitalize;
+    text-align: left; }
+  .benefit .benefit__description {
+    color: #999999;
+    font-size: 0.875em;
+    text-align: justify; }
+
+.footer {
+  color: #fff;
+  background: #2e9afe;
+  font-weight: 300;
+  z-index: 10;
+  padding-top: 8rem;
+  margin-top: -6rem; }
+  .footer .footer__nav {
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .footer .footer__nav-link {
+    flex-shrink: 0; }
+  .footer .footer__socials {
+    text-align: right; }
+  .footer .footer__socials-link {
+    display: inline-block;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid #55adfe; }
+  .footer .footer__logo,
+  .footer .footer__nav {
+    padding: 30px 0; }
+  .footer .footer__socials {
+    padding: 26px 0; }
+  .footer .footer__copyright-container {
+    border-top: 1px solid #55adfe; }
+  .footer .footer__copyright {
+    padding: 15px 0; }
+
+/*# sourceMappingURL=style.css.map */
