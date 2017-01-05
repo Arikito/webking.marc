@@ -45,6 +45,12 @@ a:focus {
 .btn-primary {
 	background-color: $accent;
 	border-color: $accent;
+	padding-left: 2rem;
+    padding-right: 1.5rem;
+	.glyphicon {
+		font-size: 1.2rem;
+		color: transparentize($white, 0.5);
+	}
 	&:hover {
 		background-color: $light-accent;
 		border-color: $light-accent;
@@ -146,6 +152,7 @@ a:focus {
 }
 .products-tabs__descr-block {
 	line-height: 1.3em;
+	margin-bottom: 2rem;
 }
 .products-tabs__product-drscr-title {
 	@extend .section-title;
@@ -158,8 +165,8 @@ a:focus {
 	color: $font-color-basic;
 }
 .products-tabs__descr-list-item {
-	margin-bottom: 2rem;
-	padding-left: 3.8rem;
+	margin-bottom: 1.9rem;
+	padding-left: 3rem;
 	position: relative;
 	&:before {
 		content: '';

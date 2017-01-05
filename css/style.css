@@ -35,7 +35,12 @@ a:focus {
 
 .btn-primary {
   background-color: #2e9afe;
-  border-color: #2e9afe; }
+  border-color: #2e9afe;
+  padding-left: 2rem;
+  padding-right: 1.5rem; }
+  .btn-primary .glyphicon {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5); }
   .btn-primary:hover {
     background-color: #55adfe;
     border-color: #55adfe; }
@@ -137,7 +142,8 @@ a:focus {
   background: #f3f3f3; }
 
 .products-tabs__descr-block {
-  line-height: 1.3em; }
+  line-height: 1.3em;
+  margin-bottom: 2rem; }
 
 .products-tabs__product-drscr-title {
   font-size: 4.8rem;
@@ -149,8 +155,8 @@ a:focus {
   color: #999999; }
 
 .products-tabs__descr-list-item {
-  margin-bottom: 2rem;
-  padding-left: 3.8rem;
+  margin-bottom: 1.9rem;
+  padding-left: 3rem;
   position: relative; }
   .products-tabs__descr-list-item:before {
     content: '';
