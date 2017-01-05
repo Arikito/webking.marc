@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-bottom-color"
+			],
+			[
 				"GetCit",
 				"getCity"
 			],
@@ -263,6 +267,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4694,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 104,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 2816,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 262,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -428,7 +468,7 @@
 				"Compare with..."
 			]
 		],
-		"width": 406.0
+		"width": 494.0
 	},
 	"console":
 	{
@@ -449,10 +489,16 @@
 	},
 	"expanded_folders":
 	[
-		"/D/www/webking.marc"
+		"/D/www/projects/webking.marc",
+		"/D/www/projects/webking.marc/img",
+		"/D/www/projects/webking.marc/js",
+		"/D/www/projects/webking.marc/resources",
+		"/D/www/projects/webking.marc/resources/sass"
 	],
 	"file_history":
 	[
+		"/D/www/projects/webking.marc/index.html",
+		"/D/www/projects/webking.marc/marc.sublime-workspace",
 		"/D/www/projects/webking.xt/themes/default/tpl/cp_product.tpl",
 		"/D/www/projects/webking.xt/~core/block/cp_cab_agent_customer.php",
 		"/D/www/projects/webking.xt/index.php",
@@ -578,13 +624,11 @@
 		"/D/www/projects/webking.xt/~core/model/locations_c.php",
 		"/D/www/projects/webking.xt/~core/block/cp_cab_anonim.php",
 		"/D/www/projects/webking.xt/~core/block/profiles_additional_fields.php",
-		"/D/www/projects/webking.xt/~core/contr/ajax/cattags.php",
-		"/D/www/projects/webking.xt/themes/default/css/header.css",
-		"/D/www/projects/webking.xt/adm/core/tpl/cp_monitoring_doubles_translit_products.tpl"
+		"/D/www/projects/webking.xt/~core/contr/ajax/cattags.php"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -617,6 +661,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h1",
+			" alt=\"\"",
+			"tab-pane",
+			"pane",
+			"\">...</",
 			"xt_",
 			"getCity",
 			"deliverySelect",
@@ -739,12 +788,7 @@
 			"verification_code",
 			"button",
 			"search",
-			"seach",
-			"banner",
-			"var_dump",
-			"case",
-			"promo",
-			"DELETE"
+			"seach"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -766,17 +810,148 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"folders":
+	[
+		{
+			"path": "D:\\www\\projects\\webking.marc"
+		}
+	],
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1266,
+								1273
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "resources/sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1238,
+								1238
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 798.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/sass/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								95
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -791,11 +966,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -826,10 +1008,10 @@
 		"height": 100.0
 	},
 	"pinned_build_system": "",
-	"project": "marc.sublime-project",
+	"project": "",
 	"replace":
 	{
-		"height": 48.0
+		"height": 44.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -839,16 +1021,24 @@
 		"selected_items":
 		[
 			[
+				"variabl",
+				"resources\\sass\\_variables.scss"
+			],
+			[
+				"main.js",
+				"js\\main.js"
+			],
+			[
+				"index.",
+				"index.html"
+			],
+			[
 				"location.php",
 				"~core\\contr\\ajax\\location.php"
 			],
 			[
 				"func.js",
 				"themes\\default\\js\\func.js"
-			],
-			[
-				"main.js",
-				"themes\\default\\js\\main.js"
 			],
 			[
 				"quiz.",
@@ -1341,14 +1531,6 @@
 			[
 				"sb_cabinet_navigation",
 				"~core\\block\\sb_cabinet_navigation.php"
-			],
-			[
-				"profiles",
-				"~core\\contr\\ajax\\profiles.php"
-			],
-			[
-				"profiles.php",
-				"adm\\core\\contr\\profiles.php"
 			]
 		],
 		"width": 0.0
@@ -1361,7 +1543,7 @@
 		[
 			[
 				"",
-				"D:\\www\\projects\\wbkng\\webking.sublime-project"
+				"D:\\www\\projects\\webking.xt\\xt.sublime-project"
 			],
 			[
 				"barbat",
@@ -1387,7 +1569,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
