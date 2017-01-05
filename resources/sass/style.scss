@@ -155,9 +155,7 @@ a:focus {
 		margin: 0;
 		display: flex;
 		justify-content: space-around;
-	}
-	.clients__item {
-		// display: inline-block;
+		overflow: hidden;
 	}
 }
 .benefit {
@@ -187,6 +185,7 @@ a:focus {
 	}
 	.benefit__list-icon {
 		height: 70px;
+		max-width: 90px;
 		text-align: center;
 	}
 	.benefit__list-title {
