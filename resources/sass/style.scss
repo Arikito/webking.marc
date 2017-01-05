@@ -70,6 +70,7 @@ a:focus {
 }
 .nav-menu {
 	float: right;
+	// display: none;
 }
 .nav-menu__list {
 	float: left;
@@ -78,6 +79,9 @@ a:focus {
 .nav-menu__item {
 	display: inline-block;
 	margin-right: 4rem;
+	&:last-child {
+		margin: 0;
+	}
 }
 .nav-menu__link {
 	@include animate(.4s);
@@ -109,6 +113,41 @@ a:focus {
 	padding-right: 2.5rem;
 	color: $accent;
 }
+@media (min-width: 992px) {
+	.nav-menu {
+		// display: block;
+	}
+}
+
+/* mobile header */
+.nav-menu-mobile {
+	float: right;
+    font-size: 30px;
+    color: #2e9afe;
+    line-height: 1;
+    margin-top: 25px;
+	.dropdown-menu {
+		right: 0;
+	    left: auto;
+	    border: none;
+    	border-radius: 0;
+    	min-width: auto;
+    	padding: 2rem;
+    	li {
+    		// width: 100px;
+	    	a {
+	    		color: $font-color-basic !important;
+	    		text-align: center;
+	    		font-size: 2.5rem;
+				line-height: 5rem;
+	    	}
+    	}
+	}
+}
+
+
+
+
 
 
 /* PAGE TITLE BLOCK */
@@ -347,7 +386,7 @@ a:focus {
 }
 
 
-
+/* FOOTER */
 .footer {
 	color: $white;
 	background: $accent;
