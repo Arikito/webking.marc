@@ -121,12 +121,6 @@ a:focus {
 	color: $accent;
 }
 
-@media (min-width: 992px) {
-	.nav-menu {
-		// display: block;
-	}
-}
-
 /* mobile header */
 .nav-menu-mobile {
 	float: right;
@@ -429,7 +423,11 @@ a:focus {
 		margin-bottom: 50px;
 	}
 }
-
+@media screen and (max-width: 991px) {
+	.prod-cont-item {
+		padding-top: 0;
+	}
+}
 
 /* ------- ABOUT PAGE ---------- */
 .about-us {
@@ -588,7 +586,7 @@ body:not(.home) .footer {
 		left: 0;
 		right: 13rem;
 		position: absolute;
-		border-bottom: 1px solid $border-bottom-color;
+		border-bottom: 1px solid $border-color;
 		z-index: -1;
 	}
 }
