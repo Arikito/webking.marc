@@ -1,419 +1,80 @@
-/* GENERAL STYLES */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", Helvetica, sans-serif;
-  outline: none; }
+/*
+Error: Undefined variable: "$border-bottom-color".
+        on line 591 of resources/sass/style.scss
 
-body {
-  font-size: 16px; }
+586: 		content: '';
+587: 		top: 50%;
+588: 		left: 0;
+589: 		right: 13rem;
+590: 		position: absolute;
+591: 		border-bottom: 1px solid $border-bottom-color;
+592: 		z-index: -1;
+593: 	}
+594: }
+595: .blog-list__date {
+596: 	background: $white;
 
-li {
-  list-style-type: none; }
-
-a {
-  color: inherit; }
-
-a:hover {
-  color: inherit;
-  text-decoration: none; }
-
-a:focus {
-  text-decoration: none;
-  color: inherit; }
-
-.box-shadow, .no-risks .no-risks__container, .benefit .benefit__list {
-  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
-
-.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title {
-  color: #2e9afe;
-  margin: 0;
-  margin-bottom: 2rem;
-  font-size: 3em;
-  font-weight: 300;
-  text-align: center; }
-
-.btn-primary {
-  background-color: #2e9afe;
-  border-color: #2e9afe;
-  padding-left: 2rem;
-  padding-right: 1.5rem; }
-  .btn-primary .glyphicon {
-    font-size: 1.2rem;
-    color: rgba(255, 255, 255, 0.5); }
-  .btn-primary:hover {
-    background-color: #55adfe;
-    border-color: #55adfe; }
-
-/* HEADER */
-.header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0; }
-
-.sub-header {
-  line-height: 80px;
-  height: 80px;
-  border-bottom: 1px solid #ededed;
-  color: #999999; }
-
-.logo-block {
-  float: left; }
-
-.nav-menu {
-  float: right; }
-
-.nav-menu__list {
-  float: left;
-  margin: 0; }
-
-.nav-menu__item {
-  display: inline-block;
-  margin-right: 4rem; }
-  .nav-menu__item:last-child {
-    margin: 0; }
-
-.nav-menu__link {
-  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  -moz-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  -ms-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  -o-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
-  .nav-menu__link:hover {
-    color: #2e9afe; }
-
-.nav-menu__link.dropdown {
-  line-height: 2;
-  cursor: pointer; }
-  .nav-menu__link.dropdown .dropdown-menu {
-    border: none;
-    border-radius: 0;
-    min-width: auto; }
-    .nav-menu__link.dropdown .dropdown-menu li {
-      width: 100px; }
-      .nav-menu__link.dropdown .dropdown-menu li a {
-        color: #999999 !important;
-        text-align: center;
-        padding: 10px 20px; }
-
-.nav-menu__item_support-btn {
-  border: 2px solid rgba(46, 154, 254, 0.1);
-  border-radius: .3em;
-  padding: 1rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  color: #2e9afe; }
-
-/* mobile header */
-.nav-menu-mobile {
-  float: right;
-  font-size: 24px;
-  color: #2e9afe; }
-  .nav-menu-mobile .glyphicon {
-    line-height: 80px;
-    top: auto; }
-  .nav-menu-mobile .dropdown-menu {
-    right: 0;
-    left: auto;
-    border: none;
-    border-radius: 0;
-    min-width: auto;
-    padding: 2rem;
-    top: 65px; }
-    .nav-menu-mobile .dropdown-menu .dropdown-submenu {
-      position: relative; }
-      .nav-menu-mobile .dropdown-menu .dropdown-submenu .dropdown-menu {
-        right: 90%; }
-    .nav-menu-mobile .dropdown-menu a {
-      color: #999999 !important;
-      text-align: center;
-      font-size: 2.5rem;
-      line-height: 5rem; }
-
-/* PAGE TITLE BLOCK */
-.page-title {
-  margin-top: 160px; }
-  .page-title .page-title__image {
-    width: 100%;
-    margin-top: 60px; }
-  .page-title.page-title_main-page {
-    background: #ffffff;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #ffffff 0%, #f5f6fa 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #ffffff 0%, #f5f6fa 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #ffffff 0%, #f5f6fa 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f6fa',GradientType=0 );
-    /* IE6-9 */ }
-    .page-title.page-title_main-page .page-title__image {
-      width: calc(100% + 5px); }
-  .page-title .page-title__title {
-    font-size: 4rem;
-    font-weight: 300;
-    text-align: center;
-    color: #2e9afe; }
-  .page-title .page-title__descr {
-    color: #999999;
-    font-weight: 300;
-    font-size: 2.5rem;
-    text-align: center; }
-  .page-title .page-title__short-title {
-    font-weight: bold; }
-
-/* ------- MAIN PAGE ------- */
-/* PRODUCTS TABS BLOCK */
-.products-tabs {
-  background: #fff; }
-  .products-tabs .products-tabs__nav {
-    display: flex;
-    border: 0;
-    overflow-x: auto; }
-  .products-tabs .products-tabs__nav-item {
-    margin: 0 !important;
-    border-bottom: 1px solid #ededed; }
-    .products-tabs .products-tabs__nav-item:hover {
-      background-color: #fafafa; }
-  .products-tabs .products-tabs__nav-item.active {
-    border-bottom: 2px solid #2e9afe;
-    color: #2e9afe; }
-    .products-tabs .products-tabs__nav-item.active .products-tabs__nav-item-link {
-      color: #2e9afe !important; }
-  .products-tabs .products-tabs__nav-item-link {
-    color: #999999;
-    border: none !important;
-    margin: 0 !important;
-    text-align: center;
-    font-size: 1.8rem;
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important; }
-    .products-tabs .products-tabs__nav-item-link:hover {
-      border-radius: 0 !important;
-      background-color: transparent !important; }
-  .products-tabs .products-tabs__tab-content-item {
-    padding-top: 80px; }
-  .products-tabs .products-tabs__video-block {
-    width: 100%;
-    height: 440px;
-    background: #f3f3f3; }
-  .products-tabs .products-tabs__descr-block {
-    line-height: 1.3em;
-    margin-bottom: 2rem; }
-  .products-tabs .products-tabs__product-drscr-title {
-    line-height: 1;
-    font-size: 4.8rem;
-    margin-bottom: 50px;
-    text-align: left; }
-  .products-tabs .products-tabs__descr-descr-text {
-    font-size: 1.4rem;
-    color: #999999; }
-  .products-tabs .products-tabs__descr-list-item {
-    margin-bottom: 1.9rem;
-    padding-left: 3rem;
-    position: relative; }
-    .products-tabs .products-tabs__descr-list-item:before {
-      content: '';
-      display: inline-block;
-      position: absolute;
-      left: .6rem;
-      top: .6rem;
-      height: .6rem;
-      width: .6rem;
-      background: #2e9afe;
-      border-radius: 50%;
-      box-shadow: 0px 0px 0px 6px rgba(46, 154, 254, 0.1); }
-  .products-tabs .products-tabs__descr-btn {
-    float: right; }
-
-/* BENEFITS BLOCK */
-.benefits {
-  padding-top: 80px;
-  padding-bottom: 80px; }
-  .benefits .benefits__flex-container {
-    display: flex;
-    flex-wrap: wrap; }
-  .benefits .benefits__item {
-    padding: 30px 0;
-    height: 100%;
-    border-bottom: 1px solid #ededed; }
-  .benefits .benefits__item_no-border {
-    border: 0; }
-  .benefits .benefits__item-icon {
-    text-align: center;
-    height: 100px; }
-  .benefits .benefits__item-title {
-    font-size: 1.875em;
-    line-height: 1em;
-    margin-bottom: 1.5rem;
-    font-weight: 300;
-    color: #000; }
-  .benefits .benefits__item-description {
-    font-size: 0.875em;
-    color: #999999; }
-
-.no-risks {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  position: relative; }
-  .no-risks:before {
-    content: '';
-    position: absolute;
-    display: block;
-    background-image: url(../img/no-risks-bg.png);
-    background-size: cover;
-    width: 50%;
-    left: 0;
-    top: 0;
-    bottom: 0; }
-  .no-risks .no-risks__container {
-    padding: 10%;
-    background: #fff; }
-  .no-risks .no-risks__title {
-    text-align: left; }
-  .no-risks .no-risks__subtitle {
-    font-size: 1.125em;
-    color: #999999;
-    margin-bottom: 1.5em; }
-  .no-risks .no-risks__description {
-    font-size: 0.875em;
-    color: #cccccc; }
-
-.clients {
-  background: #fafafa;
-  padding-top: 80px;
-  padding-bottom: 80px; }
-  .clients .clients__list {
-    padding: 1em 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden; }
-
-.benefit {
-  background: #fafafa; }
-  .benefit .benefit__list {
-    padding: 20px;
-    padding-right: 0;
-    width: 100%;
-    display: table;
-    z-index: 100;
-    background: #fff; }
-  .benefit .benefit__list-item {
-    display: table-row;
-    font-size: 1.5em; }
-    .benefit .benefit__list-item:last-child .benefit__list-title {
-      border: 0; }
-  .benefit .benefit__list-icon,
-  .benefit .benefit__list-title {
-    display: table-cell;
-    padding: 20px;
-    line-height: 1;
-    vertical-align: middle; }
-  .benefit .benefit__list-icon {
-    height: 70px;
-    max-width: 90px;
-    text-align: center; }
-  .benefit .benefit__list-title {
-    border-bottom: 1px solid #ededed; }
-  .benefit .benefit__title {
-    text-transform: capitalize;
-    text-align: left; }
-  .benefit .benefit__description {
-    color: #999999;
-    font-size: 0.875em;
-    text-align: justify; }
-
-/* ------ PRODUCT PAGE --------- */
-.prod-cont-item {
-  padding-top: 80px; }
-  .prod-cont-item:last-of-type {
-    padding-bottom: 30px; }
-  .prod-cont-item .prod-cont-item__descr-title {
-    font-size: 3.5rem;
-    font-weight: 300; }
-  .prod-cont-item .prod-cont-item__descr-text {
-    color: #999999;
-    font-size: 1.4rem;
-    line-height: 1.8rem; }
-    .prod-cont-item .prod-cont-item__descr-text p {
-      margin-bottom: 2rem; }
-  .prod-cont-item .prod-cont-item__descr-image-block {
-    text-align: center;
-    margin-top: 65px;
-    margin-bottom: 50px; }
-
-/* ------- ABOUT PAGE ---------- */
-.about-us {
-  margin-top: 120px; }
-  .about-us .about-us__descr-title {
-    text-align: left;
-    font-size: 4rem; }
-  .about-us .about-us__descr-image-block {
-    margin-bottom: 2rem; }
-  .about-us .about-us__descr-image {
-    width: 100%; }
-  .about-us .about-us__descr-text {
-    color: #999999;
-    font-size: 1.4rem;
-    line-height: 1.6rem; }
-
-.our-team {
-  margin-top: 90px; }
-  .our-team .our-team__descr-title {
-    text-align: left;
-    font-size: 4rem; }
-  .our-team .our-team__member-info-block {
-    color: #999999; }
-  .our-team .our-team__member-photo-block {
-    background: #fff; }
-  .our-team .our-team__member-name {
-    color: #010101;
-    font-size: 3rem;
-    font-weight: 300; }
-  .our-team .our-team__member-position {
-    line-height: 1.6rem; }
-  .our-team .our-team__member-social-block {
-    border-top: 1px solid #ededed;
-    padding-top: 15px; }
-  .our-team .our-team__member-social-link {
-    padding: 15px; }
-
-/* FOOTER */
-.footer {
-  color: #fff;
-  background: #2e9afe;
-  font-weight: 300;
-  z-index: 10;
-  padding-top: 8rem; }
-  .footer.footer_main-page {
-    margin-top: -6rem; }
-  .footer .footer__nav {
-    line-height: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
-  .footer .footer__nav-link {
-    flex-shrink: 0; }
-  .footer .footer__socials {
-    text-align: right; }
-  .footer .footer__socials-link {
-    display: inline-block;
-    border-radius: 50%;
-    width: 38px;
-    height: 38px;
-    line-height: 33px;
-    text-align: center;
-    border: 1px solid #55adfe; }
-  .footer .footer__logo,
-  .footer .footer__nav {
-    padding: 30px 0; }
-  .footer .footer__socials {
-    padding: 26px 0; }
-  .footer .footer__copyright-container {
-    border-top: 1px solid #55adfe; }
-  .footer .footer__copyright {
-    padding: 15px 0; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+resources/sass/style.scss:591
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `_perform'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+C:/Ruby23-x64/bin/sass:23:in `load'
+C:/Ruby23-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$border-bottom-color\".\A         on line 591 of resources/sass/style.scss\A \A 586: 		content: '';\A 587: 		top: 50%;\A 588: 		left: 0;\A 589: 		right: 13rem;\A 590: 		position: absolute;\A 591: 		border-bottom: 1px solid $border-bottom-color;\A 592: 		z-index: -1;\A 593: 	}\A 594: }\A 595: .blog-list__date {\A 596: 	background: $white;"; }

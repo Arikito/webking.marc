@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>MARC | Blog page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src="assets/jquery-3.1.0.min.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body class="home">
+<body class="blog">
 	<header class="header">
 		<div class="container">
 			<div class="sub-header">
@@ -72,14 +72,59 @@
 			</div>
 		</div>
 	</header>
-	<section class="page-title page-title_main-page container-fluid">
+	<section class="icon-page-header icon-page-header_blog container-fluid">
+		<h1 class="icon-page-header__title">Blog</h1>
+		<p class="icon-page-header__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+	</section>
+	<section class="blog-list container">
+		<div class="row">
+			<div class="blog-list__item">
+				<div class="col-md-6 col-lg-7">
+					<img src="img/blog-thumb-1.png" alt="" class="blog-list__thumbnail">
+				</div>
+				<div class="col-md-6 col-lg-5">
+					<div class="blog-list__title">PTP Processing of supplier accounts is prevented unless all mandatory fields are complete</div>
+					<div class="blog-list__description">To ensure that vendor master information is complete within the SAP system, key fields in the vendor master should be set to mandatory. This field control is arranged via vendor accounts groups; there are multiple vendor groups are used within MARC. When a mandatory field is not used an error message will pop up. This control therefore prevents procesing of incomplete master data.</div>
+					<div class="blog-list__footer">
+						<div class="blog-list__date"><img class="blog-list__date-icon" src="img/clock-icon.png" alt="">10 Oct 2016</div>
+						<button class="blog-list__read-more btn btn-primary">Read more  <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
+					</div>
+				</div>
+			</div>
+			<div class="blog-list__item">
+				<div class="col-md-6 col-lg-7">
+					<img src="img/blog-thumb-2.png" alt="" class="blog-list__thumbnail">
+				</div>
+				<div class="col-md-6 col-lg-5">
+					<div class="blog-list__title">PTP Processing of supplier accounts is prevented unless all mandatory fields are complete</div>
+					<div class="blog-list__description">To ensure that vendor master information is complete within the SAP system, key fields in the vendor master should be set to mandatory. This field control is arranged via vendor accounts groups; there are multiple vendor groups are used within MARC. When a mandatory field is not used an error message will pop up. This control therefore prevents procesing of incomplete master data.</div>
+					<div class="blog-list__footer">
+						<div class="blog-list__date"><img class="blog-list__date-icon" src="img/clock-icon.png" alt="">10 Oct 2016</div>
+						<button class="blog-list__read-more btn btn-primary">Read more  <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+	<section class="hidden page-title container-fluid">
 		<div class="container">
 			<h1 class="page-title__title">Manage Access Risks and Controls</h1>
 			<p class="page-title__descr">Reliable Compliance Solutions made Accessible</p>
 			<img class="page-title__image" src="img/main_page_title_image.png" alt="image">
 		</div>
 	</section>
-	<section class="products-tabs container-fluid">
+	<section class="hidden products-tabs container-fluid">
 		<div class="container">
 			<ul class="products-tabs__nav nav nav-tabs">
 				<li class="products-tabs__nav-item active">
@@ -174,7 +219,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="benefits container">
+	<section class="hidden benefits container">
 		<div class="row">
 			<h3 class="benefits__title">Benefits to you</h3>
 			<div class="benefits__flex-container">
@@ -275,7 +320,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="no-risks container-fluid">
+	<section class="hidden no-risks container-fluid">
 		<div class="row">
 			<div class="container">
 				<div class="row">
@@ -291,7 +336,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="clients container-fluid">
+	<section class="hidden clients container-fluid">
 		<div class="row">
 			<div class="container">
 				<h3 class="clients__title">Our clients</h3>
@@ -305,7 +350,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="benefit container-fluid">
+	<section class="hidden benefit container-fluid">
 		<div class="row">
 			<div class="container">
 				<div class="row">
@@ -339,7 +384,7 @@
 			</div>
 		</div>
 	</section>
-	<footer class="footer container-fluid footer_main-page">
+	<footer class="footer container-fluid">
 		<div class="row">
 			<div class="container">
 				<div class="row">
@@ -379,5 +424,15 @@
 			</div>
 		</div>
 	</footer>
+	<!-- <ul class="nav nav-tabs">
+		<li role="presentation" class="active"><a href="#home">Home</a></li>
+		<li role="presentation"><a href="#profile">Profile</a></li>
+		<li role="presentation"><a href="#messages">Messages</a></li>
+	</ul>
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane fade in active" id="home">home</div>
+		<div role="tabpanel" class="tab-pane fade" id="profile">profile</div>
+		<div role="tabpanel" class="tab-pane fade" id="messages">messages</div>
+	</div> -->
 </body>
 </html>
