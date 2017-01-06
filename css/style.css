@@ -25,7 +25,7 @@ a:focus {
 .box-shadow, .no-risks .no-risks__container, .benefit .benefit__list, .blog-list__thumbnail {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
 
-.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title, .partners .partners__descr-title, .icon-page-header__title {
+.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title, .partners .partners__descr-title, .icon-page-header .icon-page-header__title {
   color: #2e9afe;
   margin: 0;
   margin-bottom: 2rem;
@@ -438,9 +438,8 @@ a:focus {
   background: #2e9afe;
   font-weight: 300;
   z-index: 10;
-  padding-top: 8rem; }
-  .footer.footer_main-page {
-    margin-top: -6rem; }
+  padding-top: 2rem;
+  margin-top: 0; }
   .footer .footer__nav {
     line-height: 30px;
     display: flex;
@@ -468,26 +467,23 @@ a:focus {
   .footer .footer__copyright {
     padding: 15px 0; }
 
-body:not(.home) .footer {
-  padding-top: 2rem;
-  margin-top: 0; }
+body.home .footer {
+  padding-top: 8rem;
+  margin-top: -6rem; }
 
 .icon-page-header {
   background: #fafafa;
   padding-top: 128px;
   padding-bottom: 50px; }
-
-.icon-page-header_blog {
-  background: #fafafa url(../img/icon-page-header-blog.png) center 20% no-repeat; }
-
-.icon-page-header__title {
-  font-size: 2.5em;
-  margin-bottom: 0.2em; }
-
-.icon-page-header__subtitle {
-  color: #999999;
-  text-align: center;
-  font-weight: 300; }
+  .icon-page-header .icon-page-header_blog {
+    background: #fafafa url(../img/icon-page-header-blog.png) center 20% no-repeat; }
+  .icon-page-header .icon-page-header__title {
+    font-size: 2.5em;
+    margin-bottom: 0.2em; }
+  .icon-page-header .icon-page-header__subtitle {
+    color: #999999;
+    text-align: center;
+    font-weight: 300; }
 
 /* Blog page styles */
 .blog-list {
