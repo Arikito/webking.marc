@@ -69,8 +69,8 @@ a:focus {
 .sub-header {
 	line-height: 80px;
 	height: 80px;
-    border-bottom: 1px solid $border-color;
-    color: $font-color-basic;
+	border-bottom: 1px solid $border-color;
+	color: $font-color-basic;
 }
 .logo-block {
 	float: left;
@@ -534,8 +534,11 @@ body.home .footer {
 	background: $light-gray;
 	padding-top: 128px;
 	padding-bottom: 50px;
-	.icon-page-header_blog {
+	&.icon-page-header_blog {
 		background: $light-gray url(../img/icon-page-header-blog.png) center 20% no-repeat;
+	}
+	&.icon-page-header_services {
+		background: $light-gray url(../img/icon-page-header-services.png) center 20% no-repeat;
 	}
 	.icon-page-header__title {
 		@extend .section-title;
@@ -552,68 +555,128 @@ body.home .footer {
 /* Blog page styles */
 .blog-list {
 	font-weight: 300;
-	padding-bottom: 80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	line-height: 1.2;
-}
-.blog-list__item {
-	overflow: auto;
-	padding-top: 80px;
-	display: flex;
-	flex-wrap: wrap;
-}
-.blog-list__thumbnail {
-	@extend .box-shadow;
-	width: 100%;
-}
-.blog-list__title {
-	font-size: 1.750em;
-	margin-bottom: .5em;
-}
-.blog-list__description {
-	text-align: justify;
-	font-size: 0.875em;
-	color: $font-color-basic;
-	line-height: 1.7em;
-
-}
-.blog-list__footer {
-	position: relative;
-	&:after {
-		content: '';
-		top: 50%;
-		left: 0;
-		right: 13rem;
-		position: absolute;
-		border-bottom: 1px solid $border-color;
-		z-index: -1;
-	}
-}
-.blog-list__date {
-	background: $white;
-	display: inline-block;
-	line-height: 34px;
-	padding-right: .5em;
-	font-weight: 400;
-}
-.blog-list__date-icon {
-	margin-right: .5em;
-}
-.blog-list__read-more {
-	float: right;
-}
-@media screen and (max-width: 991px) {
 	.blog-list__item {
-		display: block;
+		overflow: auto;
+		padding: 40px 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.blog-list__thumbnail {
+		@extend .box-shadow;
+		width: 100%;
 	}
 	.blog-list__title {
-		margin-top: .5em;
+		font-size: 1.750em;
+		margin-bottom: .5em;
+	}
+	.blog-list__description {
+		text-align: justify;
+		font-size: 0.875em;
+		color: $font-color-basic;
+		line-height: 1.7em;
+
+	}
+	.blog-list__footer {
+		position: relative;
+		&:after {
+			content: '';
+			top: 50%;
+			left: 0;
+			right: 13rem;
+			position: absolute;
+			border-bottom: 1px solid $border-color;
+			z-index: -1;
+		}
+	}
+	.blog-list__date {
+		background: $white;
+		display: inline-block;
+		line-height: 34px;
+		padding-right: .5em;
+		font-weight: 400;
+	}
+	.blog-list__date-icon {
+		margin-right: .5em;
+	}
+	.blog-list__read-more {
+		float: right;
+	}
+	@media screen and (max-width: 991px) {
+		.blog-list__item {
+			display: block;
+		}
+		.blog-list__title {
+			margin-top: .5em;
+		}
+	}
+	@media screen and (min-width: 1200px) {
+		.blog-list__footer {
+			position: absolute;
+			bottom: 0;
+			right: 15px;
+			left: 15px;
+		}
 	}
 }
-@media screen and (min-width: 1200px) {
-	.blog-list__footer {
+
+
+/* Services page styles */
+.services-list {
+	@extend .box-shadow;
+	margin: 40px 0;
+	padding-left: 100px;
+	.services-list__item {
+		min-height: 280px;
+		padding: 40px 0;
+		padding-right: 40px;
+		border-bottom: 1px solid $border-color;
+		&:last-of-type {
+			border: 0;
+		}
+	}
+	.services-list__title {
+		margin-top: 0;
+		font-size: 1.875em;
+		color: $black;
+		font-weight: 300;
+	}
+	.services-list__description {
+		color: $font-color-basic;
+		font-size: 0.875em;
+	}
+	.services-list__icon {
+		@extend .box-shadow;
+		background: $white;
 		position: absolute;
-		bottom: 0;
-		right: 0;
-		width: 100%;
+		left: calc(100% / 6 * -1);
+		padding: 50px;
+		height: 200px;
+		width: 200px;
+		line-height: 100px;
+		text-align: center;
+	}
+	@media screen and (max-width: 991px) {
+		padding-left: 0;
+		.services-list__item {
+			padding-left: 40px;
+		}
+		.services-list__icon {
+			position: relative;
+			left: 0;
+			float: left;
+			margin-right: 40px;
+			margin-bottom: 40px;
+		}
+	}
+	@media screen and (max-width: 767px) {
+		.services-list__icon {
+			box-shadow: none;
+			width: 100%;
+			padding: 0;
+			height: 100px;
+		}
 	}
 }
