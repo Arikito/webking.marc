@@ -486,10 +486,8 @@ a:focus {
 	background: $accent;
 	font-weight: 300;
 	z-index: 10;
-	padding-top: 8rem;
-	&.footer_main-page {
-		margin-top: -6rem;
-	}
+	padding-top: 2rem;
+	margin-top: 0;
 	.footer__nav {
 		line-height: 30px;
 		display: flex;
@@ -526,9 +524,9 @@ a:focus {
 		padding: 15px 0;
 	}
 }
-body:not(.home) .footer {
-	padding-top: 2rem;
-	margin-top: 0;
+body.home .footer {
+	padding-top: 8rem;
+	margin-top: -6rem;
 }
 
 
@@ -536,19 +534,19 @@ body:not(.home) .footer {
 	background: $light-gray;
 	padding-top: 128px;
 	padding-bottom: 50px;
-}
-.icon-page-header_blog {
-	background: $light-gray url(../img/icon-page-header-blog.png) center 20% no-repeat;
-}
-.icon-page-header__title {
-	@extend .section-title;
-	font-size: 2.5em;
-	margin-bottom: 0.2em;
-}
-.icon-page-header__subtitle {
-	color: $font-color-basic;
-	text-align: center;
-	font-weight: 300;
+	.icon-page-header_blog {
+		background: $light-gray url(../img/icon-page-header-blog.png) center 20% no-repeat;
+	}
+	.icon-page-header__title {
+		@extend .section-title;
+		font-size: 2.5em;
+		margin-bottom: 0.2em;
+	}
+	.icon-page-header__subtitle {
+		color: $font-color-basic;
+		text-align: center;
+		font-weight: 300;
+	}
 }
 
 /* Blog page styles */
