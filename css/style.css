@@ -25,7 +25,7 @@ a:focus {
 .box-shadow, .no-risks .no-risks__container, .benefit .benefit__list, .blog-list .blog-list__thumbnail, .services-list, .services-list .services-list__icon {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
 
-.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title, .partners .partners__descr-title, .icon-page-header .icon-page-header__title {
+.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title, .partners .partners__descr-title, .support .support__title, .icon-page-header .icon-page-header__title {
   color: #2e9afe;
   margin: 0;
   margin-bottom: 2rem;
@@ -432,6 +432,39 @@ a:focus {
   .partners {
     margin-top: 0;
     padding-bottom: 50px; } }
+/* ------ SUPPORT PAGE -------- */
+.support {
+  margin-top: 90px; }
+  .support .support__title {
+    text-align: left;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem; }
+  .support .support__block {
+    padding: 3rem;
+    margin-bottom: 2.5rem;
+    height: 230px; }
+  .support .support__image {
+    text-align: center;
+    margin-bottom: 3rem;
+    line-height: 170px; }
+  .support .support__descr {
+    border-left: 1px solid #ededed;
+    padding-left: 3rem;
+    padding-right: 3rem; }
+  .support .support__descr-title {
+    font-weight: 300;
+    color: #010101;
+    font-size: 3rem; }
+  .support .support__descr-text {
+    color: #999999; }
+  .support .support__descr-btn {
+    float: right;
+    margin-top: 2rem; }
+  @media screen and (max-width: 767px) {
+    .support .support__block {
+      height: auto; } }
+
 /* FOOTER */
 .footer {
   color: #fff;
