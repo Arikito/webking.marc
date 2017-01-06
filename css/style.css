@@ -121,6 +121,10 @@ a:focus {
     min-width: auto;
     padding: 2rem;
     top: 65px; }
+    .nav-menu-mobile .dropdown-menu .dropdown-submenu {
+      position: relative; }
+      .nav-menu-mobile .dropdown-menu .dropdown-submenu .dropdown-menu {
+        right: 90%; }
     .nav-menu-mobile .dropdown-menu a {
       color: #999999 !important;
       text-align: center;

@@ -119,6 +119,7 @@ a:focus {
 	padding-right: 2.5rem;
 	color: $accent;
 }
+
 @media (min-width: 992px) {
 	.nav-menu {
 		// display: block;
@@ -142,6 +143,12 @@ a:focus {
     	min-width: auto;
     	padding: 2rem;
     	top: 65px;
+    	.dropdown-submenu {
+		    position: relative;
+			.dropdown-menu {
+			    right: 90%;
+			}
+		}
     	a {
 	    		color: $font-color-basic !important;
 	    		text-align: center;
@@ -150,6 +157,8 @@ a:focus {
 	    }
 	}
 }
+
+
 
 /* PAGE TITLE BLOCK */
 .page-title {

@@ -27,7 +27,7 @@
 							<div class="dropdown nav-menu__link">
 								<div class="dropdown-toggle" type="button" id="dropdown-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></div>
 							  	<ul class="dropdown-menu box-shadow" aria-labelledby="dropdown-menu">
-								    <li><a href="#">ACM</a></li>
+								    <li><a href="product_acm.html">ACM</a></li>
 								    <li><a href="#">ICM</a></li>
 								    <li><a href="#">REM</a></li>
 								    <li><a href="#">CAM</a></li>
@@ -52,12 +52,21 @@
 				<div class="dropdown nav-menu-mobile visible-xs-block visible-sm-block">
 					<div class="dropdown-toggle" type="button" id="dropdown-mobile-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div>
 				  	<ul class="dropdown-menu box-shadow" aria-labelledby="dropdown-mobile-menu">
-					    <li><a href="#">About Us</a></li>
-					    <li><a href="#">Products</a></li>
-					    <li><a href="#">Services</a></li>
-					    <li><a href="#">Resources</a></li>
-					    <li><a href="#">Contact Us</a></li>
-					     <li><a class="nav-menu__item_support-btn" href="#">Support</a></li>
+					    <li><a tabindex="-1" href="#">About Us</a></li>
+					   	<li class="dropdown-submenu">
+					        <a tabindex="-1" href="#">Products <span class="caret"></span></a>
+					        <ul class="dropdown-menu">
+					          <li><a tabindex="-1" href="product_acm.html">ACM</a></li>
+							  <li><a tabindex="-1" href="#">ICM</a></li>
+							  <li><a tabindex="-1" href="#">REM</a></li>
+							  <li><a tabindex="-1" href="#">CAM</a></li>
+							  <li><a tabindex="-1" href="#">PAM</a></li>
+					        </ul>
+					      </li>
+					    <li><a tabindex="-1" href="#">Services</a></li>
+					    <li><a tabindex="-1" href="#">Resources</a></li>
+					    <li><a tabindex="-1" href="#">Contact Us</a></li>
+					     <li><a  class="nav-menu__item_support-btn" href="#">Support</a></li>
 				  	</ul>
 				</div>
 			</div>
@@ -370,15 +379,5 @@
 			</div>
 		</div>
 	</footer>
-	<!-- <ul class="nav nav-tabs">
-		<li role="presentation" class="active"><a href="#home">Home</a></li>
-		<li role="presentation"><a href="#profile">Profile</a></li>
-		<li role="presentation"><a href="#messages">Messages</a></li>
-	</ul>
-	<div class="tab-content">
-		<div role="tabpanel" class="tab-pane fade in active" id="home">home</div>
-		<div role="tabpanel" class="tab-pane fade" id="profile">profile</div>
-		<div role="tabpanel" class="tab-pane fade" id="messages">messages</div>
-	</div> -->
 </body>
 </html>
