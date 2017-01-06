@@ -68,7 +68,7 @@ a:focus {
 .sub-header {
 	line-height: 80px;
 	height: 80px;
-    border-bottom: 1px solid $border-bottom-color;
+    border-bottom: 1px solid $border-color;
     color: $font-color-basic;
 }
 .logo-block {
@@ -206,7 +206,7 @@ a:focus {
 	}
 	.products-tabs__nav-item {
 		margin: 0 !important;
-		border-bottom: 1px solid $border-bottom-color;;
+		border-bottom: 1px solid $border-color;;
 		&:hover {
 			background-color: $light-gray;
 		}
@@ -289,7 +289,7 @@ a:focus {
 	.benefits__item {
 		padding: 30px 0;
 		height: 100%;
-		border-bottom: 1px solid $border-bottom-color;
+		border-bottom: 1px solid $border-color;
 	}
 	.benefits__item_no-border {
 		border: 0;
@@ -391,7 +391,7 @@ a:focus {
 		text-align: center;
 	}
 	.benefit__list-title {
-		border-bottom: 1px solid $border-bottom-color;
+		border-bottom: 1px solid $border-color;
 	}
 	.benefit__title {
 		@extend .section-title;
@@ -431,9 +431,55 @@ a:focus {
 	}
 }
 
-
-
-
+/* ------- ABOUT PAGE ---------- */
+.about-us {
+	margin-top: 120px;
+	.about-us__descr-title {
+		@extend .section-title;
+		text-align: left;
+		font-size: 4rem;
+	}
+	.about-us__descr-image-block {
+		margin-bottom: 2rem;
+	}
+	.about-us__descr-image {
+		width: 100%;
+	}
+	.about-us__descr-text {
+		color: $font-color-basic;
+		font-size: 1.4rem;
+		line-height: 1.6rem;
+	}
+}
+.our-team {
+	margin-top: 90px;
+	.our-team__descr-title {
+		@extend .section-title;
+		text-align: left;
+		font-size: 4rem;
+	}
+	.our-team__member-info-block {
+		color: $font-color-basic;
+	}
+	.our-team__member-photo-block {
+		background: $white;
+	}
+	.our-team__member-name {
+		color: $font-color-title;
+		font-size: 3rem;
+		font-weight: 300;
+	}
+	.our-team__member-position {
+		line-height: 1.6rem;
+	}
+	.our-team__member-social-block {
+		border-top: 1px solid $border-color;
+		padding-top: 15px;
+	}
+	.our-team__member-social-link {
+		padding: 15px;
+	}
+}
 
 
 

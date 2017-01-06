@@ -25,7 +25,7 @@ a:focus {
 .box-shadow, .no-risks .no-risks__container, .benefit .benefit__list {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
 
-.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title {
+.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title {
   color: #2e9afe;
   margin: 0;
   margin-bottom: 2rem;
@@ -343,6 +343,42 @@ a:focus {
     text-align: center;
     margin-top: 65px;
     margin-bottom: 50px; }
+
+/* ------- ABOUT PAGE ---------- */
+.about-us {
+  margin-top: 120px; }
+  .about-us .about-us__descr-title {
+    text-align: left;
+    font-size: 4rem; }
+  .about-us .about-us__descr-image-block {
+    margin-bottom: 2rem; }
+  .about-us .about-us__descr-image {
+    width: 100%; }
+  .about-us .about-us__descr-text {
+    color: #999999;
+    font-size: 1.4rem;
+    line-height: 1.6rem; }
+
+.our-team {
+  margin-top: 90px; }
+  .our-team .our-team__descr-title {
+    text-align: left;
+    font-size: 4rem; }
+  .our-team .our-team__member-info-block {
+    color: #999999; }
+  .our-team .our-team__member-photo-block {
+    background: #fff; }
+  .our-team .our-team__member-name {
+    color: #010101;
+    font-size: 3rem;
+    font-weight: 300; }
+  .our-team .our-team__member-position {
+    line-height: 1.6rem; }
+  .our-team .our-team__member-social-block {
+    border-top: 1px solid #ededed;
+    padding-top: 15px; }
+  .our-team .our-team__member-social-link {
+    padding: 15px; }
 
 /* FOOTER */
 .footer {
