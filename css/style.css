@@ -88,7 +88,8 @@ a:focus {
       width: 100px; }
       .nav-menu__link.dropdown .dropdown-menu li a {
         color: #999999 !important;
-        text-align: center; }
+        text-align: center;
+        padding: 10px 20px; }
 
 .nav-menu__item_support-btn {
   border: 2px solid rgba(46, 154, 254, 0.1);
