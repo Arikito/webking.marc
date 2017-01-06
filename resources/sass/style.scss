@@ -541,6 +541,52 @@ a:focus {
 	}
 }
 
+/* ------ SUPPORT PAGE -------- */
+
+.support {
+	margin-top: 90px;
+	.support__title {
+		@extend .section-title;
+		text-align: left;
+		font-size: 4rem;
+	    margin-bottom: 3rem;
+   		margin-top: 2rem;
+	}
+	.support__block {
+		padding: 3rem;
+		margin-bottom: 2.5rem;
+		height: 230px;
+	}
+	.support__image {
+		text-align: center;
+		margin-bottom: 3rem;
+		line-height: 170px;
+	}
+	.support__descr {
+		border-left: 1px solid $border-color;
+		padding-left: 3rem;
+    	padding-right: 3rem;
+	}
+	.support__descr-title {
+		font-weight: 300;
+		color: $font-color-title;
+		font-size: 3rem;
+	}
+	.support__descr-text {
+		color: $font-color-basic;
+	}
+	.support__descr-btn {
+		float: right;
+		margin-top: 2rem;
+	}
+	@media screen and (max-width: 767px) {
+		.support__block {
+			height: auto;
+		}
+	}
+}
+
+
 /* FOOTER */
 .footer {
 	color: $white;
