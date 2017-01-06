@@ -434,7 +434,8 @@ a:focus {
     padding-bottom: 50px; } }
 /* ------ SUPPORT PAGE -------- */
 .support {
-  margin-top: 90px; }
+  margin-top: 80px;
+  min-height: 80vh; }
   .support .support__title {
     text-align: left;
     font-size: 4rem;
@@ -463,7 +464,9 @@ a:focus {
     margin-top: 2rem; }
   @media screen and (max-width: 767px) {
     .support .support__block {
-      height: auto; } }
+      height: auto; }
+    .support .support__descr {
+      border: 0; } }
 
 /* FOOTER */
 .footer {
@@ -512,6 +515,10 @@ body.home .footer {
     background: #fafafa url(../img/icon-page-header-blog.png) center 20% no-repeat; }
   .icon-page-header.icon-page-header_services {
     background: #fafafa url(../img/icon-page-header-services.png) center 20% no-repeat; }
+  .icon-page-header.icon-page-header_videos {
+    background: #fafafa url(../img/icon-page-header-videos.png) center 20% no-repeat; }
+  .icon-page-header.icon-page-header_updates {
+    background: #fafafa url(../img/icon-page-header-videos.png) center 20% no-repeat; }
   .icon-page-header .icon-page-header__title {
     font-size: 2.5em;
     margin-bottom: 0.2em; }

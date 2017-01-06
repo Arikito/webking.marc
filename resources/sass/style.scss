@@ -544,7 +544,8 @@ a:focus {
 /* ------ SUPPORT PAGE -------- */
 
 .support {
-	margin-top: 90px;
+	margin-top: 80px;
+    min-height: 80vh;
 	.support__title {
 		@extend .section-title;
 		text-align: left;
@@ -582,6 +583,9 @@ a:focus {
 	@media screen and (max-width: 767px) {
 		.support__block {
 			height: auto;
+		}
+		.support__descr {
+			border: 0;
 		}
 	}
 }
@@ -646,6 +650,12 @@ body.home .footer {
 	}
 	&.icon-page-header_services {
 		background: $light-gray url(../img/icon-page-header-services.png) center 20% no-repeat;
+	}
+	&.icon-page-header_videos {
+		background: $light-gray url(../img/icon-page-header-videos.png) center 20% no-repeat;
+	}
+	&.icon-page-header_updates {
+		background: $light-gray url(../img/icon-page-header-videos.png) center 20% no-repeat;
 	}
 	.icon-page-header__title {
 		@extend .section-title;
