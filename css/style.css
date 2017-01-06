@@ -113,8 +113,9 @@ a:focus {
     border: none;
     border-radius: 0;
     min-width: auto;
-    padding: 2rem; }
-    .nav-menu-mobile .dropdown-menu li a {
+    padding: 2rem;
+    top: 65px; }
+    .nav-menu-mobile .dropdown-menu a {
       color: #999999 !important;
       text-align: center;
       font-size: 2.5rem;
