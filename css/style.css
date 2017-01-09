@@ -526,6 +526,68 @@ a:focus {
     .contacts__contacts-title {
       width: 100%; } }
 
+/* ------- UPDATES PAGE -------- */
+.updates-list {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .updates-list .updates-list__item {
+    margin-bottom: 50px;
+    overflow: auto; }
+  .updates-list .updates-list__image {
+    max-width: 100%; }
+  .updates-list .updates-list__title {
+    font-size: 2.8rem;
+    font-weight: 300; }
+  .updates-list .updates-list__descr {
+    height: 250px; }
+  .updates-list .updates-list__descr-text {
+    color: #999999;
+    font-size: 1.4rem; }
+  .updates-list .updates-list__date {
+    color: #010101;
+    margin: 0; }
+  .updates-list .updates-list__menu {
+    padding: 30px;
+    color: #999999; }
+    .updates-list .updates-list__menu ul {
+      margin: 0; }
+  .updates-list .updates-list__menu-title {
+    font-size: 2.8rem;
+    color: #010101;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+    margin: 0; }
+  .updates-list .updates-list__menu-item {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid #ededed;
+    margin: 0;
+    cursor: pointer; }
+    .updates-list .updates-list__menu-item.active, .updates-list .updates-list__menu-item:hover {
+      color: #2e9afe; }
+    .updates-list .updates-list__menu-item:last-of-type {
+      padding-bottom: 0; }
+  .updates-list .updates-list__footer {
+    line-height: 3.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .updates-list .updates-list__footer-decor-line {
+    height: 1px;
+    width: calc(100% - 230px);
+    background: #ededed; }
+  @media screen and (max-width: 991px) {
+    .updates-list .updates-list__descr {
+      height: auto; }
+    .updates-list .updates-list__image {
+      margin-bottom: 2rem; }
+    .updates-list .updates-list__footer {
+      position: static; } }
+
 /* FOOTER */
 .footer {
   color: #fff;
