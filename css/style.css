@@ -22,7 +22,7 @@ a:focus {
   text-decoration: none;
   color: inherit; }
 
-.box-shadow, .no-risks .no-risks__container, .benefit .benefit__list, .blog-list .blog-list__thumbnail, .services-list, .services-list .services-list__icon {
+.box-shadow, .no-risks .no-risks__container, .benefit .benefit__list, .blog-list .blog-list__thumbnail, .services-list, .services-list .services-list__icon, .videos-list .videos-list__thumb {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
 
 .section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title, .partners .partners__descr-title, .support .support__title, .icon-page-header .icon-page-header__title {
@@ -434,7 +434,8 @@ a:focus {
     padding-bottom: 50px; } }
 /* ------ SUPPORT PAGE -------- */
 .support {
-  margin-top: 90px; }
+  margin-top: 80px;
+  min-height: 80vh; }
   .support .support__title {
     text-align: left;
     font-size: 4rem;
@@ -514,9 +515,15 @@ body.home .footer {
     background: #fafafa url(../img/icon-page-header-blog.png) center 20% no-repeat; }
   .icon-page-header.icon-page-header_services {
     background: #fafafa url(../img/icon-page-header-services.png) center 20% no-repeat; }
+  .icon-page-header.icon-page-header_videos {
+    background: #fafafa url(../img/icon-page-header-videos.png) center 20% no-repeat; }
+  .icon-page-header.icon-page-header_updates {
+    background: #fafafa url(../img/icon-page-header-videos.png) center 20% no-repeat; }
   .icon-page-header .icon-page-header__title {
     font-size: 2.5em;
     margin-bottom: 0.2em; }
+  .icon-page-header .icon-page-header__quantity {
+    color: #cccccc; }
   .icon-page-header .icon-page-header__subtitle {
     color: #999999;
     text-align: center;
@@ -603,6 +610,36 @@ body.home .footer {
     width: 200px;
     line-height: 100px;
     text-align: center; }
+    .services-list .services-list__icon img {
+      position: relative;
+      z-index: 10; }
+    .services-list .services-list__icon:after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: .1;
+      background-position: -80px center;
+      background-size: 130%;
+      z-index: 0; }
+    .services-list .services-list__icon.services-list__icon_1:after {
+      background-image: url(../img/services-icon1.png);
+      background-repeat: no-repeat; }
+    .services-list .services-list__icon.services-list__icon_2:after {
+      background-image: url(../img/services-icon2.png);
+      background-repeat: no-repeat; }
+    .services-list .services-list__icon.services-list__icon_3:after {
+      background-image: url(../img/services-icon3.png);
+      background-repeat: no-repeat; }
+    .services-list .services-list__icon.services-list__icon_4:after {
+      background-image: url(../img/services-icon4.png);
+      background-repeat: no-repeat; }
+    .services-list .services-list__icon.services-list__icon_5:after {
+      background-image: url(../img/services-icon5.png);
+      background-repeat: no-repeat; }
   @media screen and (max-width: 991px) {
     .services-list {
       padding-left: 0; }
@@ -619,6 +656,36 @@ body.home .footer {
       box-shadow: none;
       width: 100%;
       padding: 0;
-      height: 100px; } }
+      height: 100px; }
+      .services-list .services-list__icon:after {
+        display: none;
+        visibility: hidden; } }
+
+/* Videos page styles */
+.videos-list {
+  padding-bottom: 60px; }
+  .videos-list .videos-list__item {
+    padding-top: 60px; }
+  .videos-list .videos-list__thumb img {
+    width: 100%; }
+  .videos-list .videos-list__title {
+    font-weight: 300;
+    margin-bottom: 0;
+    height: 100px;
+    overflow: hidden; }
+  .videos-list .videos-list__item-footer {
+    position: relative;
+    border-top: 1px solid #ededed;
+    font-size: 0.875em;
+    line-height: 40px; }
+  .videos-list .videos-list__item-category {
+    color: #2e9afe;
+    float: left; }
+  .videos-list .videos-list__views {
+    float: right;
+    color: #cccccc; }
+    .videos-list .videos-list__views .glyphicon {
+      margin-right: .5em;
+      color: #999999; }
 
 /*# sourceMappingURL=style.css.map */
