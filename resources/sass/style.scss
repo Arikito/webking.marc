@@ -190,7 +190,7 @@ a:focus {
 
 /* ------- MAIN PAGE ------- */
 
-/* PRODUCTS TABS BLOCK */
+/* products tabs block */
 .products-tabs {
 	background: $white;
 	.products-tabs__nav {
@@ -269,7 +269,7 @@ a:focus {
 		float: right;
 	}
 }
-/* BENEFITS BLOCK */
+/* benefits block */
 .benefits {
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -542,7 +542,6 @@ a:focus {
 }
 
 /* ------ SUPPORT PAGE -------- */
-
 .support {
 	margin-top: 80px;
     min-height: 80vh;
@@ -587,6 +586,83 @@ a:focus {
 		}
 		.support__descr-text {
 			height: auto;
+		}
+	}
+}
+
+/*------- CONTACTS PAGE -------*/
+.contacts {
+	padding-top: 30px;
+	padding-bottom: 270px;
+	font-size: 1.4rem;
+	.contacts__contacts-wrap {
+		padding: 3rem;
+		position: relative;
+	}
+	.contacts__send-form-descr {
+		margin-bottom: 4rem;
+	}
+	.contacts__send-form {
+		color:$font-color-basic;
+	}
+	.contacts__send-form-item {
+		width: 100%;
+		padding: 1.5rem;
+		border: 1px solid $border-color;
+		margin-bottom: 20px;
+		resize: none;
+		color: $font-color-title;
+		font-weight: 300;
+		&:focus {
+			box-shadow: 0px 0px 0px 2px $accent;
+			border-color: transparent;
+		}
+	}
+	.contacts__send-btn {
+		float: right;
+	}
+	.contacts__contacts-block {
+		padding-left: 45px;
+		padding-bottom: 30px;
+	}
+	.contacts__contacts-text {
+		font-weight: bold;
+	}
+	.contacts__contacts-title {
+		color: $font-color-basic;
+	}
+	.contacts__contacts-adress {
+		margin-bottom: 3rem;
+	}
+	.contacts__contacts-email {
+		color: $accent;
+	}
+	.contacts__send-form-comment {
+		height: 150px;
+	}
+	.contacts__map {
+		position: absolute;
+		left: 60px;
+	}
+	@media screen and (max-width: 991px) {
+		padding-bottom: 30px;
+		.contacts__send-form {
+			margin-bottom: 3rem;
+		}
+		.contacts__contacts-block {
+			padding-left: 0;
+		}
+		.contacts__map {
+			position: static;
+			margin: 0 auto;
+    		display: block;
+    		width: 100%;
+		}
+	}
+	@media screen and (max-width: 350px) {
+		.contacts__contacts-text
+		.contacts__contacts-title, {
+			width: 100%;
 		}
 	}
 }
@@ -641,7 +717,6 @@ body.home .footer {
 	margin-top: -6rem;
 }
 
-
 .icon-page-header {
 	background: $light-gray;
 	padding-top: 128px;
@@ -657,6 +732,9 @@ body.home .footer {
 	}
 	&.icon-page-header_updates {
 		background: $light-gray url(../img/icon-page-header-videos.png) center 20% no-repeat;
+	}
+	&.icon-page-header_contacts {
+		background: $light-gray url(../img/icon-page-header-contacts.png) center 20% no-repeat;
 	}
 	.icon-page-header__title {
 		@extend .section-title;
