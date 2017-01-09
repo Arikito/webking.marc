@@ -574,13 +574,17 @@ a:focus {
 	}
 	.support__descr-text {
 		color: $font-color-basic;
+		height: 70px;
 	}
 	.support__descr-btn {
 		float: right;
-		margin-top: 2rem;
+		// margin-top: 2rem;
 	}
 	@media screen and (max-width: 767px) {
 		.support__block {
+			height: auto;
+		}
+		.support__descr-text {
 			height: auto;
 		}
 	}

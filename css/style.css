@@ -457,12 +457,14 @@ a:focus {
     color: #010101;
     font-size: 3rem; }
   .support .support__descr-text {
-    color: #999999; }
+    color: #999999;
+    height: 70px; }
   .support .support__descr-btn {
-    float: right;
-    margin-top: 2rem; }
+    float: right; }
   @media screen and (max-width: 767px) {
     .support .support__block {
+      height: auto; }
+    .support .support__descr-text {
       height: auto; } }
 
 /* FOOTER */
