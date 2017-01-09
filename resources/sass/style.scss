@@ -677,7 +677,7 @@ a:focus {
 		overflow: auto;
 	}
 	.updates-list__image {
-		max-width: 100%;
+		width: 100%;
 	}
 	.updates-list__title {
 		font-size: 2.8rem;
@@ -697,6 +697,7 @@ a:focus {
 	.updates-list__menu {
 		padding:30px;
 		color: $font-color-basic;
+		margin-bottom: 30px;
 		ul {
 			margin: 0;
 		}
@@ -737,6 +738,20 @@ a:focus {
 		width: calc(100% - 230px);
 		background: $border-color;
 	}
+	.updates-list__menu-mobile {
+		color: $accent;
+		text-align: right;
+	    font-size: 24px;
+	    line-height: 60px;
+	}
+	.updates-list__menu.opened {
+		height: auto;
+	}
+	.updates-list__filter {
+		color: $accent;
+		float: right;
+		margin-top: 7px;
+	}
 	@media screen and (max-width: 991px) {
 		.updates-list__descr {
 			height: auto;
@@ -746,6 +761,11 @@ a:focus {
 		}
 		.updates-list__footer {
 		    position: static;
+		}
+		.updates-list__menu {
+			height: 75px;
+			padding-top: 20px;
+    		overflow: hidden;
 		}
 	}
 }
@@ -817,6 +837,9 @@ body.home .footer {
 	}
 	&.icon-page-header_contacts {
 		background: $light-gray url(../img/icon-page-header-contacts.png) center 20% no-repeat;
+	}
+	&.icon-page-header_updates {
+		background: $light-gray url(../img/icon-page-header-updates.png) center 20% no-repeat;
 	}
 	.icon-page-header__title {
 		@extend .section-title;

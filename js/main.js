@@ -8,4 +8,7 @@ $(function(){
 		e.stopPropagation();
 		// e.preventDefault();
 	});
+	$('.updates-list__filter_js').on('click', function() {
+		$('.updates-list__menu').toggleClass('opened');
+	});
 });
