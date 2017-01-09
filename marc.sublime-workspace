@@ -4,8 +4,216 @@
 		"selected_items":
 		[
 			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"up",
+				"updates-list__title"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"u",
+				"updates-list__date"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"font-c",
+				"font-color-title"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"font-",
+				"font-color-basic"
+			],
+			[
+				"upd",
+				"updates-list__date"
+			],
+			[
+				"updates-",
+				"updates-list__descr"
+			],
+			[
+				"col",
+				"col-md-10"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"con",
+				"contacts__contacts-title"
+			],
+			[
+				"conta",
+				"contacts__contacts-wrap"
+			],
+			[
+				"cont",
+				"contacts__send-form"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"co",
+				"contacts"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"su",
+				"Subject"
+			],
+			[
+				"fotn",
+				"font-color-basic"
+			],
+			[
+				"fn",
+				"font-color-basic"
+			],
+			[
+				"support__d",
+				"support__descr-text"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"support__s",
+				"support__descr-title"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"part",
+				"partners__parnter-descr-text"
+			],
+			[
+				"ou",
+				"our-team__member-block"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"pr",
+				"products"
+			],
+			[
+				"l",
+				"last-child"
+			],
+			[
+				"prod",
+				"prod-cont-item__descr-title"
+			],
+			[
+				"pro",
+				"prod-cont-item__descr-title"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"a",
+				"accent"
+			],
+			[
 				"border",
-				"border-bottom-color"
+				"border-radius"
+			],
+			[
+				"in",
+				"inline-block"
 			],
 			[
 				"GetCit",
@@ -64,10 +272,6 @@
 				"fw-b\tfont-weight: bold;"
 			],
 			[
-				"l",
-				"left"
-			],
-			[
 				"req",
 				"request"
 			],
@@ -80,10 +284,6 @@
 				"AddToAssortWithAdm"
 			],
 			[
-				"li",
-				"list\tAttr"
-			],
-			[
 				"arr",
 				"array"
 			],
@@ -94,10 +294,6 @@
 			[
 				"attr",
 				"attr\t.attr() - single"
-			],
-			[
-				"con",
-				"controllers"
 			],
 			[
 				"contr",
@@ -130,10 +326,6 @@
 			[
 				"tr",
 				"true"
-			],
-			[
-				"pr",
-				"Profiles"
 			],
 			[
 				"if",
@@ -204,10 +396,6 @@
 				"scrollTop\t.scrollTop()"
 			],
 			[
-				"a",
-				"auto"
-			],
-			[
 				"v",
 				"value\tAttr"
 			],
@@ -267,42 +455,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 4694,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/main.js",
-			"settings":
-			{
-				"buffer_size": 104,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/sass/style.scss",
-			"settings":
-			{
-				"buffer_size": 2816,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/sass/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 262,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -311,7 +463,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 227.0,
+		"height": 226.0,
 		"last_filter": "grunt",
 		"selected_items":
 		[
@@ -468,7 +620,7 @@
 				"Compare with..."
 			]
 		],
-		"width": 494.0
+		"width": 438.0
 	},
 	"console":
 	{
@@ -489,16 +641,34 @@
 	},
 	"expanded_folders":
 	[
-		"/D/www/projects/webking.marc",
-		"/D/www/projects/webking.marc/img",
-		"/D/www/projects/webking.marc/js",
-		"/D/www/projects/webking.marc/resources",
-		"/D/www/projects/webking.marc/resources/sass"
+		"/D/www/webking.marc",
+		"/D/www/webking.marc/css",
+		"/D/www/webking.marc/js",
+		"/D/www/webking.marc/resources",
+		"/D/www/webking.marc/resources/sass"
 	],
 	"file_history":
 	[
-		"/D/www/projects/webking.marc/index.html",
-		"/D/www/projects/webking.marc/marc.sublime-workspace",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/www/webking.marc/resources/sass/style.scss",
+		"/D/www/webking.marc/js/main.js",
+		"/D/www/webking.marc/updates.html",
+		"/D/www/webking.marc/videos.html",
+		"/D/www/webking.marc/support.html",
+		"/D/www/webking.marc/index.html",
+		"/D/www/webking.marc/product_acm.html",
+		"/D/www/webking.marc/contacts.html",
+		"/D/www/wbkng/app/components/page_contacts/contacts.component.ts",
+		"/D/www/wbkng/app/components/map/map.component.ts",
+		"/D/www/wbkng/app/components/page_contacts/contacts.component.html",
+		"/D/www/wbkng/resources/sass/style.scss",
+		"/D/www/webking.marc/resources/sass/_variables.scss",
+		"/D/www/webking.marc/product_icm.html",
+		"/D/www/webking.marc/css/style.css",
+		"/D/www/bino/index.html",
+		"/D/www/bino/css/style.css",
+		"/D/www/webking.marc/.gitignore",
+		"/D/www/webking.marc/marc.sublime-project",
 		"/D/www/projects/webking.xt/themes/default/tpl/cp_product.tpl",
 		"/D/www/projects/webking.xt/~core/block/cp_cab_agent_customer.php",
 		"/D/www/projects/webking.xt/index.php",
@@ -606,29 +776,11 @@
 		"/D/www/projects/webking.xt/~core/block/cp_cab_settings_customer.php",
 		"/D/www/projects/webking.xt/~core/block/cp_cab_bonus_customer.php",
 		"/D/www/projects/webking.xt/~core/block/cp_cab_waitinglist_customer.php",
-		"/D/www/projects/webking.xt/~core/block/cp_cab_favorites_customer.php",
-		"/D/www/projects/webking.xt/~core/contr/product_label.php",
-		"/D/www/projects/webking.xt/~core/block/cp_cab_department.php",
-		"/D/www/projects/webking.xt/adm/core/contr/moderation_edit_product.php",
-		"/D/www/projects/webking.xt/adm/core/contr/profiles.php",
-		"/D/www/projects/webking.xt/adm/js/func.js",
-		"/D/www/projects/webking.xt/adm/core/tpl/cp_supplier_ae.tpl",
-		"/D/www/projects/webking.xt/themes/default/tpl/_global/profiles_additional_fields.tpl",
-		"/D/www/projects/webking.xt/themes/default/tpl/cp_department_cab.tpl",
-		"/D/www/projects/webking.xt/adm/core/tpl/sb_adm_menu.tpl",
-		"/D/www/projects/webking.xt/themes/default/css/page_styles/page.css",
-		"/D/www/projects/webking.xt/adm/css/header.css",
-		"/D/www/projects/webking.xt/adm/css/sidebar.css",
-		"/D/www/projects/webking.xt/adm/core/tpl/_global/main_header.tpl",
-		"/D/www/projects/webking.xt/adm/core/contr/usersadd.php",
-		"/D/www/projects/webking.xt/~core/model/locations_c.php",
-		"/D/www/projects/webking.xt/~core/block/cp_cab_anonim.php",
-		"/D/www/projects/webking.xt/~core/block/profiles_additional_fields.php",
-		"/D/www/projects/webking.xt/~core/contr/ajax/cattags.php"
+		"/D/www/projects/webking.xt/~core/block/cp_cab_favorites_customer.php"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -658,14 +810,81 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
-			"h1",
-			" alt=\"\"",
-			"tab-pane",
-			"pane",
-			"\">...</",
+			"<li>",
+			"</a>",
+			"<a tabindex=\"-1\" href=\"",
+			"mobile-menu",
+			"dropdown-mobile-menu",
+			"col-sm-4",
+			"col-md-4",
+			"col-md-9",
+			"col-md-3",
+			"<li>",
+			"<div class=\"col-md-9\">",
+			"/updates_image.png",
+			"updates-list_descr",
+			"updates-list-descr",
+			"updates-list__descr-text",
+			"blog-list",
+			"container",
+			"col-xs-9",
+			"col-xs-3",
+			"span",
+			"<div>",
+			"p>",
+			"contacts__send-form-input",
+			"input",
+			"<input type=\"text\"",
+			"HEAD",
+			"head",
+			"col-sm-8",
+			"col-sm-4",
+			"btn btn-primary",
+			"products-tabs__descr-btn",
+			"about-us",
+			"col-md-8",
+			"col-md-4",
+			"partners__parnter-",
+			"partners__parnter-phone",
+			"phone",
+			"<img src=\"img",
+			"partners-team",
+			"our",
+			"our-team",
+			"<img src=\"img/",
+			"page-title_main-page",
+			"$border-bottom-color",
+			"HEAD",
+			"<a href=\"#\">",
+			"$border-bottom-color",
+			"our-team__member-photo-block",
+			"8",
+			"4",
+			"section-title",
+			"prod-cont-item",
+			"img/cam",
+			"<a",
+			"header",
+			"col-md-4",
+			"col-md-8",
+			"las",
+			"p",
+			"product-content-item",
+			"button",
+			"$accent;",
+			"<li>",
+			"<a h",
+			"<li class=\"\">",
+			"<li>",
+			"li",
+			"role=\"tabpanel\" ",
+			"role=\"presentation\"",
+			"role=\"tabpanel\"",
+			"role=\"presentation\"",
+			"<li class=\"nav-menu__item\">",
 			"xt_",
 			"getCity",
 			"deliverySelect",
@@ -721,74 +940,7 @@
 			",\"\"",
 			"number_format",
 			"number",
-			"Locations",
-			"product",
-			"header",
-			"Ячейка",
-			"Orders",
-			"<td></td>",
-			"$tpl_center",
-			"parsed_res",
-			"<?",
-			"Сообщение",
-			"__page_description",
-			"description",
-			"description ",
-			"__page_description ",
-			"composed",
-			"sum_discount",
-			"sum",
-			"$counted",
-			"order_fact",
-			"return_",
-			"return",
-			"$coeff = ;",
-			"list",
-			"<?",
-			"$l2",
-			"art",
-			"note",
-			"return_qty",
-			"breath",
-			"   ",
-			"scale",
-			"top",
-			"prod_list.tpl",
-			"osp",
-			"\"input-l",
-			"  ",
-			"k_manager10@gmail.com",
-			"agent_banner",
-			"extra_info_block",
-			"case",
-			"e7e7e7",
-			"$p[$ii]['promo'] = 0;",
-			"promo",
-			"info_key",
-			"activeNoteArea",
-			"toggle_btn_js",
-			"price",
-			"SortProductsList($(this));",
-			"list_settings",
-			"sorting",
-			"sortin",
-			"total_bonus",
-			"subCategoryTitle",
-			"subCategoryTitle ",
-			"subCategoryTitle",
-			"print",
-			"span",
-			"toAssort(",
-			"price_",
-			"usual_fields_suplir",
-			"$tpl->Assign('list'",
-			"list",
-			"user_number",
-			"recovery_phone",
-			"verification_code",
-			"button",
-			"search",
-			"seach"
+			"Locations"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -810,148 +962,17 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"folders":
-	[
-		{
-			"path": "D:\\www\\projects\\webking.marc"
-		}
-	],
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4694,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1266,
-								1273
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								27
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "resources/sass/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2816,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1238,
-								1238
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 798.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/sass/_variables.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 262,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								112,
-								95
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -966,18 +987,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -993,7 +1007,7 @@
 	},
 	"output.exec":
 	{
-		"height": 116.0
+		"height": 216.0
 	},
 	"output.find_results":
 	{
@@ -1008,10 +1022,10 @@
 		"height": 100.0
 	},
 	"pinned_build_system": "",
-	"project": "",
+	"project": "marc.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 48.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1021,24 +1035,16 @@
 		"selected_items":
 		[
 			[
-				"variabl",
-				"resources\\sass\\_variables.scss"
-			],
-			[
-				"main.js",
-				"js\\main.js"
-			],
-			[
-				"index.",
-				"index.html"
-			],
-			[
 				"location.php",
 				"~core\\contr\\ajax\\location.php"
 			],
 			[
 				"func.js",
 				"themes\\default\\js\\func.js"
+			],
+			[
+				"main.js",
+				"themes\\default\\js\\main.js"
 			],
 			[
 				"quiz.",
@@ -1531,6 +1537,14 @@
 			[
 				"sb_cabinet_navigation",
 				"~core\\block\\sb_cabinet_navigation.php"
+			],
+			[
+				"profiles",
+				"~core\\contr\\ajax\\profiles.php"
+			],
+			[
+				"profiles.php",
+				"adm\\core\\contr\\profiles.php"
 			]
 		],
 		"width": 0.0
@@ -1543,7 +1557,7 @@
 		[
 			[
 				"",
-				"D:\\www\\projects\\webking.xt\\xt.sublime-project"
+				"D:\\www\\projects\\wbkng\\webking.sublime-project"
 			],
 			[
 				"barbat",
@@ -1569,7 +1583,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1577,7 +1591,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 276.0,
+	"side_bar_width": 172.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
