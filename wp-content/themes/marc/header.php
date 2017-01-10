@@ -54,16 +54,16 @@
 							</div>
 						</li>
 						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="services.html">Services</a>
+							<a class="nav-menu__link" href="../services/">Services</a>
 						</li>
 						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="blog.html">Blog</a>
+							<a class="nav-menu__link" href="../blog/">Blog</a>
 						</li>
 						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="contacts.html">Contact Us</a>
+							<a class="nav-menu__link" href="../contacts/">Contact Us</a>
 						</li>
 						<li class="nav-menu__item">
-							<a class="nav-menu__link nav-menu__item_support-btn" href="support.html">Support</a>
+							<a class="nav-menu__link nav-menu__item_support-btn" href="../support/">Support</a>
 						</li>
 					</ul>
 				</div>
