@@ -45,11 +45,11 @@
 							<div class="dropdown nav-menu__link">
 								<div class="dropdown-toggle" type="button" id="dropdown-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></div>
 								<ul class="dropdown-menu box-shadow" aria-labelledby="dropdown-menu">
-									<li><a href="product_acm.html">ACM</a></li>
-									<li><a href="product_icm.html">ICM</a></li>
-									<li><a href="#product_rem.html">REM</a></li>
-									<li><a href="product_cam.html">CAM</a></li>
-									<li><a href="#product_pam.html">PAM</a></li>
+									<li><a href="../acm/">ACM</a></li>
+									<li><a href="../icm/">ICM</a></li>
+									<li><a href="../rem/">REM</a></li>
+									<li><a href="../cam/">CAM</a></li>
+									<li><a href="../pam/">PAM</a></li>
 								</ul>
 							</div>
 						</li>
@@ -70,21 +70,21 @@
 				<div class="dropdown nav-menu-mobile visible-xs-block visible-sm-block">
 					<div class="dropdown-toggle" type="button" id="dropdown-mobile-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div>
 					<ul class="dropdown-menu box-shadow" aria-labelledby="dropdown-mobile-menu">
-						<li><a tabindex="-1" href="about.html">About Us</a></li>
+						<li><a tabindex="-1" href="../about-us/">About Us</a></li>
 						<li class="dropdown-submenu">
 							<a tabindex="-1" href="#">Products <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-							  <li><a tabindex="-1" href="product_acm.html">ACM</a></li>
-							  <li><a tabindex="-1" href="product_icm.html">ICM</a></li>
-							  <li><a tabindex="-1" href="#product_rem.html">REM</a></li>
-							  <li><a tabindex="-1" href="product_cam.html">CAM</a></li>
-							  <li><a tabindex="-1" href="#product_pam.html">PAM</a></li>
+							  <li><a tabindex="-1" href="../acm/">ACM</a></li>
+							  <li><a tabindex="-1" href="../icm/">ICM</a></li>
+							  <li><a tabindex="-1" href="../rem/">REM</a></li>
+							  <li><a tabindex="-1" href="../cam/">CAM</a></li>
+							  <li><a tabindex="-1" href="../pam/">PAM</a></li>
 							</ul>
 						  </li>
-						<li><a tabindex="-1" href="services.html">Services</a></li>
-						<li><a tabindex="-1" href="blog.html">Blog</a></li>
-						<li><a tabindex="-1" href="#contacts.html">Contact Us</a></li>
-						 <li><a  class="nav-menu__item_support-btn" href="support.html">Support</a></li>
+						<li><a tabindex="-1" href="../services/">Services</a></li>
+						<li><a tabindex="-1" href="../blog/">Blog</a></li>
+						<li><a tabindex="-1" href="../contacts/">Contact Us</a></li>
+						 <li><a  class="nav-menu__item_support-btn" href="../support/">Support</a></li>
 					</ul>
 				</div>
 			</div>
