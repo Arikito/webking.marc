@@ -51,12 +51,12 @@
 					</div>
 					<div class="col-md-6">
 						<nav class="footer__nav">
-							<a class="footer__nav-link" href="index.html">Home</a>
-							<a class="footer__nav-link" href="about.html">About us</a>
+							<a class="footer__nav-link" href="/">Home</a>
+							<a class="footer__nav-link" href="../about-us/">About us</a>
 							<a class="footer__nav-link" href="#">Products</a>
-							<a class="footer__nav-link" href="services.html">Services</a>
-							<a class="footer__nav-link" href="blog.html">Blog</a>
-							<a class="footer__nav-link" href="#contacts.html">Contact Us</a>
+							<a class="footer__nav-link" href="../services/">Services</a>
+							<a class="footer__nav-link" href="../blog/">Blog</a>
+							<a class="footer__nav-link" href="../contacts/">Contact Us</a>
 						</nav>
 					</div>
 					<div class="col-md-3">
