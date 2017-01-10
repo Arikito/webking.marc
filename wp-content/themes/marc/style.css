@@ -370,7 +370,8 @@ a:focus {
   .about-us .about-us__descr-text {
     color: #999999;
     font-size: 1.4rem;
-    line-height: 1.6rem; }
+    line-height: 1.6rem;
+    text-align: justify; }
 
 .our-team {
   margin-top: 90px; }
@@ -611,6 +612,40 @@ a:focus {
       height: 75px;
       padding-top: 20px;
       overflow: hidden; } }
+
+/* ------- ARTICLE PAGE -------- */
+.article-title {
+  background: #fafafa;
+  padding-top: 120px;
+  padding-bottom: 50px; }
+  .article-title .article-title__tilte {
+    font-size: 3.5rem;
+    font-weight: 300; }
+
+.article-content {
+  color: #999999;
+  font-size: 1.4rem;
+  line-height: 2.4rem; }
+  .article-content .article-content__date-block {
+    line-height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .article-content .article-content__date {
+    color: #010101; }
+  .article-content .article-content__decor-line {
+    height: 1px;
+    width: calc(100% - 200px);
+    background: #ededed; }
+  .article-content .article-content__content {
+    text-align: justify;
+    padding-bottom: 80px; }
+  .article-content .article-content__article-image {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%; }
 
 /* FOOTER */
 .footer {
