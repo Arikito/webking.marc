@@ -30,21 +30,66 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
-
-	<header id="masthead" class="site-header" role="banner">
-
-		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
-
-		<?php if ( has_nav_menu( 'top' ) ) : ?>
-			<div class="navigation-top">
-				<div class="wrap">
-					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
-				</div><!-- .wrap -->
-			</div><!-- .navigation-top -->
-		<?php endif; ?>
-
-	</header><!-- #masthead -->
+	<header class="header">
+		<div class="container">
+			<div class="sub-header">
+				<div class="logo-block">
+					<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo"></a>
+				</div>
+				<div class="nav-menu visible-md-block visible-lg-block">
+					<ul class="nav-menu__list">
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="../about-us/">About Us</a>
+						</li>
+						<li class="nav-menu__item">
+							<div class="dropdown nav-menu__link">
+								<div class="dropdown-toggle" type="button" id="dropdown-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Products<span class="caret"></span></div>
+								<ul class="dropdown-menu box-shadow" aria-labelledby="dropdown-menu">
+									<li><a href="product_acm.html">ACM</a></li>
+									<li><a href="product_icm.html">ICM</a></li>
+									<li><a href="#product_rem.html">REM</a></li>
+									<li><a href="product_cam.html">CAM</a></li>
+									<li><a href="#product_pam.html">PAM</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="services.html">Services</a>
+						</li>
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="blog.html">Blog</a>
+						</li>
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="contacts.html">Contact Us</a>
+						</li>
+						<li class="nav-menu__item">
+							<a class="nav-menu__link nav-menu__item_support-btn" href="support.html">Support</a>
+						</li>
+					</ul>
+				</div>
+				<div class="dropdown nav-menu-mobile visible-xs-block visible-sm-block">
+					<div class="dropdown-toggle" type="button" id="dropdown-mobile-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div>
+					<ul class="dropdown-menu box-shadow" aria-labelledby="dropdown-mobile-menu">
+						<li><a tabindex="-1" href="about.html">About Us</a></li>
+						<li class="dropdown-submenu">
+							<a tabindex="-1" href="#">Products <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+							  <li><a tabindex="-1" href="product_acm.html">ACM</a></li>
+							  <li><a tabindex="-1" href="product_icm.html">ICM</a></li>
+							  <li><a tabindex="-1" href="#product_rem.html">REM</a></li>
+							  <li><a tabindex="-1" href="product_cam.html">CAM</a></li>
+							  <li><a tabindex="-1" href="#product_pam.html">PAM</a></li>
+							</ul>
+						  </li>
+						<li><a tabindex="-1" href="services.html">Services</a></li>
+						<li><a tabindex="-1" href="blog.html">Blog</a></li>
+						<li><a tabindex="-1" href="#contacts.html">Contact Us</a></li>
+						 <li><a  class="nav-menu__item_support-btn" href="support.html">Support</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
 
 	<?php
 	// If a regular post or page, and not the front page, show the featured image.
