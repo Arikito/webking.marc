@@ -35,10 +35,52 @@
 					</nav><!-- .social-navigation -->
 				<?php endif;
 
-				get_template_part( 'template-parts/footer/site', 'info' );
+				// get_template_part( 'template-parts/footer/site', 'info' );
 				?>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
+
+		<footer class="footer container-fluid">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="footer__logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/light-logo.png" alt="MARC logo">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<nav class="footer__nav">
+							<a class="footer__nav-link" href="index.html">Home</a>
+							<a class="footer__nav-link" href="about.html">About us</a>
+							<a class="footer__nav-link" href="#">Products</a>
+							<a class="footer__nav-link" href="services.html">Services</a>
+							<a class="footer__nav-link" href="blog.html">Blog</a>
+							<a class="footer__nav-link" href="#contacts.html">Contact Us</a>
+						</nav>
+					</div>
+					<div class="col-md-3">
+						<div class="footer__socials">
+							<a href="#" class="footer__socials-link"><img src="<?php echo get_template_directory_uri(); ?>/img/social-tw.png" alt="twitter social button"></a>
+							<a href="#" class="footer__socials-link"><img src="<?php echo get_template_directory_uri(); ?>/img/social-in.png" alt="linkedin social button"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer__copyright-container">
+							<div class="row">
+								<div class="col-md-9 col-md-offset-3">
+									<div class="footer__copyright">© Copyright by M.A.R.C. 2016 All rights Reserved </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
