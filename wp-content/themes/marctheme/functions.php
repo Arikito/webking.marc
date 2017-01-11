@@ -105,7 +105,13 @@ add_action( 'widgets_init', 'marctheme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function marctheme_scripts() {
+	wp_enqueue_style( 'bootstrap-styles', get_template_directory_uri().'/assets/bootstrap/css/bootstrap.min.css' );
+
 	wp_enqueue_style( 'marctheme-style', get_stylesheet_uri() );
+
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri().'/assets/bootstrap/js/bootstrap.min.js', array( 'jquery' ), '20151215', true );
+
+	wp_enqueue_script( 'custom-js', get_template_directory_uri().'/js/main.js', array( 'jquery' ), '20151215', true );
 
 	wp_enqueue_script( 'marctheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
