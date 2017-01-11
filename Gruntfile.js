@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				files: {
-					'wp-content/themes/marc/style.css': 'wp-content/themes/marc/resources/sass/style.scss'
+					'wp-content/themes/marctheme/style.css': 'wp-content/themes/marctheme/sass/style.scss'
 				}
 			}
 		}
