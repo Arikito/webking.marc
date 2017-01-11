@@ -1031,6 +1031,8 @@ body {
     text-align: center;
     margin-top: 65px;
     margin-bottom: 50px; }
+  .prod-cont-item .prod-cont-item__descr-image svg {
+    width: 200px; }
 
 @media screen and (max-width: 991px) {
   .prod-cont-item {
