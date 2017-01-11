@@ -794,7 +794,7 @@ body {
 .box-shadow, .no-risks .no-risks__container, .benefit .benefit__list, .blog-list .blog-list__thumbnail, .services-list, .services-list .services-list__icon, .videos-list .videos-list__thumb {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
 
-.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title, .partners .partners__descr-title, .support .support__title, .icon-page-header .icon-page-header__title {
+.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title, .partners .partners__descr-title, .support .support__title, .image-page-header .image-page-header__title {
   color: #2e9afe;
   margin: 0;
   margin-bottom: 2rem;
@@ -1394,28 +1394,26 @@ body.home .footer {
   padding-top: 13rem;
   margin-top: -13rem; }
 
-.icon-page-header {
+.image-page-header {
   background: #fafafa;
   padding-top: 128px;
   padding-bottom: 50px; }
-  .icon-page-header.icon-page-header_blog {
+  .image-page-header.image-page-header_blog {
     background: #fafafa url(../marc/img/icon-page-header-blog.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_services {
+  .image-page-header.image-page-header_services {
     background: #fafafa url(../marc/img/icon-page-header-services.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_videos {
+  .image-page-header.image-page-header_videos {
     background: #fafafa url(../marc/img/icon-page-header-videos.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_updates {
-    background: #fafafa url(../marc/img/icon-page-header-videos.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_contacts {
+  .image-page-header.image-page-header_contacts {
     background: #fafafa url(../marc/img/icon-page-header-contacts.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_updates {
+  .image-page-header.image-page-header_updates {
     background: #fafafa url(../marc/img/icon-page-header-updates.png) center 20% no-repeat; }
-  .icon-page-header .icon-page-header__title {
+  .image-page-header .image-page-header__title {
     font-size: 2.5em;
     margin-bottom: 0.2em; }
-  .icon-page-header .icon-page-header__quantity {
+  .image-page-header .image-page-header__quantity {
     color: #cccccc; }
-  .icon-page-header .icon-page-header__subtitle {
+  .image-page-header .image-page-header__subtitle {
     color: #999999;
     text-align: center;
     font-weight: 300; }
