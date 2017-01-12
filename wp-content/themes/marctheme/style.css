@@ -1393,6 +1393,9 @@ body {
   .article-content .article-content__content {
     text-align: justify;
     padding-bottom: 80px; }
+    .article-content .article-content__content img {
+      display: block;
+      margin: 0 auto; }
   .article-content .article-content__article-image {
     display: block;
     margin: 30px auto;

@@ -834,6 +834,10 @@ body {
 	.article-content__content {
 		text-align: justify;
 		padding-bottom: 80px;
+		img{
+			display: block;
+			margin: 0 auto;
+		}
 	}
 	.article-content__article-image {
 		display: block;

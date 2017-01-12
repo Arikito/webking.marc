@@ -4,8 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package WordPress
- * @subpackage Twenty_Seventeen
+ * @package marctheme
  * @since 1.0
  * @version 1.0
  */
@@ -13,59 +12,27 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php
-		if ( is_sticky() && is_home() ) :
-			echo marctheme_get_svg( array( 'icon' => 'thumb-tack' ) );
-		endif;
-	?>
-	<header class="entry-header">
-		<?php
-			if ( 'post' === get_post_type() ) :
-				echo '<div class="entry-meta">';
-					if ( is_single() ) :
-						marctheme_posted_on();
-					else :
-						echo marctheme_time_link();
-						marctheme_edit_link();
-					endif;
-				echo '</div><!-- .entry-meta -->';
-			endif;
 
-			if ( is_single() ) {
-				the_title( '<h1 class="entry-title">', '</h1>' );
-			} else {
-				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-			}
-		?>
-	</header><!-- .entry-header -->
-
-	<?php if ( '' !== get_the_post_thumbnail() && ! is_single() ) : ?>
-		<div class="post-thumbnail">
-			<a href="<?php the_permalink(); ?>">
-				<?php the_post_thumbnail( 'marctheme-featured-image' ); ?>
-			</a>
-		</div><!-- .post-thumbnail -->
-	<?php endif; ?>
-
-	<div class="entry-content">
-		<?php
-			/* translators: %s: Name of current post */
-			the_content( sprintf(
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'marctheme' ),
-				get_the_title()
-			) );
-
-			wp_link_pages( array(
-				'before'      => '<div class="page-links">' . __( 'Pages:', 'marctheme' ),
-				'after'       => '</div>',
-				'link_before' => '<span class="page-number">',
-				'link_after'  => '</span>',
-			) );
-		?>
-	</div><!-- .entry-content -->
-
-	<?php if ( is_single() ) : ?>
-		<?php marctheme_entry_footer(); ?>
-	<?php endif; ?>
+	<section class="article-title container-fluid">
+		<div class="container">
+			<?php the_title( '<h1 class="article-title__tilte">', '</h1>' ); ?>
+		</div>
+	</section>
+	<section class="article-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 article-content__date-block">
+					<div class="article-content__date"><img class="blog-list__date-icon" src="<?php echo get_template_directory_uri(); ?>/img/clock-icon.png" alt=""> <?php marctheme_posted_on(); ?></div>
+					<div class="article-content__decor-line"></div>
+					<div class="article-content__category"><?php echo get_the_category(get_the_ID())[0]->cat_name;?></div>
+				</div>
+			</div>
+		</div>
+		<div class="article-content__content">
+			<div class="container">
+				<?php the_content(); ?>
+			</div>
+		</div>
+	</section>
 
 </article><!-- #post-## -->
