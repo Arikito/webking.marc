@@ -707,6 +707,13 @@ body {
 	.updates-list__descr-text {
 		color: $font-color-basic;
 		font-size: 1.4rem;
+		max-height: 105px;
+    	overflow: hidden;
+		text-align: justify;
+		padding-top: 2rem;
+    	.more-link {
+    		display: none;
+    	}
 	}
 	.updates-list__date {
 		margin: 0;

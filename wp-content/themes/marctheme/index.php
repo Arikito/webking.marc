@@ -38,7 +38,7 @@ get_header(); ?>
 					</div>
 					<div class="col-md-9 col-md-pull-3">
 						<div class="row">
-							<?php
+							<!-- <?php
 							if ( have_posts() ) :
 
 								if ( is_home() && ! is_front_page() ) : ?>
@@ -67,7 +67,32 @@ get_header(); ?>
 
 								get_template_part( 'template-parts/content', 'none' );
 
-							endif; ?>
+							endif; ?> -->
+
+							<?php if(have_posts()){
+								while(have_posts()){ ?>
+									<?php the_post();?>
+									<div class="updates-list__item">
+										<div class="updates-list__image-block col-sm-4">
+											<?php the_post_thumbnail();?>
+										</div>
+										<div class="updates-list__descr col-sm-8">
+											<?php	the_title( '<a href="' . esc_url( get_permalink() ) . '" class="updates-list__title" rel="bookmark">', '</a>' );?>
+											<div class="updates-list__descr-text">
+												<?php the_excerpt();?>
+											</div>
+											<div class="updates-list__footer">
+												<p class="updates-list__date"><?php marctheme_posted_on(); ?></p>
+												<div class="updates-list__footer-decor-line"></div>
+												<a href="<?php echo get_permalink(); ?>"><button class="updates-list__btn btn btn-primary">Read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button></a>
+											</div>
+										</div>
+									</div>
+								<?php }
+								the_posts_navigation();
+							}else{
+								echo "Empty";
+							}?>
 						</div>
 					</div>
 				</div>
