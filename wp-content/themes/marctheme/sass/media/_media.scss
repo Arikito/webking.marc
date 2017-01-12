@@ -51,7 +51,6 @@ object {
 	}
 	.main-navigation .nav-menu .nav-menu__list{
 		padding-left: 5%;
-		background: #fff;
 	}
 	.main-navigation .nav-menu .nav-menu__list li {
 		margin-right: 1rem;
@@ -65,9 +64,9 @@ object {
 @media (max-width: 740px) {
 	.main-navigation .nav-menu .nav-menu__list{
 		padding-left: 2%;
+		background: #fff;
 	}
 }
-
 @media (max-width: 670px) {
 	/* Small menu. */
 	.main-navigation .nav-menu .nav-menu__list li {

@@ -795,8 +795,7 @@ object {
     width: 100%; }
 
   .main-navigation .nav-menu .nav-menu__list {
-    padding-left: 5%;
-    background: #fff; }
+    padding-left: 5%; }
 
   .main-navigation .nav-menu .nav-menu__list li {
     margin-right: 1rem; } }
@@ -805,7 +804,8 @@ object {
     line-height: 1; } }
 @media (max-width: 740px) {
   .main-navigation .nav-menu .nav-menu__list {
-    padding-left: 2%; } }
+    padding-left: 2%;
+    background: #fff; } }
 @media (max-width: 670px) {
   /* Small menu. */
   .main-navigation .nav-menu .nav-menu__list li {
