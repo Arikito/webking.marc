@@ -31,32 +31,9 @@ get_header(); ?>
 							 * If you want to override this in a child theme, then include a file
 							 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 							 */
-							// get_template_part( 'template-parts/content', get_post_format() );
+							get_template_part( 'template-parts/content', 'category' );
 
 						?>
-
-							<div class="blog-list__item">
-								<div class="col-md-6 col-lg-7">
-									<?php
-									if( has_post_thumbnail() ) {
-										$default_attr = array(
-											'class' => 'blog-list__thumbnail'
-										);
-										the_post_thumbnail('full', $default_attr);
-									}else{?>
-										<img src="<?php echo get_template_directory_uri(); ?>/img/videos-thumb.png" alt="" class="blog-list__thumbnail">
-									<?}
-									?>
-								</div>
-								<div class="col-md-6 col-lg-5">
-									<div class="blog-list__title"><?php	the_title( '<a href="' . esc_url( get_permalink() ) . '" class="updates-list__title" rel="bookmark">', '</a>' );?></div>
-									<div class="blog-list__description"><?php if(has_excerpt()){ do_excerpt(get_the_excerpt(), 100); }?></div>
-									<div class="blog-list__footer">
-										<div class="blog-list__date"><img class="blog-list__date-icon" src="<?php echo get_template_directory_uri(); ?>/img/clock-icon.png" alt=""><?php marctheme_posted_on(); ?></div>
-										<a href="<? echo get_permalink(); ?>"><button class="blog-list__read-more btn btn-primary">Read more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button></a>
-									</div>
-								</div>
-							</div>
 
 						<?php
 						endwhile;
