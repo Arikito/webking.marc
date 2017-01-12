@@ -50,7 +50,9 @@ function marctheme_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'menu-1' => esc_html__( 'Primary', 'marctheme' ),
+		'menu-1' => esc_html__( 'Header', 'marctheme' ),
+		'menu-2' => esc_html__( 'Footer', 'marctheme' ),
+		'socials' => esc_html__( 'Socials', 'marctheme' ),
 	) );
 
 	/*
@@ -111,6 +113,7 @@ add_action( 'widgets_init', 'marctheme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function marctheme_scripts() {
+	wp_enqueue_style( 'icon-font', 'https://i.icomoon.io/public/temp/71b112ffe3/marc/style.css' );
 	wp_enqueue_style( 'bootstrap-styles', get_template_directory_uri().'/assets/bootstrap/css/bootstrap.min.css' );
 
 	wp_enqueue_style( 'marctheme-style', get_stylesheet_uri() );

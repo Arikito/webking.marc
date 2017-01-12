@@ -11,10 +11,8 @@ $(function(){
 	$('.updates-list__filter_js').on('click', function() {
 		$('.updates-list__menu').toggleClass('opened');
 	});
-	$(window).on('load', function() {
-		var icons = SVGIcons('.svg-icon');
-	    for (var i = 0; i < icons.length; i++) {
-	        icons[i].play();
-	    }
-	});
+	var icons = SVGIcons('.svg-icon');
+    for (var i = 0; i < icons.length; i++) {
+        icons[i].play();
+    }
 });

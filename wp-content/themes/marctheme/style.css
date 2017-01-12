@@ -837,7 +837,7 @@ body {
 .box-shadow, .no-risks .no-risks__container, .benefit .benefit__list, .blog-list .blog-list__thumbnail, .services-list, .services-list .services-list__icon, .videos-list .videos-list__thumb {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
 
-.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title, .partners .partners__descr-title, .support .support__title, .icon-page-header .icon-page-header__title {
+.section-title, .products-tabs .products-tabs__product-drscr-title, .benefits .benefits__title, .no-risks .no-risks__title, .clients .clients__title, .benefit .benefit__title, .about-us .about-us__descr-title, .our-team .our-team__descr-title, .partners .partners__descr-title, .support .support__title, .image-page-header .image-page-header__title {
   color: #2e9afe;
   margin: 0;
   margin-bottom: 2rem;
@@ -1377,16 +1377,44 @@ body {
   font-weight: 300;
   z-index: 10;
   padding-top: 2rem;
-  margin-top: 0; }
+  margin-top: 0;
+  /* wordpress styles */ }
+  .footer .menu-footer-container {
+    width: 100%; }
+  .footer .menu {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+  .footer li {
+    display: inline-block; }
+    .footer li a {
+      color: #fff; }
+      .footer li a:hover {
+        text-decoration: none; }
   .footer .footer__nav {
     line-height: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
+    .footer .footer__nav .menu {
+      display: flex;
+      flex-wrap: wrap;
+      line-height: 30px;
+      justify-content: space-between; }
   .footer .footer__nav-link {
     flex-shrink: 0; }
   .footer .footer__socials {
     text-align: right; }
+    .footer .footer__socials .menu {
+      justify-content: flex-end; }
+      .footer .footer__socials .menu a {
+        display: inline-block;
+        border-radius: 50%;
+        width: 38px;
+        height: 38px;
+        line-height: 40px;
+        text-align: center;
+        border: 1px solid #55adfe; }
   .footer .footer__socials-link {
     display: inline-block;
     border-radius: 50%;
@@ -1406,31 +1434,29 @@ body {
     padding: 15px 0; }
 
 body.home .footer {
-  padding-top: 8rem;
-  margin-top: -6rem; }
+  padding-top: 13rem;
+  margin-top: -13rem; }
 
-.icon-page-header {
+.image-page-header {
   background: #fafafa;
   padding-top: 128px;
   padding-bottom: 50px; }
-  .icon-page-header.icon-page-header_blog {
+  .image-page-header.image-page-header_blog {
     background: #fafafa url(../marc/img/icon-page-header-blog.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_services {
+  .image-page-header.image-page-header_services {
     background: #fafafa url(../marc/img/icon-page-header-services.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_videos {
+  .image-page-header.image-page-header_videos {
     background: #fafafa url(../marc/img/icon-page-header-videos.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_updates {
-    background: #fafafa url(../marc/img/icon-page-header-videos.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_contacts {
+  .image-page-header.image-page-header_contacts {
     background: #fafafa url(../marc/img/icon-page-header-contacts.png) center 20% no-repeat; }
-  .icon-page-header.icon-page-header_updates {
+  .image-page-header.image-page-header_updates {
     background: #fafafa url(../marc/img/icon-page-header-updates.png) center 20% no-repeat; }
-  .icon-page-header .icon-page-header__title {
+  .image-page-header .image-page-header__title {
     font-size: 2.5em;
     margin-bottom: 0.2em; }
-  .icon-page-header .icon-page-header__quantity {
+  .image-page-header .image-page-header__quantity {
     color: #cccccc; }
-  .icon-page-header .icon-page-header__subtitle {
+  .image-page-header .image-page-header__subtitle {
     color: #999999;
     text-align: center;
     font-weight: 300; }

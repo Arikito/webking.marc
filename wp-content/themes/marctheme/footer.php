@@ -24,18 +24,21 @@
 					</div>
 					<div class="col-md-6">
 						<nav class="footer__nav">
-							<a class="footer__nav-link" href="index.html">Home</a>
+
+							<?php wp_nav_menu( array( 'theme_location' => 'menu-2', 'menu_id' => 'footer-menu' ) ); ?>
+							<!-- <a class="footer__nav-link" href="index.html">Home</a>
 							<a class="footer__nav-link" href="about.html">About us</a>
 							<a class="footer__nav-link" href="#">Products</a>
 							<a class="footer__nav-link" href="services.html">Services</a>
 							<a class="footer__nav-link" href="blog.html">Blog</a>
-							<a class="footer__nav-link" href="#contacts.html">Contact Us</a>
+							<a class="footer__nav-link" href="#contacts.html">Contact Us</a> -->
 						</nav>
 					</div>
 					<div class="col-md-3">
 						<div class="footer__socials">
-							<a href="#" class="footer__socials-link"><img src="../wp-content/themes/marc/img/social-tw.png" alt="twitter social button"></a>
-							<a href="#" class="footer__socials-link"><img src="../wp-content/themes/marc/img/social-in.png" alt="linkedin social button"></a>
+							<?php wp_nav_menu( array( 'theme_location' => 'socials', 'class_menu' => 'footer__socials') ); ?>
+							<!-- <a href="#" class="footer__socials-link"><img src="../wp-content/themes/marc/img/social-tw.png" alt="twitter social button"></a>
+							<a href="#" class="footer__socials-link"><img src="../wp-content/themes/marc/img/social-in.png" alt="linkedin social button"></a> -->
 						</div>
 					</div>
 				</div>
