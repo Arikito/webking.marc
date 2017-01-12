@@ -978,6 +978,12 @@ body.home .footer {
 	.blog-list__title {
 		font-size: 1.750em;
 		margin-bottom: .5em;
+		a{
+			color: inherit;
+			&:hover{
+				text-decoration: none;
+			}
+		}
 	}
 	.blog-list__description {
 		text-align: justify;
@@ -1004,6 +1010,12 @@ body.home .footer {
 		line-height: 34px;
 		padding-right: .5em;
 		font-weight: 400;
+		a{
+			color: inherit;
+			&:hover{
+				text-decoration: none;
+			}
+		}
 	}
 	.blog-list__date-icon {
 		margin-right: .5em;
