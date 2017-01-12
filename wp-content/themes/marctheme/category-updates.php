@@ -25,7 +25,7 @@ get_header(); ?>
 									<li class="updates-list__menu-item"><a href="<?php echo get_category_link(get_queried_object()->term_id); ?>">All categories</a></li>
 									<?php
 									$categories = get_categories( array( 'child_of' => get_queried_object()->term_id ) );
-									$cat = array();
+									$cat = array(get_queried_object()->term_id);
 									foreach($categories as $category) :
 										$cat[] = $category->term_id;
 										echo "<li class=\"updates-list__menu-item\"><a href=\"".esc_url( add_query_arg( 'filter', $category->term_id ) )."\">".$category->name."</a></li>";
