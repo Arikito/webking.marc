@@ -37,6 +37,15 @@ function marctheme_posted_on() {
 	// echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
 	echo $posted_on ; // WPCS: XSS OK.
 }
+
+function read_more() {
+	$read_more = sprintf(
+		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">Read more</a>'
+	);
+	echo $read_more ; // WPCS: XSS OK.
+}
+
+
 endif;
 
 if ( ! function_exists( 'marctheme_entry_footer' ) ) :

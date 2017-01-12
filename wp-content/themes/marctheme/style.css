@@ -307,8 +307,7 @@ ol {
 
 li > ul,
 li > ol {
-  margin-bottom: 0;
-  margin-left: 1.5em; }
+  margin-bottom: 0; }
 
 li {
   list-style-type: none; }
