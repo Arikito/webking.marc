@@ -146,10 +146,13 @@ body {
 
 /* HEADER */
 .header {
-	   position: absolute;
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
+	.current-menu-item {
+		color: $accent;
+	}
 }
 .sub-header {
 	line-height: 80px;
