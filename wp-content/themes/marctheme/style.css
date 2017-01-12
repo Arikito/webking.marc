@@ -875,6 +875,8 @@ body {
   top: 0;
   left: 0;
   right: 0; }
+  .header .current-menu-item {
+    color: #2e9afe; }
 
 .sub-header {
   line-height: 80px;
