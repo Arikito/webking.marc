@@ -999,7 +999,7 @@ body {
     content: '';
     position: absolute;
     display: block;
-    background-image: url(../marc/img/no-risks-bg.png);
+    background-image: url(img/no-risks-bg.png);
     background-size: cover;
     width: 50%;
     left: 0;
@@ -1451,15 +1451,15 @@ body.home .footer {
   padding-top: 128px;
   padding-bottom: 50px; }
   .image-page-header.image-page-header_blog {
-    background: #fafafa url(../marc/img/icon-page-header-blog.png) center 20% no-repeat; }
+    background: #fafafa url(img/icon-page-header-blog.png) center 20% no-repeat; }
   .image-page-header.image-page-header_services {
-    background: #fafafa url(../marc/img/icon-page-header-services.png) center 20% no-repeat; }
+    background: #fafafa url(img/icon-page-header-services.png) center 20% no-repeat; }
   .image-page-header.image-page-header_videos {
-    background: #fafafa url(../marc/img/icon-page-header-videos.png) center 20% no-repeat; }
+    background: #fafafa url(img/icon-page-header-videos.png) center 20% no-repeat; }
   .image-page-header.image-page-header_contacts {
-    background: #fafafa url(../marc/img/icon-page-header-contacts.png) center 20% no-repeat; }
+    background: #fafafa url(img/icon-page-header-contacts.png) center 20% no-repeat; }
   .image-page-header.image-page-header_updates {
-    background: #fafafa url(../marc/img/icon-page-header-updates.png) center 20% no-repeat; }
+    background: #fafafa url(img/icon-page-header-updates.png) center 20% no-repeat; }
   .image-page-header .image-page-header__title {
     font-size: 2.5em;
     margin-bottom: 0.2em; }
@@ -1567,19 +1567,19 @@ body.home .footer {
       background-size: 130%;
       z-index: 0; }
     .services-list .services-list__icon.services-list__icon_1:after {
-      background-image: url(../marc/img/services-icon1.png);
+      background-image: url(img/services-icon1.png);
       background-repeat: no-repeat; }
     .services-list .services-list__icon.services-list__icon_2:after {
-      background-image: url(../marc/img/services-icon2.png);
+      background-image: url(img/services-icon2.png);
       background-repeat: no-repeat; }
     .services-list .services-list__icon.services-list__icon_3:after {
-      background-image: url(../marc/img/services-icon3.png);
+      background-image: url(img/services-icon3.png);
       background-repeat: no-repeat; }
     .services-list .services-list__icon.services-list__icon_4:after {
-      background-image: url(../marc/img/services-icon4.png);
+      background-image: url(img/services-icon4.png);
       background-repeat: no-repeat; }
     .services-list .services-list__icon.services-list__icon_5:after {
-      background-image: url(../marc/img/services-icon5.png);
+      background-image: url(img/services-icon5.png);
       background-repeat: no-repeat; }
   @media screen and (max-width: 991px) {
     .services-list {
