@@ -74,7 +74,11 @@ get_header(); ?>
 									<?php the_post();?>
 									<div class="updates-list__item">
 										<div class="updates-list__image-block col-sm-4">
-											<?php the_post_thumbnail();?>
+											<?php if(has_post_thumbnail()) {
+												the_post_thumbnail();
+											}else{?>
+												<img src="/wp-content/themes/marctheme/img/videos-thumb.png" alt="img">
+											<?}?>
 										</div>
 										<div class="updates-list__descr col-sm-8">
 											<?php	the_title( '<a href="' . esc_url( get_permalink() ) . '" class="updates-list__title" rel="bookmark">', '</a>' );?>
