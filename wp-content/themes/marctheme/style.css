@@ -687,7 +687,7 @@ a {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0; }
+  margin: 0; }
 
 .page-links {
   clear: both;
@@ -783,22 +783,21 @@ object {
   .main-navigation .nav-menu .nav-menu__list li {
     margin-right: 1rem; } }
 @media (max-width: 991px) {
-  /* Small menu. */
-  .menu-toggle,
-  .main-navigation.toggled ul {
-    display: block; }
-
-  .main-navigation ul {
-    display: none; }
-
-  .nav-menu {
-    width: 100%; }
-
-  .main-navigation .nav-menu .nav-menu__list {
-    padding-left: 5%; }
-
-  .main-navigation .nav-menu .nav-menu__list li {
-    margin-right: 1rem; } }
+  .header {
+    background: #fff;
+    z-index: 100;
+    /* Small menu. */ }
+    .header .menu-toggle,
+    .header .main-navigation.toggled ul {
+      display: block; }
+    .header .main-navigation ul {
+      display: none; }
+    .header .main-navigation .nav-menu {
+      width: 100%; }
+      .header .main-navigation .nav-menu .nav-menu__list {
+        padding-left: 5%; }
+        .header .main-navigation .nav-menu .nav-menu__list li {
+          margin-right: 1rem; } }
 @media (max-width: 800px) and (orientation: landscape) {
   .main-navigation .nav-menu .nav-menu__list ul.sub-menu li {
     line-height: 1; } }
@@ -808,17 +807,21 @@ object {
     background: #fff; } }
 @media (max-width: 670px) {
   /* Small menu. */
-  .main-navigation .nav-menu .nav-menu__list li {
-    width: 100%;
-    text-align: center;
-    line-height: 4; }
+  .main-navigation .nav-menu .nav-menu__list {
+    padding-bottom: 20px; }
+    .main-navigation .nav-menu .nav-menu__list li {
+      width: 100%;
+      text-align: center;
+      line-height: 3; }
+    .main-navigation .nav-menu .nav-menu__list ul.sub-menu li {
+      width: 56px; }
+
+  .main-navigation.toggled li:nth-child(2) ul.sub-menu {
+    left: -9999px; }
 
   .main-navigation.toggled li:nth-child(2).focus ul.sub-menu,
   .main-navigation .nav-menu .nav-menu__list li:nth-child(2):hover ul.sub-menu {
-    left: calc(50% - 140px); }
-
-  .main-navigation .nav-menu .nav-menu__list ul.sub-menu li {
-    width: 56px; } }
+    left: calc(50% - 140px); } }
 /*
 Theme Name: MARC
 Author: Webking Studio
