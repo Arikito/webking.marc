@@ -89,7 +89,8 @@ get_header(); ?>
 										</div>
 									</div>
 								<?php }
-								the_posts_navigation();
+								// the_posts_navigation();
+								echo paginate_links(array('format' => '?paged=%#%', 'show_all' => false, 'prev_next' => true));
 							}else{
 								echo "Empty";
 							}?>
