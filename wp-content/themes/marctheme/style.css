@@ -908,7 +908,8 @@ body {
   .products-tabs .products-tabs__nav {
     display: flex;
     border: 0;
-    overflow-x: auto; }
+    overflow-x: auto;
+    margin: 0; }
   .products-tabs .products-tabs__nav-item {
     margin: 0 !important;
     border-bottom: 1px solid #ededed; }
@@ -980,7 +981,8 @@ body {
     border: 0; }
   .benefits .benefits__item-icon {
     text-align: center;
-    height: 100px; }
+    height: 100px;
+    margin-bottom: 1em; }
   .benefits .benefits__item-title {
     font-size: 1.875em;
     line-height: 1em;
@@ -1277,15 +1279,21 @@ body {
   .updates-list .updates-list__title {
     font-size: 2.8rem;
     font-weight: 300;
-    line-height: 3rem; }
+    line-height: 3rem;
+    color: #010101; }
+    .updates-list .updates-list__title:hover {
+      text-decoration: none; }
   .updates-list .updates-list__descr {
     height: 250px; }
   .updates-list .updates-list__descr-text {
     color: #999999;
     font-size: 1.4rem; }
   .updates-list .updates-list__date {
-    color: #010101;
     margin: 0; }
+    .updates-list .updates-list__date a {
+      color: #010101; }
+      .updates-list .updates-list__date a:hover {
+        text-decoration: none; }
   .updates-list .updates-list__menu {
     padding: 30px;
     color: #999999;
