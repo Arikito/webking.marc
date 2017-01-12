@@ -1670,6 +1670,11 @@ body.home .footer {
     margin-bottom: 0;
     height: 100px;
     overflow: hidden; }
+    .videos-list .videos-list__title a {
+      color: #010101; }
+      .videos-list .videos-list__title a:hover, .videos-list .videos-list__title a:visited, .videos-list .videos-list__title a:focus {
+        color: #010101;
+        text-decoration: none; }
   .videos-list .videos-list__item-footer {
     position: relative;
     border-top: 1px solid #ededed;

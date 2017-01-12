@@ -1204,6 +1204,13 @@ body.home .footer {
 		margin-bottom: 0;
 		height: 100px;
 		overflow: hidden;
+		a {
+			color: $font-color-title;
+			&:hover, &:visited, &:focus {
+				color: $font-color-title;
+				text-decoration: none;
+			}
+		}
 	}
 	.videos-list__item-footer {
 		position: relative;
