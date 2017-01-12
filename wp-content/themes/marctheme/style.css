@@ -718,6 +718,9 @@ a {
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  #wpadminbar {
+    top: -46px; } }
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -1494,6 +1497,10 @@ body.home .footer {
   .blog-list .blog-list__title {
     font-size: 1.750em;
     margin-bottom: .5em; }
+    .blog-list .blog-list__title a {
+      color: inherit; }
+      .blog-list .blog-list__title a:hover {
+        text-decoration: none; }
   .blog-list .blog-list__description {
     text-align: justify;
     font-size: 0.875em;
@@ -1515,6 +1522,10 @@ body.home .footer {
     line-height: 34px;
     padding-right: .5em;
     font-weight: 400; }
+    .blog-list .blog-list__date a {
+      color: inherit; }
+      .blog-list .blog-list__date a:hover {
+        text-decoration: none; }
   .blog-list .blog-list__date-icon {
     margin-right: .5em; }
   .blog-list .blog-list__read-more {
