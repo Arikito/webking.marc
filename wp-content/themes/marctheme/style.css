@@ -814,7 +814,7 @@ object {
       text-align: center;
       line-height: 3; }
     .main-navigation .nav-menu .nav-menu__list ul.sub-menu li {
-      width: 56px; }
+      width: 54px; }
 
   .main-navigation.toggled li:nth-child(2) ul.sub-menu {
     left: -9999px; }
