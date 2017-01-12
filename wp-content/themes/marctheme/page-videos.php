@@ -32,16 +32,20 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<?php if ( $myposts->have_posts() ) :
-				while ( $myposts->have_posts() ) : $myposts->the_post();
-					get_template_part( 'template-parts/content', 'video' );
-				endwhile;
-				$myposts->the_posts_navigation();
-			else :
-				$myposts->get_template_part( 'template-parts/content', 'none' );
-			endif;
-			wp_reset_postdata();
-			?>
+			<section class="videos-list container">
+				<div class="row">
+					<?php if ( $myposts->have_posts() ) :
+						while ( $myposts->have_posts() ) : $myposts->the_post();
+							get_template_part( 'template-parts/content', 'video' );
+						endwhile;
+						$myposts->the_posts_navigation();
+					else :
+						$myposts->get_template_part( 'template-parts/content', 'none' );
+					endif;
+					wp_reset_postdata();
+					?>
+				</div>
+			</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
