@@ -19,7 +19,7 @@
 				<div class="row">
 					<div class="col-md-3">
 						<div class="footer__logo">
-							<img src="/wp-content/themes/marctheme/img/light-logo.png" alt="MARC logo">
+							<img src="wp-content/themes/marctheme/img/light-logo.png" alt="MARC logo">
 						</div>
 					</div>
 					<div class="col-md-6">

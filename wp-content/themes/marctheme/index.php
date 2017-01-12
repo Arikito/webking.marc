@@ -78,7 +78,7 @@ get_header(); ?>
 												the_post_thumbnail();
 											}else{?>
 												<img src="/wp-content/themes/marctheme/img/videos-thumb.png" alt="img">
-											<?}?>
+											<?php } ?>
 										</div>
 										<div class="updates-list__descr col-sm-8">
 											<?php	the_title( '<a href="' . esc_url( get_permalink() ) . '" class="updates-list__title" rel="bookmark">', '</a>' );?>
