@@ -11,12 +11,10 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
 			<section class="image-page-header image-page-header_updates container-fluid">
 				<?php the_archive_title( '<h1 class="image-page-header__title">', '</h1>' ); ?>
 				<?php the_archive_description( '<div class="image-page-header__subtitle">', '</div>' ); ?>
 			</section>
-
 			<section class="updates-list">
 				<div class="container">
 					<div class="row">
@@ -24,29 +22,36 @@ get_header(); ?>
 							<div class="updates-list__menu box-shadow">
 								<p class="updates-list__menu-title">Menu <span class="glyphicon glyphicon-filter updates-list__filter updates-list__filter_js visible-xs-block visible-sm-block" aria-hidden="true"></span></p>
 								<ul>
-									<li class="updates-list__menu-item">All categories</li>
-									<li class="updates-list__menu-item">News</li>
-									<li class="updates-list__menu-item active">Events</li>
-									<li class="updates-list__menu-item">Release Updates</li>
+									<li class="updates-list__menu-item"><a href="<?php echo get_category_link(get_queried_object()->term_id); ?>">All categories</a></li>
+									<?php
+									$categories = get_categories( array( 'child_of' => get_queried_object()->term_id ) );
+									$cat = array();
+									foreach($categories as $category) :
+										$cat[] = $category->term_id;
+										echo "<li class=\"updates-list__menu-item\"><a href=\"".esc_url( add_query_arg( 'filter', $category->term_id ) )."\">".$category->name."</a></li>";
+									endforeach;
+									$myposts = get_posts( array( 'category' => isset($_GET['filter'])?$_GET['filter']:implode(',', $cat) ) ); ?>
 								</ul>
 							</div>
 						</div>
+
 						<div class="col-md-9 col-md-pull-3">
 							<div class="row">
 
-								<?php if(have_posts()){
-									while(have_posts()){ ?>
-										<?php the_post();?>
+								<?php
+								if($myposts):
+									foreach ($myposts as $post) :
+										setup_postdata( $post ); ?>
 										<div class="updates-list__item">
 											<div class="updates-list__image-block col-sm-4">
-												<?php if(has_post_thumbnail()) {
+												<?php if(has_post_thumbnail()) :
 													the_post_thumbnail();
-												}else{?>
+												else :?>
 													<img src="/wp-content/themes/marctheme/img/videos-thumb.png" alt="img">
-												<?php } ?>
+												<?php endif; ?>
 											</div>
 											<div class="updates-list__descr col-sm-8">
-												<?php	the_title( '<a href="' . esc_url( get_permalink() ) . '" class="updates-list__title" rel="bookmark">', '</a>' );?>
+												<?php the_title( '<a href="' . esc_url( get_permalink() ) . '" class="updates-list__title" rel="bookmark">', '</a>' );?>
 												<div class="updates-list__descr-text">
 													<?php the_excerpt();?>
 												</div>
@@ -57,12 +62,8 @@ get_header(); ?>
 												</div>
 											</div>
 										</div>
-									<?php }
-									// the_posts_navigation();
-									echo paginate_links(array('format' => '?paged=%#%', 'show_all' => false, 'prev_next' => true));
-								}else{
-									echo "Empty";
-								}?>
+									<?php endforeach; ?>
+								<?php endif; ?>
 							</div>
 						</div>
 					</div>

@@ -10,19 +10,20 @@
 get_header(); ?>
 
 	<?php
-	$args = array(
-	    'post_type'=> 'post',
-	    'post_status' => 'publish',
-	    'order' => 'DESC',
-	    'tax_query' => array(
-	        array(
-	            'taxonomy' => 'post_format',
-	            'field' => 'slug',
-	            'terms' => array( 'post-format-video' )
-	        )
-	    )
+	$myposts = new WP_query(
+		array(
+			'post_type'=> 'post',
+			'post_status' => 'publish',
+			'order' => 'DESC',
+			'tax_query' => array(
+				array(
+					'taxonomy' => 'post_format',
+					'field' => 'slug',
+					'terms' => array( 'post-format-video' )
+				)
+			)
+		)
 	);
-	$myposts = new WP_query($args);
 	?>
 
 	<section class="image-page-header image-page-header_videos container-fluid">
