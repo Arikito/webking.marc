@@ -689,9 +689,19 @@ body {
 		margin-bottom: 50px;
 		overflow: auto;
 	}
-	.updates-list__image {
-		width: 100%;
+	.updates-list__image-block {
+		height: 250px;
+		img {
+			width: 100%;
+   			height: 100%;
+    		object-fit: cover;
+		}
 	}
+	// .updates-list__image {
+	// 	width: 100%;
+ //   		height: 100%;
+ //    	object-fit: cover;
+	// }
 	.updates-list__title {
 		font-size: 2.8rem;
 		font-weight: 300;
@@ -784,8 +794,12 @@ body {
 		margin-top: 7px;
 	}
 	@media screen and (max-width: 991px) {
-		.updates-list__descr {
+		.updates-list__descr,
+		.updates-list__image-block {
 			height: auto;
+		}
+		.updates-list__image-block {
+			margin-bottom: 2rem;
 		}
 		.updates-list__image {
 			margin-bottom: 2rem;
