@@ -7,6 +7,10 @@
  * @package marctheme
  */
 
+if ( ! current_user_can( 'manage_options' ) ) {
+	show_admin_bar( false );
+}
+
 if ( ! function_exists( 'marctheme_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.

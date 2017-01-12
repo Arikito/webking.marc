@@ -122,6 +122,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* GENERAL STYLES */
 body {
 	font-size: 16px;
+	position: relative;
 }
 .entry-header {
 	display: none;
@@ -906,37 +907,34 @@ body.home .footer {
     margin-top: -13rem;
 }
 
-.icon-page-header {
+.image-page-header {
 	background: $light-gray;
 	padding-top: 128px;
 	padding-bottom: 50px;
-	&.icon-page-header_blog {
+	&.image-page-header_blog {
 		background: $light-gray url(../marc/img/icon-page-header-blog.png) center 20% no-repeat;
 	}
-	&.icon-page-header_services {
+	&.image-page-header_services {
 		background: $light-gray url(../marc/img/icon-page-header-services.png) center 20% no-repeat;
 	}
-	&.icon-page-header_videos {
+	&.image-page-header_videos {
 		background: $light-gray url(../marc/img/icon-page-header-videos.png) center 20% no-repeat;
 	}
-	&.icon-page-header_updates {
-		background: $light-gray url(../marc/img/icon-page-header-videos.png) center 20% no-repeat;
-	}
-	&.icon-page-header_contacts {
+	&.image-page-header_contacts {
 		background: $light-gray url(../marc/img/icon-page-header-contacts.png) center 20% no-repeat;
 	}
-	&.icon-page-header_updates {
+	&.image-page-header_updates {
 		background: $light-gray url(../marc/img/icon-page-header-updates.png) center 20% no-repeat;
 	}
-	.icon-page-header__title {
+	.image-page-header__title {
 		@extend .section-title;
 		font-size: 2.5em;
 		margin-bottom: 0.2em;
 	}
-	.icon-page-header__quantity {
+	.image-page-header__quantity {
 		color: $font-color-lightgray;
 	}
-	.icon-page-header__subtitle {
+	.image-page-header__subtitle {
 		color: $font-color-basic;
 		text-align: center;
 		font-weight: 300;

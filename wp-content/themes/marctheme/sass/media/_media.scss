@@ -23,3 +23,81 @@ object {
 ## Galleries
 --------------------------------------------------------------*/
 @import "galleries";
+
+@media (min-width: 992px) and (max-width: 1200px){
+	.main-navigation{
+		.nav-menu{
+			.nav-menu__list{
+				li{
+					// .nav-menu__item
+					margin-right: 1rem;
+				}
+			}
+		}
+	}
+}
+// @media screen and (min-width: 37.5em) {
+@media (max-width: 991px) {
+	.header{
+		background: #fff;
+		z-index: 100;
+		/* Small menu. */
+		.menu-toggle,
+		.main-navigation.toggled ul {
+			display: block;
+		}
+		.main-navigation ul {
+			display: none;
+		}
+
+		.main-navigation{
+			.nav-menu {
+				width: 100%;
+				.nav-menu__list{
+					padding-left: 5%;
+					li {
+						margin-right: 1rem;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 800px) and (orientation: landscape){
+	.main-navigation .nav-menu .nav-menu__list ul.sub-menu li{
+		line-height: 1;
+	}
+}
+@media (max-width: 740px) {
+	.main-navigation .nav-menu .nav-menu__list{
+		padding-left: 2%;
+		background: #fff;
+	}
+}
+@media (max-width: 670px) {
+	/* Small menu. */
+	.main-navigation{
+		.nav-menu{
+			.nav-menu__list{
+				padding-bottom: 20px;
+				li {
+					width: 100%;
+					text-align: center;
+					line-height: 3;
+				}
+				ul.sub-menu{
+					li{
+						width: 54px;
+					}
+				}
+			}
+		}
+	}
+	.main-navigation.toggled li:nth-child(2) ul.sub-menu{
+		left: -9999px;
+	}
+	.main-navigation.toggled li:nth-child(2).focus ul.sub-menu,
+	.main-navigation .nav-menu .nav-menu__list li:nth-child(2):hover ul.sub-menu{
+		left: calc(50% - 140px);
+	}
+}
