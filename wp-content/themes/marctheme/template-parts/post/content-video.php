@@ -10,20 +10,11 @@
  * @version 1.0
  */
 ?>
-asd asdhasgasgasgfj as
-asf asdgf
- adg ds
- f s
- g s
- dg d
- s
-<?php $custom_fields = get_post_custom();
-var_dump($custom_fields['video']);
-?>
+<?php echo get_post_meta(get_the_ID(), 'video', true); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 		if ( is_sticky() && is_home() ) :
-			echo twentyseventeen_get_svg( array( 'icon' => 'thumb-tack' ) );
+			echo marctheme_get_svg( array( 'icon' => 'thumb-tack' ) );
 		endif;
 	?>
 	<header class="entry-header">
@@ -31,10 +22,10 @@ var_dump($custom_fields['video']);
 			if ( 'post' === get_post_type() ) :
 				echo '<div class="entry-meta">';
 					if ( is_single() ) :
-						twentyseventeen_posted_on();
+						marctheme_posted_on();
 					else :
-						echo twentyseventeen_time_link();
-						twentyseventeen_edit_link();
+						echo marctheme_time_link();
+						marctheme_edit_link();
 					endif;
 				echo '</div><!-- .entry-meta -->';
 			endif;
@@ -60,7 +51,7 @@ var_dump($custom_fields['video']);
 	<?php if ( '' !== get_the_post_thumbnail() && ! is_single() && empty( $video ) ) : ?>
 		<div class="post-thumbnail">
 			<a href="<?php the_permalink(); ?>">
-				<?php the_post_thumbnail( 'twentyseventeen-featured-image' ); ?>
+				<?php the_post_thumbnail( 'marctheme-featured-image' ); ?>
 			</a>
 		</div><!-- .post-thumbnail -->
 	<?php endif; ?>
@@ -84,12 +75,12 @@ var_dump($custom_fields['video']);
 
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'marctheme' ),
 				get_the_title()
 			) );
 
 			wp_link_pages( array(
-				'before'      => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),
+				'before'      => '<div class="page-links">' . __( 'Pages:', 'marctheme' ),
 				'after'       => '</div>',
 				'link_before' => '<span class="page-number">',
 				'link_after'  => '</span>',
@@ -100,7 +91,7 @@ var_dump($custom_fields['video']);
 	</div><!-- .entry-content -->
 
 	<?php if ( is_single() ) : ?>
-		<?php twentyseventeen_entry_footer(); ?>
+		<?php marctheme_entry_footer(); ?>
 	<?php endif; ?>
 
 </article><!-- #post-## -->
