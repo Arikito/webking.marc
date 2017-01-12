@@ -30,6 +30,28 @@ object {
 --------------------------------------------------------------*/
 @import "galleries";
 
+// video responsive
+@media (max-width: 1200px){
+	.article-content .article-content__article-video iframe{
+		height: 55vh !important;
+	}
+}
+@media (max-width: 800px) and (orientation: landscape){
+	.article-content .article-content__article-video iframe{
+		height: 45vh !important;
+	}
+}
+@media (max-width: 660px){
+	.article-content .article-content__article-video iframe{
+		height: 33vh !important;
+	}
+}
+@media (max-width: 340px){
+	.article-content .article-content__article-video iframe{
+		height: 30vh !important;
+	}
+}
+
 @media (min-width: 992px) and (max-width: 1200px){
 	.main-navigation{
 		.nav-menu{
