@@ -33,7 +33,7 @@
 		<div class="updates-list__footer">
 			<p class="updates-list__date"><?php marctheme_posted_on(); ?></p>
 			<div class="updates-list__footer-decor-line"></div>
-			<button class="updates-list__btn btn btn-primary">Read more  <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
+			<button class="updates-list__btn btn btn-primary"><?php read_more(); ?>  <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
 		</div>
 	</div>
 </div>
