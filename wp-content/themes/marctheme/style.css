@@ -1354,10 +1354,15 @@ body {
     border-top: 1px solid #ededed;
     margin: 0;
     cursor: pointer; }
-    .updates-list .updates-list__menu-item.active, .updates-list .updates-list__menu-item:hover {
-      color: #2e9afe; }
+    .updates-list .updates-list__menu-item.active a, .updates-list .updates-list__menu-item:hover a {
+      color: #2e9afe;
+      text-decoration: none; }
     .updates-list .updates-list__menu-item:last-of-type {
       padding-bottom: 0; }
+    .updates-list .updates-list__menu-item a {
+      color: #999999; }
+      .updates-list .updates-list__menu-item a:focus, .updates-list .updates-list__menu-item a:visited {
+        text-decoration: none; }
   .updates-list .updates-list__footer {
     line-height: 3.5rem;
     position: absolute;
