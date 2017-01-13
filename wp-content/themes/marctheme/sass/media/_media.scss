@@ -63,7 +63,7 @@ object {
 // @media screen and (min-width: 37.5em) {
 @media (max-width: 991px) {
 	.header{
-		background: #fff;
+		background: $white;
 		z-index: 100;
 		/* Small menu. */
 		.menu-toggle,
@@ -95,7 +95,7 @@ object {
 @media (max-width: 740px) {
 	.main-navigation .nav-menu .nav-menu__list{
 		padding-left: 2%;
-		background: #fff;
+		background: $white;
 	}
 }
 @media (max-width: 670px) {

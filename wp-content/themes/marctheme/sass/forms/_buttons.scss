@@ -51,13 +51,13 @@ input[type="reset"]{
     background-size: 10px;
 }
 .post-edit-link{
-	background-color: #2e9afe;
-	color: #fff;
+	background-color: $accent;
+	color: $white;
 	padding: 8px 20px;
 	border-radius: .2em;
 	text-decoration: none;
 	margin-left: 2vw;
 }
-a.post-edit-link:visited{color: #fff;}
+a.post-edit-link:visited{color: $white;}
 a.post-edit-link:hover, a.post-edit-link:focus{text-decoration: none;}
 a.post-edit-link:hover{background-color: $light-accent;}
