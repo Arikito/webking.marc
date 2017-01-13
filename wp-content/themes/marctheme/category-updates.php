@@ -6,7 +6,6 @@
  *
  * @package marctheme
  */
-
 get_header(); ?>
 
 	<div id="primary" class="content-area">
@@ -22,15 +21,25 @@ get_header(); ?>
 							<div class="updates-list__menu box-shadow">
 								<p class="updates-list__menu-title">Menu <span class="glyphicon glyphicon-filter updates-list__filter updates-list__filter_js visible-xs-block visible-sm-block" aria-hidden="true"></span></p>
 								<ul>
-									<li class="updates-list__menu-item"><a href="<?php echo get_category_link(get_queried_object()->term_id); ?>">All categories</a></li>
+									<li class="updates-list__menu-item <?php echo !isset($_GET['filter'])?'active':null?>"><a href="<?php echo get_category_link(get_queried_object()->term_id); ?>"><?php _e('All categories'); ?></a></li>
 									<?php
-									$categories = get_categories( array( 'child_of' => get_queried_object()->term_id ) );
-									$cat = array(get_queried_object()->term_id);
-									foreach($categories as $category) :
-										$cat[] = $category->term_id;
-										echo "<li class=\"updates-list__menu-item\"><a href=\"".esc_url( add_query_arg( 'filter', $category->term_id ) )."\">".$category->name."</a></li>";
+									$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+									$filtered_category = get_the_archive_title();
+									foreach(get_categories( array( 'child_of' => get_queried_object()->term_id ) ) as $category) :
+										echo "<li class=\"updates-list__menu-item ".(isset($_GET['filter']) && $_GET['filter'] == $category->term_id?'active':null)."\"><a href=\"".add_query_arg( 'filter', $category->term_id, get_category_link(get_queried_object()->term_id) )."\">".$category->name."</a></li>";
+										if(isset($_GET['filter']) && $_GET['filter'] == $category->term_id) :
+											$filtered_category = $category->name;
+										endif;
 									endforeach;
-									$myposts = get_posts( array( 'category' => isset($_GET['filter'])?$_GET['filter']:implode(',', $cat) ) ); ?>
+									$query_args = array(
+										'post_type' => 'post',
+										'category_name' => $filtered_category,
+										'paged' => $paged,
+										'post_status' => 'publish',
+										'order' => 'DESC',
+									);
+									$posts = new WP_Query( $query_args );
+									?>
 								</ul>
 							</div>
 						</div>
@@ -38,20 +47,18 @@ get_header(); ?>
 						<div class="col-md-9 col-md-pull-3">
 							<div class="row">
 
-								<?php
-								if($myposts):
-									foreach ($myposts as $post) :
-										setup_postdata( $post ); ?>
+								<?php if ( $posts->have_posts() ) : ?>
+									<?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
 										<div class="updates-list__item">
 											<div class="updates-list__image-block col-sm-4">
 												<?php if(has_post_thumbnail()) :
 													the_post_thumbnail();
 												else :?>
-													<img src="/wp-content/themes/marctheme/img/videos-thumb.png" alt="img">
+													<img src="wp-content/themes/marctheme/img/videos-thumb.png" alt="img">
 												<?php endif; ?>
 											</div>
 											<div class="updates-list__descr col-sm-8">
-												<?php the_title( '<a href="' . esc_url( get_permalink() ) . '" class="updates-list__title" rel="bookmark">', '</a>' );?>
+												<?php the_title( '<a href="'.esc_url( get_permalink() ).'" class="updates-list__title" rel="bookmark">', '</a>' );?>
 												<div class="updates-list__descr-text">
 													<?php the_excerpt();?>
 												</div>
@@ -62,8 +69,18 @@ get_header(); ?>
 												</div>
 											</div>
 										</div>
-									<?php endforeach; ?>
-								<?php endif; echo paginate_links(array('format' => '?paged=%#%', 'show_all' => false, 'prev_next' => true)); ?>
+									<?php endwhile; ?>
+									<?php if ($posts->max_num_pages > 1) :?>
+										<nav class="prev-next-posts">
+											<div class="prev-posts-link">
+												<?php echo get_next_posts_link( 'Older Entries', $posts->max_num_pages ); ?>
+											</div>
+											<div class="next-posts-link">
+												<?php echo get_previous_posts_link( 'Newer Entries' ); ?>
+											</div>
+										</nav>
+									<?php endif; ?>
+								<?php endif; ?>
 							</div>
 						</div>
 					</div>

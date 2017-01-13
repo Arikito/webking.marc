@@ -10,11 +10,14 @@
 get_header(); ?>
 
 	<?php
-	$myposts = new WP_query(
+	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+	$posts = new WP_query(
 		array(
 			'post_type'=> 'post',
 			'post_status' => 'publish',
 			'order' => 'DESC',
+			'posts_per_page' => 3,
+			'paged' => $paged,
 			'tax_query' => array(
 				array(
 					'taxonomy' => 'post_format',
@@ -24,10 +27,18 @@ get_header(); ?>
 			)
 		)
 	);
+	$count_posts = get_terms(
+		array(
+			'taxonomy' => 'post_format',
+			'field' => 'count',
+			'terms' => array( 'post-format-video' )
+		)
+	);
+
 	?>
 
 	<section class="image-page-header image-page-header_videos container-fluid">
-		<?php the_title( '<h1 class="image-page-header__title">', ' <span class="image-page-header__quantity"> ('.wp_count_terms( 'post_format', 'post-format-video' ).')</span></h1>' )?>
+		<?php the_title( '<h1 class="image-page-header__title">', ' <span class="image-page-header__quantity"> ('.$count_posts[0]->count.')</span></h1>' )?>
 		<p class="image-page-header__subtitle"><?php echo get_post_meta(get_the_ID(), 'page_description', true); ?></p>
 	</section>
 
@@ -35,13 +46,22 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<section class="videos-list container">
 				<div class="row">
-					<?php if ( $myposts->have_posts() ) :
-						while ( $myposts->have_posts() ) : $myposts->the_post();
+					<?php if ( $posts->have_posts() ) :
+						while ( $posts->have_posts() ) : $posts->the_post();
 							get_template_part( 'template-parts/content', 'video' );
 						endwhile;
-						$myposts->the_posts_navigation();
+						if ($posts->max_num_pages > 1) :?>
+							<nav class="prev-next-posts">
+								<div class="prev-posts-link">
+									<?php echo get_next_posts_link( 'Older Entries', $posts->max_num_pages ); ?>
+								</div>
+								<div class="next-posts-link">
+									<?php echo get_previous_posts_link( 'Newer Entries' ); ?>
+								</div>
+							</nav>
+						<?php endif;
 					else :
-						$myposts->get_template_part( 'template-parts/content', 'none' );
+						$posts->get_template_part( 'template-parts/content', 'none' );
 					endif;
 					wp_reset_postdata();
 					?>
