@@ -124,6 +124,10 @@ body {
 	font-size: 16px;
 	position: relative;
 }
+ul {
+	margin: 0;
+	padding: 0;
+}
 .entry-header {
 	display: none;
 }
@@ -426,7 +430,25 @@ body {
 		font-size: 1.4rem;
 		line-height: 1.8rem;
 		p {
-			margin-bottom: 2rem;
+			// margin-bottom: 2rem;
+		}
+	}
+	.prod-cont-item__descr-list-item {
+		margin-bottom: 1rem;
+		padding-left: 2rem;
+		position: relative;
+		&:before {
+			content: '+';
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: .6rem;
+			width: .6rem;
+			color: $accent;
+			font-size: 18px;
+			// border-radius: 50%;
+			// box-shad ow: 0px 0px 0px 6px transparentize($accent, 0.9);
 		}
 	}
 	.prod-cont-item__descr-image-block {
