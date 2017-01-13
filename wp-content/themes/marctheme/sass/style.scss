@@ -421,6 +421,11 @@ ul {
 	&:last-of-type {
 		padding-bottom: 30px;
 	}
+	&.prod-cont-item_type_left-image {
+		.prod-cont-item__descr-title {
+			padding-left: calc(33% + 15px);
+		}
+	}
 	.prod-cont-item__descr-title {
 		font-size: 3.5rem;
 		font-weight: 300;
@@ -471,6 +476,11 @@ ul {
 		}
 		.prod-cont-item__descr-image-block {
 			margin-bottom: 3rem;
+		}
+		&.prod-cont-item_type_left-image {
+			.prod-cont-item__descr-title {
+				padding-left: 15px;
+			}
 		}
 	}
 }
