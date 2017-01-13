@@ -1,7 +1,7 @@
 button,
 input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+// input[type="submit"],
+input[type="reset"]{
 	border: 1px solid;
 	border-color: $color__border-button;
 	border-radius: 3px;
@@ -40,4 +40,9 @@ input[type="submit"] {
 	&:visited {
 		color: inherit;
 	}
+}
+.contacts .btn-primary{
+    padding-right: 3rem;
+    background: #2e9afe url(http://marc/wp-content/themes/marctheme/img/right-arrow.png) 60px 10px no-repeat;
+    background-size: 10px;
 }
