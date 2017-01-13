@@ -54,7 +54,7 @@ get_header(); ?>
 												<?php if(has_post_thumbnail()) :
 													the_post_thumbnail();
 												else :?>
-													<img src="wp-content/themes/marctheme/img/videos-thumb.png" alt="img">
+													<img src="/wp-content/themes/marctheme/img/videos-thumb.png" alt="img">
 												<?php endif; ?>
 											</div>
 											<div class="updates-list__descr col-sm-8">
