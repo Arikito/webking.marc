@@ -1145,17 +1145,20 @@ ul {
       text-align: center;
       margin-bottom: 3rem; }
     .prod-cont-item .prod-cont-item__descr-image-block {
-      margin-bottom: 3rem; }
-
-  .page-title__image {
-    margin-top: 0;
-    height: 30vh;
-    object-fit: cover; } }
+      margin-bottom: 3rem; } }
 @media screen and (max-width: 750px) {
   .page-title {
     padding: 0; }
     .page-title .container {
-      padding: 0; } }
+      padding: 0; }
+
+  .page-title__image {
+    margin-top: 0;
+    height: 40vw;
+    object-fit: cover; } }
+@media screen and (max-width: 480px) {
+  .prod-cont-item .prod-cont-item__descr-image svg {
+    width: 40%; } }
 /* ------- ABOUT PAGE ---------- */
 .about-us {
   margin-top: 120px; }
