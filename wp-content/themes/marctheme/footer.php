@@ -19,12 +19,11 @@
 				<div class="row">
 					<div class="col-md-3">
 						<div class="footer__logo">
-							<img src="../wp-content/themes/marc/img/light-logo.png" alt="MARC logo">
+							<img src="/wp-content/themes/marctheme/img/light-logo.png" alt="MARC logo">
 						</div>
 					</div>
 					<div class="col-md-6">
 						<nav class="footer__nav">
-
 							<?php wp_nav_menu( array( 'theme_location' => 'menu-2', 'menu_id' => 'footer-menu' ) ); ?>
 							<!-- <a class="footer__nav-link" href="index.html">Home</a>
 							<a class="footer__nav-link" href="about.html">About us</a>

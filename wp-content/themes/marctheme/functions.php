@@ -7,11 +7,9 @@
  * @package marctheme
  */
 
-// if ( ! current_user_can( 'manage_options' ) ) {
-// 	show_admin_bar( false );
-// }
-
-show_admin_bar( false );
+if ( ! current_user_can( 'manage_options' ) ) {
+	show_admin_bar( false );
+}
 
 if ( ! function_exists( 'marctheme_setup' ) ) :
 /**
@@ -67,6 +65,20 @@ function marctheme_setup() {
 		'caption',
 	) );
 
+	/*
+	 * Enable support for Post Formats.
+	 *
+	 * See: https://codex.wordpress.org/Post_Formats
+	 */
+	add_theme_support( 'post-formats', array(
+		'aside',
+		'image',
+		'video',
+		'quote',
+		'link',
+		'gallery',
+		'audio',
+	) );
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'marctheme_custom_background_args', array(
 		'default-color' => 'ffffff',
@@ -160,3 +172,11 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+function do_excerpt($string, $word_limit) {
+	$words = explode(' ', $string, ($word_limit + 1));
+	if (count($words) > $word_limit)
+	array_pop($words);
+	echo implode(' ', $words).' ...';
+}

@@ -25,7 +25,7 @@
 		<div class="container">
 			<div class="sub-header">
 				<div class="logo-block">
-					<a href="/" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo"></a>
+					<a href="<?php echo home_url();?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo"></a>
 				</div>
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle nav-menu-mobile" aria-controls="primary-menu" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>

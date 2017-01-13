@@ -122,9 +122,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* GENERAL STYLES */
 body {
 	font-size: 16px;
+	position: relative;
 }
 .entry-header {
 	display: none;
+}
+.category-blog {
+	.entry-header {
+		display: block;
+	}
 }
 .box-shadow {
 	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
@@ -140,10 +146,13 @@ body {
 
 /* HEADER */
 .header {
-	   position: absolute;
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
+	.current-menu-item {
+		color: $accent;
+	}
 }
 .sub-header {
 	line-height: 80px;
@@ -198,6 +207,7 @@ body {
 		display: flex;
 		border: 0;
 		overflow-x: auto;
+		margin: 0;
 	}
 	.products-tabs__nav-item {
 		margin: 0 !important;
@@ -292,6 +302,7 @@ body {
 	.benefits__item-icon {
 		text-align: center;
 		height: 100px;
+		margin-bottom: 1em;
 	}
 	.benefits__item-title {
 		font-size: 1.875em;
@@ -313,7 +324,7 @@ body {
 		content: '';
 		position: absolute;
 		display: block;
-		background-image: url(../marc/img/no-risks-bg.png);
+		background-image: url(img/no-risks-bg.png);
 		background-size: cover;
 		width: 50%;
 		left: 0;
@@ -681,12 +692,27 @@ body {
 		margin-bottom: 50px;
 		overflow: auto;
 	}
-	.updates-list__image {
-		width: 100%;
+	.updates-list__image-block {
+		height: 250px;
+		img {
+			width: 100%;
+   			height: 100%;
+    		object-fit: cover;
+		}
 	}
+	// .updates-list__image {
+	// 	width: 100%;
+ //   		height: 100%;
+ //    	object-fit: cover;
+	// }
 	.updates-list__title {
 		font-size: 2.8rem;
 		font-weight: 300;
+		line-height: 3rem;
+		color: $font-color-title;
+		&:hover {
+			text-decoration: none;
+		}
 	}
 	.updates-list__descr {
 		height: 250px;
@@ -694,10 +720,22 @@ body {
 	.updates-list__descr-text {
 		color: $font-color-basic;
 		font-size: 1.4rem;
+		max-height: 105px;
+    	overflow: hidden;
+		text-align: justify;
+		padding-top: 2rem;
+    	.more-link {
+    		display: none;
+    	}
 	}
 	.updates-list__date {
-		color: $font-color-title;
 		margin: 0;
+		a {
+			color: $font-color-title;
+			&:hover {
+				text-decoration: none;
+			}
+		}
 	}
 	.updates-list__menu {
 		padding:30px;
@@ -705,6 +743,7 @@ body {
 		margin-bottom: 30px;
 		ul {
 			margin: 0;
+			padding: 0;
 		}
 	}
 	.updates-list__menu-title {
@@ -758,8 +797,12 @@ body {
 		margin-top: 7px;
 	}
 	@media screen and (max-width: 991px) {
-		.updates-list__descr {
+		.updates-list__descr,
+		.updates-list__image-block {
 			height: auto;
+		}
+		.updates-list__image-block {
+			margin-bottom: 2rem;
 		}
 		.updates-list__image {
 			margin-bottom: 2rem;
@@ -808,11 +851,22 @@ body {
 	.article-content__content {
 		text-align: justify;
 		padding-bottom: 80px;
+		img{
+			display: block;
+			margin: 0 auto;
+		}
 	}
 	.article-content__article-image {
 		display: block;
 		margin: 30px auto;
 		max-width: 100%;
+	}
+	.article-content__article-video{
+		margin-bottom: 20px;
+		iframe{
+			width: 100%;
+			height: 658px;
+		}
 	}
 }
 
@@ -911,19 +965,19 @@ body.home .footer {
 	padding-top: 128px;
 	padding-bottom: 50px;
 	&.image-page-header_blog {
-		background: $light-gray url(../marc/img/icon-page-header-blog.png) center 20% no-repeat;
+		background: $light-gray url(img/icon-page-header-blog.png) center 20% no-repeat;
 	}
 	&.image-page-header_services {
-		background: $light-gray url(../marc/img/icon-page-header-services.png) center 20% no-repeat;
+		background: $light-gray url(img/icon-page-header-services.png) center 20% no-repeat;
 	}
 	&.image-page-header_videos {
-		background: $light-gray url(../marc/img/icon-page-header-videos.png) center 20% no-repeat;
+		background: $light-gray url(img/icon-page-header-videos.png) center 20% no-repeat;
 	}
 	&.image-page-header_contacts {
-		background: $light-gray url(../marc/img/icon-page-header-contacts.png) center 20% no-repeat;
+		background: $light-gray url(img/icon-page-header-contacts.png) center 20% no-repeat;
 	}
 	&.image-page-header_updates {
-		background: $light-gray url(../marc/img/icon-page-header-updates.png) center 20% no-repeat;
+		background: $light-gray url(img/icon-page-header-updates.png) center 20% no-repeat;
 	}
 	.image-page-header__title {
 		@extend .section-title;
@@ -959,6 +1013,12 @@ body.home .footer {
 	.blog-list__title {
 		font-size: 1.750em;
 		margin-bottom: .5em;
+		a{
+			color: inherit;
+			&:hover{
+				text-decoration: none;
+			}
+		}
 	}
 	.blog-list__description {
 		text-align: justify;
@@ -985,6 +1045,12 @@ body.home .footer {
 		line-height: 34px;
 		padding-right: .5em;
 		font-weight: 400;
+		a{
+			color: inherit;
+			&:hover{
+				text-decoration: none;
+			}
+		}
 	}
 	.blog-list__date-icon {
 		margin-right: .5em;
@@ -1064,31 +1130,31 @@ body.home .footer {
 		}
 		&.services-list__icon_1 {
 			&:after {
-				background-image: url(../marc/img/services-icon1.png);
+				background-image: url(img/services-icon1.png);
 				background-repeat: no-repeat;
 			}
 		}
 		&.services-list__icon_2 {
 			&:after {
-				background-image: url(../marc/img/services-icon2.png);
+				background-image: url(img/services-icon2.png);
 				background-repeat: no-repeat;
 			}
 		}
 		&.services-list__icon_3 {
 			&:after {
-				background-image: url(../marc/img/services-icon3.png);
+				background-image: url(img/services-icon3.png);
 				background-repeat: no-repeat;
 			}
 		}
 		&.services-list__icon_4 {
 			&:after {
-				background-image: url(../marc/img/services-icon4.png);
+				background-image: url(img/services-icon4.png);
 				background-repeat: no-repeat;
 			}
 		}
 		&.services-list__icon_5 {
 			&:after {
-				background-image: url(../marc/img/services-icon5.png);
+				background-image: url(img/services-icon5.png);
 				background-repeat: no-repeat;
 			}
 		}
@@ -1138,6 +1204,13 @@ body.home .footer {
 		margin-bottom: 0;
 		height: 100px;
 		overflow: hidden;
+		a {
+			color: $font-color-title;
+			&:hover, &:visited, &:focus {
+				color: $font-color-title;
+				text-decoration: none;
+			}
+		}
 	}
 	.videos-list__item-footer {
 		position: relative;
