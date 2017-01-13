@@ -38,7 +38,8 @@ get_header(); ?>
 						<?php
 						endwhile;
 
-						the_posts_navigation();
+						// the_posts_navigation();
+						echo paginate_links(array('format' => '?paged=%#%', 'show_all' => false, 'prev_next' => true));
 
 					else :
 
