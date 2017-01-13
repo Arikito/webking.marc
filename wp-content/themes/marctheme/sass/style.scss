@@ -151,6 +151,7 @@ ul {
 .prev-next-posts {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: row-reverse;
 	padding-left: 15px;
 	padding-right: 15px;
 	a {
