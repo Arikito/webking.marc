@@ -918,6 +918,21 @@ ul {
   font-weight: 300;
   text-align: center; }
 
+.prev-next-posts {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .prev-next-posts a {
+    color: #010101;
+    font-weight: 300; }
+    .prev-next-posts a:hover, .prev-next-posts a:focus {
+      color: #2e9afe;
+      text-decoration: none; }
+    .prev-next-posts a span {
+      font-size: 1.2rem; }
+
 /* HEADER */
 .header {
   position: absolute;

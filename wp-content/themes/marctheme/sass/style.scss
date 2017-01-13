@@ -148,6 +148,25 @@ ul {
 	text-align: center;
 }
 
+.prev-next-posts {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	padding-left: 15px;
+	padding-right: 15px;
+	a {
+		color: $font-color-title;
+		font-weight: 300;
+		&:hover, &:focus {
+			color: $accent;
+			text-decoration: none;
+		}
+		span {
+			font-size: 1.2rem;
+		}
+	}
+}
+
 /* HEADER */
 .header {
 	position: absolute;
