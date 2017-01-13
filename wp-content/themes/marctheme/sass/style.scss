@@ -761,10 +761,19 @@ body {
 		cursor: pointer;
 		&.active,
 		&:hover {
-			color: $accent;
+			a {
+				color: $accent;
+				text-decoration: none;
+			}
 		}
 		&:last-of-type {
 			padding-bottom: 0;
+		}
+		a {
+			color: $font-color-basic;
+			&:focus, &:visited {
+				text-decoration: none;
+			}
 		}
 	}
 	.updates-list__footer {
