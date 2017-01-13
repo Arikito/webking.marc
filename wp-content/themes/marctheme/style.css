@@ -393,6 +393,9 @@ a.post-edit-link:visited {
 a.post-edit-link:hover, a.post-edit-link:focus {
   text-decoration: none; }
 
+a.post-edit-link:hover {
+  background-color: #55adfe; }
+
 input[type="text"],
 input[type="email"],
 input[type="url"],
