@@ -63,7 +63,7 @@ get_header(); ?>
 											</div>
 										</div>
 									<?php endforeach; ?>
-								<?php endif; ?>
+								<?php endif; echo paginate_links(array('format' => '?paged=%#%', 'show_all' => false, 'prev_next' => true)); ?>
 							</div>
 						</div>
 					</div>
