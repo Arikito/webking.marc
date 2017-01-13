@@ -379,6 +379,20 @@ input[type="reset"] {
   background: #2e9afe url(http://marc/wp-content/themes/marctheme/img/right-arrow.png) 60px 10px no-repeat;
   background-size: 10px; }
 
+.post-edit-link {
+  background-color: #2e9afe;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: .2em;
+  text-decoration: none;
+  margin-left: 2vw; }
+
+a.post-edit-link:visited {
+  color: #fff; }
+
+a.post-edit-link:hover, a.post-edit-link:focus {
+  text-decoration: none; }
+
 input[type="text"],
 input[type="email"],
 input[type="url"],
