@@ -73,10 +73,10 @@ get_header(); ?>
 									<?php if ($posts->max_num_pages > 1) :?>
 										<nav class="prev-next-posts">
 											<div class="prev-posts-link">
-												<?php echo get_next_posts_link( 'Older Entries', $posts->max_num_pages ); ?>
+												<?php echo get_next_posts_link( 'Older Entries <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>', $posts->max_num_pages ); ?>
 											</div>
 											<div class="next-posts-link">
-												<?php echo get_previous_posts_link( 'Newer Entries' ); ?>
+												<?php echo get_previous_posts_link( '<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span> Newer Entries' ); ?>
 											</div>
 										</nav>
 									<?php endif; ?>

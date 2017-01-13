@@ -930,6 +930,8 @@ ul {
     .prev-next-posts a:hover, .prev-next-posts a:focus {
       color: #2e9afe;
       text-decoration: none; }
+    .prev-next-posts a span {
+      font-size: 1.2rem; }
 
 /* HEADER */
 .header {
