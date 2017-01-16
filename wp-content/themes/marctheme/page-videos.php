@@ -37,7 +37,7 @@ get_header(); ?>
 
 	?>
 
-	<section class="image-page-header image-page-header_videos container-fluid">
+	<section class="image-page-header image-page-header_<?php echo strtolower(get_the_title()); ?> container-fluid">
 		<?php the_title( '<h1 class="image-page-header__title">', ' <span class="image-page-header__quantity"> ('.$count_posts[0]->count.')</span></h1>' )?>
 		<p class="image-page-header__subtitle"><?php echo get_post_meta(get_the_ID(), 'page_description', true); ?></p>
 	</section>

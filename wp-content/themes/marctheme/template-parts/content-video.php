@@ -21,7 +21,7 @@
 			<h2 class="videos-list__title"><?php	the_title( '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a>' );?></h2>
 			<div class="videos-list__item-footer">
 				<a class="videos-list__item-category" href="<?php echo get_category_link(get_the_category(get_the_ID())[0]->term_id); ?>"><?php echo get_the_category(get_the_ID())[0]->cat_name;?></a>
-				<div class="videos-list__views"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span><?php echo getPostViews(get_the_ID()); ?></div>
+				<div class="videos-list__views"><span class="icon-eye"></span><?php echo getPostViews(get_the_ID()); ?></div>
 			</div>
 	</article>
 </div>

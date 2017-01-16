@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"foreach",
+				"foreach\tforeach …"
+			],
+			[
+				"vi",
+				"video_posts"
+			],
+			[
+				"get_post_me",
+				"get_post_meta_by_id"
+			],
+			[
 				"get_post_met",
 				"get_post_meta"
 			],
@@ -222,10 +234,6 @@
 			[
 				"GetCit",
 				"getCity"
-			],
-			[
-				"foreach",
-				"foreach\t<?php foreach (…) … <?php endforeach ?>"
 			],
 			[
 				"tra",
@@ -463,51 +471,25 @@
 			"file": "wp-content/themes/marctheme/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 22380,
+				"buffer_size": 0,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "wp-includes/nav-menu-template.php",
+			"file": "wp-content/themes/marctheme/category-updates.php",
 			"settings":
 			{
-				"buffer_size": 20323,
+				"buffer_size": 0,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "wp-content/themes/marc/index.html",
+			"file": "wp-content/themes/marctheme/template-parts/post/content.php",
 			"settings":
 			{
-				"buffer_size": 18917,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marctheme/functions.php",
-			"settings":
-			{
-				"buffer_size": 5070,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marctheme/sass/typography/_copy.scss",
-			"settings":
-			{
-				"buffer_size": 589,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marctheme/sass/navigation/_links.scss",
-			"settings":
-			{
-				"buffer_size": 239,
+				"buffer_size": 1094,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -516,16 +498,43 @@
 			"file": "wp-content/themes/marctheme/footer.php",
 			"settings":
 			{
-				"buffer_size": 2537,
+				"buffer_size": 0,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "wp-content/themes/marctheme/header.php",
+			"file": "wp-content/themes/marctheme/archive.php",
 			"settings":
 			{
-				"buffer_size": 1810,
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marctheme/page-videos.php",
+			"settings":
+			{
+				"buffer_size": 2002,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marctheme/template-parts/content-video.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marctheme/functions.php",
+			"settings":
+			{
+				"buffer_size": 6277,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -564,10 +573,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "gr",
+		"height": 227.0,
+		"last_filter": "grunt",
 		"selected_items":
 		[
+			[
+				"grunt",
+				"Grunt"
+			],
 			[
 				"gr",
 				"Grunt"
@@ -575,10 +588,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"grunt",
-				"Grunt"
 			],
 			[
 				"set",
@@ -753,30 +762,51 @@
 	],
 	"file_history":
 	[
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-rem.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-pam.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-cam.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marc/template-parts/post/content.php",
+		"/C/Users/Олександр/Downloads/1.html",
+		"/D/www/projects/webking.marc/wp-content/themes/marc/videos.html",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/post/content.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/content-category.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/index.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/functions.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/footer.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/post/content-video.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-videos.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-contacts.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-services.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/single.php",
+		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/functions.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/content-video.php",
+		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/single.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/content — копия.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/content.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page.php",
+		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/page.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/header.php",
+		"/D/www/projects/webking.marc/wp-includes/nav-menu-template.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marc/index.html",
+		"/D/www/projects/webking.marc/wp-includes/general-template.php",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/navigation/_links.scss",
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/typography/_copy.scss",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/elements/_lists.scss",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/navigation/_menus.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/functions.php",
 		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/assets/js/navigation.js",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/functions.php",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/forms/_buttons.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/typography/_copy.scss",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/resources/sass/_variables.scss",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/resources/sass/style.scss",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/mixins/_mixins-master.scss",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/assets/bootstrap/js/bootstrap.min.js",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/header.php",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/style.css",
 		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/template-parts/post/content-video.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/post/content.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/post/content-video.php",
 		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/inc/back-compat.php",
 		"/D/www/projects/webking.marc/Gruntfile.js",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/contacts.html",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/blog.html",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/about.html",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/videos.html",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/updates.html",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/index.html",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/support.html",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/services.html",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/product_icm.html",
@@ -859,28 +889,7 @@
 		"/D/www/projects/webking.xt/themes/default/js/main.js",
 		"/D/www/projects/webking.xt/themes/default/tpl/cp_products.tpl",
 		"/D/www/projects/webking.xt/themes/default/tpl/product_list.tpl",
-		"/D/www/projects/webking.xt/themes/default/tpl/cp_assortiment.tpl",
-		"/D/www/projects/webking.xt/themes/default/tpl/cp_contragent_cab.tpl",
-		"/D/www/projects/webking.xt/themes/default/css/page_styles/cabinet.css",
-		"/D/www/projects/webking.xt/~core/model/promo_c.php",
-		"/D/www/projects/webking.xt/~core/sys/db_c.php",
-		"/D/www/projects/webking.xt/themes/default/tpl/_global/top_main.tpl",
-		"/D/www/projects/webking.xt/~core/contr/ajax/supplier.php",
-		"/D/www/projects/webking.xt/themes/default/js/func.js",
-		"/D/www/projects/webking.xt/themes/default/tpl/cp_supplier_cab.tpl",
-		"/D/www/projects/webking.xt/~core/block/cp_cab_supplier.php",
-		"/D/www/projects/webking.xt/themes/default/tpl/_global/cab_agent_gifts.tpl",
-		"/D/www/projects/webking.xt/themes/default/tpl/sb_customer_cabinet_navigation.tpl",
-		"/D/www/projects/webking.xt/themes/default/tpl/_global/cab_agent_license.tpl",
-		"/D/www/projects/webking.xt/themes/default/tpl/cp_price.tpl",
-		"/D/www/projects/webking.xt/adm/css/page_styles/pricelist.css",
-		"/D/www/projects/webking.xt/~core/contr/ajax/products.php",
-		"/D/www/projects/webking.xt/adm/css/style.css",
-		"/D/www/projects/webking.xt/adm/core/tpl/cp_config.tpl",
-		"/D/www/projects/webking.xt/themes/default/tpl/_global/cab_clients.tpl",
-		"/D/www/projects/webking.xt/~core/model/suppliers_c.php",
-		"/D/www/projects/webking.xt/adm/core/tpl/cp_assortment.tpl",
-		"/D/www/projects/webking.xt/~core/block/cp_cab_personal_customer.php"
+		"/D/www/projects/webking.xt/themes/default/tpl/cp_assortiment.tpl"
 	],
 	"find":
 	{
@@ -917,6 +926,19 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"category",
+			"video",
+			"post-format-video",
+			"myposts",
+			"the_query-",
+			"post-format-video",
+			"twentyseventeen",
+			"formats",
+			"div",
+			"icon-",
+			"../marc/",
+			"marc/img",
+			"after",
 			"register",
 			"items_wrap",
 			", ",
@@ -1031,20 +1053,7 @@
 			"opt",
 			"td",
 			"number",
-			"$order",
-			"0.0",
-			"$order",
-			"product",
-			"background",
-			"<?=$order['address']['region_title']?>",
-			"name",
-			"../../",
-			"../",
-			"roboto",
-			"Roboto",
-			"roboto",
-			"Roboto",
-			"roboto"
+			"$order"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1069,7 +1078,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1078,15 +1087,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22380,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6640,
-								6640
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1096,62 +1105,63 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2460.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "wp-includes/nav-menu-template.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20323,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2974,
-								2977
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 513.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "wp-content/themes/marc/index.html",
+					"buffer": 1,
+					"file": "wp-content/themes/marctheme/category-updates.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18917,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								962,
-								962
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/marctheme/template-parts/post/content.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								908,
+								908
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1163,84 +1173,115 @@
 				},
 				{
 					"buffer": 3,
-					"file": "wp-content/themes/marctheme/functions.php",
+					"file": "wp-content/themes/marctheme/footer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5070,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3394,
-								3394
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1215.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "wp-content/themes/marctheme/sass/typography/_copy.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 589,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								589,
-								589
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "wp-content/themes/marctheme/sass/navigation/_links.scss",
+					"buffer": 4,
+					"file": "wp-content/themes/marctheme/archive.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 239,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								84,
-								84
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wp-content/themes/marctheme/page-videos.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								913,
+								913
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wp-content/themes/marctheme/template-parts/content-video.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1251,20 +1292,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "wp-content/themes/marctheme/footer.php",
+					"buffer": 7,
+					"file": "wp-content/themes/marctheme/functions.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2537,
+						"buffer_size": 6277,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1228,
-								1242
+								6028,
+								6037
 							]
 						],
 						"settings":
@@ -1274,39 +1315,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 2279.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "wp-content/themes/marctheme/header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1810,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1704,
-								1609
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1328,8 +1340,8 @@
 						"selection":
 						[
 							[
-								587,
-								587
+								178,
+								178
 							]
 						],
 						"settings":
@@ -1341,7 +1353,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1370,7 +1382,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1434,7 +1446,7 @@
 		"cols":
 		[
 			0.0,
-			0.672425696662,
+			0.861461613486,
 			1.0
 		],
 		"rows":
@@ -1478,12 +1490,80 @@
 		"selected_items":
 		[
 			[
-				"header.php",
-				"wp-content\\themes\\marctheme\\header.php"
+				"archive.",
+				"wp-content\\themes\\marctheme\\archive.php"
+			],
+			[
+				"page-cam",
+				"wp-content\\themes\\marctheme\\page-cam.php"
+			],
+			[
+				"page",
+				"wp-content\\themes\\marctheme\\page.php"
 			],
 			[
 				"footer.php",
 				"wp-content\\themes\\marctheme\\footer.php"
+			],
+			[
+				"content.php",
+				"wp-content\\themes\\marctheme\\template-parts\\post\\content.php"
+			],
+			[
+				"style.scss",
+				"wp-content\\themes\\marctheme\\sass\\style.scss"
+			],
+			[
+				"content",
+				"wp-content\\themes\\marctheme\\template-parts\\content-video.php"
+			],
+			[
+				"archive",
+				"wp-content\\themes\\marctheme\\archive.php"
+			],
+			[
+				"page-videos",
+				"wp-content\\themes\\marctheme\\page-videos.php"
+			],
+			[
+				"index.php",
+				"wp-content\\themes\\marctheme\\index.php"
+			],
+			[
+				"content-video",
+				"wp-content\\themes\\marctheme\\template-parts\\content-video.php"
+			],
+			[
+				"content-category",
+				"wp-content\\themes\\marctheme\\template-parts\\content-category.php"
+			],
+			[
+				"archive.php",
+				"wp-content\\themes\\marctheme\\archive.php"
+			],
+			[
+				"single.php",
+				"wp-content\\themes\\marctheme\\single.php"
+			],
+			[
+				"page.php",
+				"wp-content\\themes\\marctheme\\page.php"
+			],
+			[
+				"function.php",
+				"wp-content\\themes\\marctheme\\functions.php"
+			],
+			[
+				"lists.scss",
+				"wp-content\\themes\\marctheme\\sass\\elements\\_lists.scss"
+			],
+			[
+				"functions.php",
+				"wp-content\\themes\\marctheme\\functions.php"
+			],
+			[
+				"header.php",
+				"wp-content\\themes\\marctheme\\header.php"
 			],
 			[
 				"functions",
@@ -1496,10 +1576,6 @@
 			[
 				"navigation",
 				"wp-content\\themes\\twentyseventeen\\assets\\js\\navigation.js"
-			],
-			[
-				"functions.php",
-				"wp-content\\themes\\marctheme\\functions.php"
 			],
 			[
 				"footer.",
@@ -1568,10 +1644,6 @@
 			[
 				"invoice_c",
 				"~core\\model\\invoice_c.php"
-			],
-			[
-				"index.php",
-				"index.php"
 			],
 			[
 				"controller.php",
@@ -1928,66 +2000,6 @@
 			[
 				"prom_",
 				"~core\\contr\\csv_prom_new.php"
-			],
-			[
-				"price.css",
-				"themes\\default\\css\\page_styles\\price.css"
-			],
-			[
-				"nav.php",
-				"~core\\block\\navigation.php"
-			],
-			[
-				"main.php",
-				"~core\\contr\\main.php"
-			],
-			[
-				"cp_main.tpl",
-				"adm\\core\\tpl\\cp_main.tpl"
-			],
-			[
-				"sms_sender",
-				"~core\\contr\\sms_sender.php"
-			],
-			[
-				"fonts.",
-				"themes\\default\\min\\css\\fonts.min.css"
-			],
-			[
-				"site_parser.php",
-				"adm\\core\\contr\\site_parsers.php"
-			],
-			[
-				"parser_c",
-				"~core\\model\\parser_c.php"
-			],
-			[
-				"parse",
-				"~core\\model\\parser_c.php"
-			],
-			[
-				"productadd",
-				"adm\\core\\contr\\productadd.php"
-			],
-			[
-				"image_c",
-				"~core\\sys\\images_c.php"
-			],
-			[
-				"images_c",
-				"~core\\sys\\images_c.php"
-			],
-			[
-				"orderscustomer",
-				"~core\\block\\cp_cab_orders_customer.php"
-			],
-			[
-				"cooperative",
-				"~core\\block\\cp_cab_cooperative.php"
-			],
-			[
-				"cp_cab_orders_customer",
-				"~core\\block\\cp_cab_orders_customer.php"
 			]
 		],
 		"width": 0.0

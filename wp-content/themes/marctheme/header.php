@@ -14,6 +14,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" />
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
@@ -28,7 +29,7 @@
 					<a href="<?php echo home_url();?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo"></a>
 				</div>
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<button class="menu-toggle nav-menu-mobile" aria-controls="primary-menu" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
+					<button class="menu-toggle nav-menu-mobile" aria-controls="primary-menu" aria-expanded="false"><span class="icon-menu"></span></button>
 					<?php wp_nav_menu(
 						array(
 							'container' => 'div',

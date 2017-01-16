@@ -21,7 +21,7 @@ get_header(); ?>
 				<section class="page-title container-fluid">
 					<div class="container">
 						<h1 class="page-title__title">Compliant Access Management <span class="page-title__short-title">(CAM)</span></h1>
-						<div><img class="page-title__image" src="<?php echo get_template_directory_uri(); ?>/img/cam_page.png" alt="image" /></div>
+						<div><img class="page-title__image" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/cam.svg" alt="image" /></div>
 					</div>
 				</section>
 				<?php get_template_part( 'template-parts/content', 'page' );

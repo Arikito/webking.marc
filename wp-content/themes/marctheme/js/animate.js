@@ -4,22 +4,35 @@
  */
 
 var Animate = (function(Math) {
+    
+    
+    
     // ------------------
     // Storage
     // ------------------
+    
     var Animations = [];
+
+
+
     // ------------------
     // Helpers
     // ------------------
+
     function sort(a, b) {
         return a - b;
     }
+
+
+    
     // ------------------
     // Easing
     // ------------------
+    
     var Easing  = {
+
         linear: function(k) {
-            return k;
+            return k
         },
 
         inOut: function(k) {
@@ -38,9 +51,13 @@ var Animate = (function(Math) {
         }
 
     };
+
+
+
     // ------------------
     // requestAnimationFrame
     // ------------------
+
     if (!window.requestAnimationFrame) {
         window.requestAnimationFrame = (function() {
             return window.webkitRequestAnimationFrame ||
@@ -52,9 +69,13 @@ var Animate = (function(Math) {
                 };
         })();
     }
+
+
+
     // ------------------
     // Animation
     // ------------------
+    
     function Animation(keyframes, callback, easing) {
         this.stopped = false;
         this.keyframes = keyframes;
@@ -64,8 +85,11 @@ var Animate = (function(Math) {
         this.max = Math.max.apply(Math, this.steps);
         this.min = Math.min.apply(Math, this.steps);
         this.duration = this.max - this.min;
+
     }
+
     Animation.prototype = {
+
         step: function(pass) {
             for (var i = 0; i < this.steps.length; i++) {
                 if (pass < this.steps[i]) return {
@@ -74,6 +98,7 @@ var Animate = (function(Math) {
                 };
             }
         },
+
         data: function(a, b, t) {
             var o = {};
             for (var n in this.keyframes[a]) {
@@ -81,15 +106,18 @@ var Animate = (function(Math) {
             }
             return o;
         },
+
         play: function() {
             this.start = Date.now();
             this.stopped = false;
         },
+
         stop: function() {
             this.start = 0;
             this.update(this.duration - 1);
             this.stopped = true;
         },
+
         update: function(time) {
             if (this.stopped) return;
             var p = this.min + (time - this.start - this.min) % this.duration;
@@ -99,25 +127,38 @@ var Animate = (function(Math) {
             var o = this.data(s.a, s.b, t);
             this.callback(o);
         }
+
     };
+
+
+    
     // ------------------
     // Loop
     // ------------------
+    
     function update() {
         for (var i = 0; i < Animations.length; i++) {
             Animations[i].update(Date.now());
         }
         window.requestAnimationFrame(update);
     }
+
     update();
+
+    
+    
     // ------------------
     // Export
     // ------------------
+    
     return function(keyframes, callback, easing) {
         var animation = new Animation(keyframes, callback, Easing[easing] || Easing.inOut);
         Animations.push(animation);
         return animation;
-    };
+    }
+
+    
+    
 })(Math);
 
 
