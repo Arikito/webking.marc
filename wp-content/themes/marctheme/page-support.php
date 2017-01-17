@@ -42,7 +42,7 @@ get_header(); ?>
 									<div class="col-sm-8 support__descr">
 										<p class="support__descr-title">Ideas</p>
 										<p class="support__descr-text">Do you have new ideas about new features to be included in MARC?</p>
-										<a href="#" class="support__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
+										<a href="https://marc4grc.freshdesk.com/support/discussions/forums/8000042725" target="_blank" class="support__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
 									</div>
 								</div>
 							</div>
@@ -56,7 +56,7 @@ get_header(); ?>
 									<div class="col-sm-8 support__descr">
 										<p class="support__descr-title">Support</p>
 										<p class="support__descr-text">Log a ticket or write to support@marc4grc.com to log a ticket</p>
-										<a href="#" class="support__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
+										<a href="https://marc4grc.freshdesk.com/support/tickets/new" class="support__descr-btn btn btn-primary" target="_blank"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
 									</div>
 								</div>
 							</div>
@@ -70,7 +70,7 @@ get_header(); ?>
 									<div class="col-sm-8 support__descr">
 										<p class="support__descr-title">Forums</p>
 										<p class="support__descr-text">Access M.A.R.C forums and participate in all the discussion</p>
-										<a href="#" class="support__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
+										<a href="https://marc4grc.freshdesk.com/support/discussions" target="_blank" class="support__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
 									</div>
 								</div>
 							</div>

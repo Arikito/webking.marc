@@ -15,7 +15,9 @@ $(function(){
     for (var i = 0; i < icons.length; i++) {
         icons[i].play();
     }
-    var intro = SVGIcons('#intro')[0];
-	intro.play();
-	setTimeout(intro.stop, 11000);
+    if($('body').hasClass('home')){
+		var intro = SVGIcons('#intro')[0];
+		intro.play();
+		setTimeout(intro.stop.bind(intro), 11000);
+	}
 });

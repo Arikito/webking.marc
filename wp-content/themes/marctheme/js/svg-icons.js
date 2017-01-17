@@ -2875,6 +2875,152 @@ SVGIcons = (function (document) {
     
     });
 
+
+    /* process */
+
+    Icon.process = create({
+
+        content: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 202"> <title>Process</title> <g id="s3"> <path id="spin" d="M94.16,46.85V59.91A2.06,2.06,0,0,1,96.22,62h13.06A15.13,15.13,0,0,0,94.16,46.85Z" fill="#e0f0ff"/> <path d="M94.16,46.85V59.91A2.06,2.06,0,0,1,96.22,62h13.06A15.13,15.13,0,0,0,94.16,46.85Z" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path d="M94.16,77.1A15.13,15.13,0,0,1,79,62h0A15.13,15.13,0,0,1,94.16,46.84h0A15.13,15.13,0,0,1,109.29,62h0A15.13,15.13,0,0,1,94.16,77.1h0Z" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path d="M94.16,71.3A9.32,9.32,0,1,1,103.48,62,9.33,9.33,0,0,1,94.16,71.3Z" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <circle cx="94.15" cy="61.98" r="2.79" fill="#fff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <circle id="c1" cx="87.39" cy="56.04" r="3.05" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <circle id="c2" cx="102.49" cy="57.61" r="1.95" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <circle id="c3" cx="102.18" cy="74.78" r="2.3" fill="#fff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <line x1="79.03" y1="61.98" x2="91.37" y2="61.98" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <line x1="94.15" y1="64.82" x2="94.15" y2="77.08" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </g> <path id="s2" d="M44.14,113.46v-3.53a2.56,2.56,0,0,1,1.17-2.34c3.3-2.19,9.33-2.34,9.33-5.84,0-2.34-2.35-3.5-2.35-8.18V92.4c0-4.67,3.52-5.84,5.86-5.84S64,87.72,64,92.4v1.17c0,4.67-2.34,5.84-2.34,8.18,0,3.5,6,3.65,9.34,5.84a2.55,2.55,0,0,1,1.16,2.34v3.53h-28Z" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path id="s4" d="M116.87,113.46v-3.53a2.56,2.56,0,0,1,1.17-2.34c3.3-2.19,9.33-2.34,9.33-5.84,0-2.34-2.35-3.5-2.35-8.18V92.4c0-4.67,3.52-5.84,5.86-5.84s5.86,1.17,5.86,5.84v1.17c0,4.67-2.34,5.84-2.34,8.18,0,3.5,6,3.65,9.34,5.84a2.55,2.55,0,0,1,1.16,2.34v3.53h-28Z" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path d="M61,120.65a14.27,14.27,0,0,1-14.27,14.28h0" fill="none" stroke="#e0f0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path d="M59.55,75.91A14.27,14.27,0,0,1,73.81,61.62h0" fill="none" stroke="#e0f0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path d="M116.17,61.63a14.27,14.27,0,0,1,14.29,14.26v0" fill="none" stroke="#e0f0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path d="M146.5,142.08a14.27,14.27,0,0,1-14.28-14.26v0" fill="none" stroke="#e0f0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <g id="s1"> <path d="M31.63,115.08H11v38.63H40V123.42Z" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <line x1="16.64" y1="123" x2="27.28" y2="123" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <line x1="25.49" y1="130.65" x2="34.32" y2="130.65" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <line x1="25.49" y1="138.31" x2="34.32" y2="138.31" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <line x1="25.49" y1="145.97" x2="34.32" y2="145.97" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <polyline points="16.18 130.35 17.88 132.05 20.66 129.26" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <polyline points="16.18 138.02 17.88 139.71 20.66 136.92" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <polyline points="16.18 145.68 17.88 147.37 20.66 144.59" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <polyline points="31.25 115.17 31.25 123.54 39.78 123.54" fill="none" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </g> <g id="s5"> <path d="M158.28,120.14a2.19,2.19,0,0,0-2.18,2.18v7.27a2.19,2.19,0,0,0,2.18,2.18h30.55a2.19,2.19,0,0,0,2.18-2.18v-7.27a2.19,2.19,0,0,0-2.18-2.18H158.28Z" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path d="M158.28,131.83A2.19,2.19,0,0,0,156.1,134v7.27a2.19,2.19,0,0,0,2.18,2.18h30.55a2.19,2.19,0,0,0,2.18-2.18V134a2.19,2.19,0,0,0-2.18-2.18H158.28Z" fill="#fff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path d="M158.28,143.52a2.19,2.19,0,0,0-2.18,2.18V153a2.19,2.19,0,0,0,2.18,2.18h30.55A2.19,2.19,0,0,0,191,153V145.7a2.19,2.19,0,0,0-2.18-2.18H158.28Z" fill="#e0f0ff" stroke="#2e9afe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path d="M187.36,126.69a0.77,0.77,0,0,1-.51-0.21,0.83,0.83,0,0,1-.15-0.24,0.73,0.73,0,0,1-.05-0.28,0.75,0.75,0,0,1,.21-0.51,0.72,0.72,0,0,1,1.24.51,0.73,0.73,0,0,1-.05.28,0.83,0.83,0,0,1-.15.24A0.77,0.77,0,0,1,187.36,126.69Z" fill="#2e9afe"/> <path d="M184.46,126.69a0.77,0.77,0,0,1-.51-0.21l-0.09-.11a0.53,0.53,0,0,1-.06-0.14,0.46,0.46,0,0,1,0-.14,1,1,0,0,1,0-.14,0.72,0.72,0,1,1,1.45,0,0.87,0.87,0,0,1,0,.14,0.46,0.46,0,0,1,0,.14,0.57,0.57,0,0,1-.06.14l-0.09.11-0.11.09-0.13.06h-0.13Z" fill="#2e9afe"/> <path d="M187.36,138.38a0.77,0.77,0,0,1-.51-0.21,0.75,0.75,0,0,1-.21-0.51,0.73,0.73,0,0,1,.05-0.28,0.83,0.83,0,0,1,.15-0.24,0.67,0.67,0,0,1,.24-0.15,0.75,0.75,0,0,1,.79.15,0.83,0.83,0,0,1,.15.24,0.73,0.73,0,0,1,.05.28,0.76,0.76,0,0,1-.21.51l-0.11.09-0.13.06h-0.13Z" fill="#2e9afe"/> <path d="M184.46,138.38a0.71,0.71,0,0,1-.72-0.72,0.6,0.6,0,0,1,.05-0.28,0.83,0.83,0,0,1,.15-0.24,0.77,0.77,0,0,1,1,0,0.83,0.83,0,0,1,.15.24,0.73,0.73,0,0,1,.05.28,0.77,0.77,0,0,1-.21.51l-0.11.09-0.13.06H184.6Z" fill="#2e9afe"/> <path d="M187.36,150.07a0.77,0.77,0,0,1-.51-0.21,0.75,0.75,0,0,1-.21-0.51,0.73,0.73,0,0,1,.05-0.28,0.83,0.83,0,0,1,.15-0.24,0.77,0.77,0,0,1,1,0,0.83,0.83,0,0,1,.15.24,0.73,0.73,0,0,1,.05.28,0.76,0.76,0,0,1-.21.51A0.77,0.77,0,0,1,187.36,150.07Z" fill="#2e9afe"/> <path d="M184.46,150.07a0.69,0.69,0,0,1-.67-0.45,0.75,0.75,0,0,1,0-.56,0.71,0.71,0,0,1,.82-0.44h0.13l0.13,0.06,0.11,0.09a0.74,0.74,0,0,1,.15.24,0.75,0.75,0,0,1,0,.56,0.76,0.76,0,0,1-.15.24l-0.11.09-0.13.06h-0.13Z" fill="#2e9afe"/> <path d="M181.55,126.69a0.77,0.77,0,0,1-.51-0.21l-0.09-.11a0.53,0.53,0,0,1-.06-0.14,0.46,0.46,0,0,1,0-.14,1,1,0,0,1,0-.14,0.77,0.77,0,0,1,.21-0.51,0.76,0.76,0,0,1,.67-0.2h0.13l0.13,0.06,0.11,0.09a0.77,0.77,0,0,1,.21.51,0.87,0.87,0,0,1,0,.14,0.46,0.46,0,0,1,0,.14,0.57,0.57,0,0,1-.06.14l-0.09.11-0.11.09-0.13.06h-0.13Z" fill="#2e9afe"/> <path d="M181.55,138.38a0.77,0.77,0,0,1-.51-0.21l-0.09-.11a0.53,0.53,0,0,1-.06-0.14,0.46,0.46,0,0,1,0-.14,1,1,0,0,1,0-.14,0.77,0.77,0,0,1,.21-0.51,0.74,0.74,0,0,1,.67-0.2h0.13L182,137l0.11,0.09a0.74,0.74,0,0,1,0,1l-0.11.09-0.13.06h-0.13Z" fill="#2e9afe"/> <path d="M181.55,150.07a0.77,0.77,0,0,1-.51-0.21,0.83,0.83,0,0,1-.15-0.24,0.75,0.75,0,0,1,0-.56,0.83,0.83,0,0,1,.15-0.24,0.75,0.75,0,0,1,.24-0.15,0.76,0.76,0,0,1,.79.15,0.74,0.74,0,0,1,.15.24,0.75,0.75,0,0,1,0,.56,0.83,0.83,0,0,1-.15.24L182,150l-0.13.06h-0.13Z" fill="#2e9afe"/> <path d="M159.73,128.86a0.73,0.73,0,0,1-.73-0.73h0v-4.36a0.73,0.73,0,0,1,.73-0.73h0a0.73,0.73,0,0,1,.73.73h0v4.34a0.73,0.73,0,0,1-.7.76h0Z" fill="#2e9afe"/> <path d="M159.73,140.55a0.73,0.73,0,0,1-.73-0.73h0v-4.36a0.73,0.73,0,0,1,.73-0.73h0a0.73,0.73,0,0,1,.73.73h0v4.35a0.73,0.73,0,0,1-.71.75h0Z" fill="#2e9afe"/> <path d="M159.73,152.25a0.73,0.73,0,0,1-.73-0.73h0v-4.36a0.73,0.73,0,0,1,.73-0.73h0a0.73,0.73,0,0,1,.73.73h0v4.36a0.73,0.73,0,0,1-.72.74h0Z" fill="#2e9afe"/> </g></svg>',
+
+        keyframes: {
+
+            s1: {
+                '0': {s: 1},
+                '500': {s: 1.25},
+                '900': {s: 0.85},
+                '1200': {s: 1},
+                '4000': {s: 1}
+            },
+
+            s2: {
+                '0': {s: 1},
+                '500': {s: 1},
+                '1000': {s: 1.25},
+                '1400': {s: 0.85},
+                '1700': {s: 1},
+                '4000': {s: 1}
+            },
+
+            s3: {
+                '0': {s: 1},
+                '1000': {s: 1},
+                '1500': {s: 1.25},
+                '1900': {s: 0.85},
+                '2200': {s: 1},
+                '4000': {s: 1}
+            },
+
+            s4: {
+                '0': {s: 1},
+                '1500': {s: 1},
+                '2000': {s: 1.25},
+                '2400': {s: 0.85},
+                '2700': {s: 1},
+                '4000': {s: 1}
+            },
+
+            s5: {
+                '0': {s: 1},
+                '2000': {s: 1},
+                '2500': {s: 1.25},
+                '2900': {s: 0.85},
+                '3200': {s: 1},
+                '4000': {s: 1}
+            },
+
+            c1: {
+                '0': {s: 0},
+                '1600': {s: 0},
+                '1900': {s: 1.5},
+                '2200': {s: 0},
+                '4000': {s: 0}
+            },
+
+            c2: {
+                '0': {s: 0},
+                '1000': {s: 0},
+                '1300': {s: 1.5},
+                '1600': {s: 0},
+                '4000': {s: 0}
+            },
+
+            c3: {
+                '0': {s: 0},
+                '1200': {s: 0},
+                '1500': {s: 1.5},
+                '1800': {s: 0},
+                '4000': {s: 0}
+            },
+
+            spin: {
+                '0': {a: 0},
+                '1000': {a: 0},
+                '2200': {a: 360},
+                '4000': {a: 360}
+            }
+
+        },
+
+        s1: function(data) {
+            this.$s1.setAttribute('transform', 'translate(25.5 134.4) scale(' + data.s + ') translate(-25.5 -134.4)');
+        },
+
+        s2: function(data) {
+            this.$s2.setAttribute('transform', 'translate(58.15 100) scale(' + data.s + ') translate(-58.15 -100)');
+        },
+
+        s3: function(data) {
+            this.$s3.setAttribute('transform', 'translate(94.15 61.94) scale(' + data.s + ') translate(-94.15 -61.94)');
+        },
+
+        s4: function(data) {
+            this.$s4.setAttribute('transform', 'translate(130.88 100) scale(' + data.s + ') translate(-130.88 -100)');
+        },
+
+        s5: function(data) {
+            this.$s5.setAttribute('transform', 'translate(173.55 137.66) scale(' + data.s + ') translate(-173.55 -137.66)');
+        },
+
+        c1: function(data) {
+            this.$c1.setAttribute('transform', 'translate(87.39 56.04) scale(' + data.s + ') translate(-87.39 -56.04)');
+        },
+
+        c2: function(data) {
+            this.$c2.setAttribute('transform', 'translate(102.49 57.61) scale(' + data.s + ') translate(-102.49 -57.61)');
+        },
+
+        c3: function(data) {
+            this.$c3.setAttribute('transform', 'translate(102.18 74.78) scale(' + data.s + ') translate(-102.18 -74.78)');
+        },
+
+        spin: function(data) {
+            this.$spin.setAttribute('transform', 'rotate(' + data.a + ' 94.14 61.97)');
+        },
+
+        init: function() {
+            this.$s1 = this.$root.querySelector('#s1');
+            this.$s2 = this.$root.querySelector('#s2');
+            this.$s3 = this.$root.querySelector('#s3');
+            this.$s4 = this.$root.querySelector('#s4');
+            this.$s5 = this.$root.querySelector('#s5');
+            this.$c1 = this.$root.querySelector('#c1');
+            this.$c2 = this.$root.querySelector('#c2');
+            this.$c3 = this.$root.querySelector('#c3');
+            this.$spin = this.$root.querySelector('#spin');
+            this.animate(this.keyframes.s1, this.s1, 'inOut');
+            this.animate(this.keyframes.s2, this.s2, 'inOut');
+            this.animate(this.keyframes.s3, this.s3, 'inOut');
+            this.animate(this.keyframes.s4, this.s4, 'inOut');
+            this.animate(this.keyframes.s5, this.s5, 'inOut');
+            this.animate(this.keyframes.c1, this.c1, 'inOut');
+            this.animate(this.keyframes.c2, this.c2, 'inOut');
+            this.animate(this.keyframes.c3, this.c3, 'inOut');
+            this.animate(this.keyframes.spin, this.spin, 'linear');
+        }
+
+    });
+
+
     /* intro */
 
     Icon.intro = create({
