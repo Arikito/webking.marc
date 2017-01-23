@@ -1,9 +1,6 @@
 <?php
 /**
  * The template for displaying videos archive page
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
  * @package marctheme
  */
 
@@ -16,7 +13,7 @@ get_header(); ?>
 			'post_type'=> 'post',
 			'post_status' => 'publish',
 			'order' => 'DESC',
-			'posts_per_page' => 3,
+			'posts_per_page' => 6,
 			'paged' => $paged,
 			'tax_query' => array(
 				array(
@@ -37,7 +34,7 @@ get_header(); ?>
 
 	?>
 
-	<section class="image-page-header image-page-header_videos container-fluid">
+	<section class="image-page-header image-page-header_<?php echo strtolower(get_the_title()); ?> container-fluid">
 		<?php the_title( '<h1 class="image-page-header__title">', ' <span class="image-page-header__quantity"> ('.$count_posts[0]->count.')</span></h1>' )?>
 		<p class="image-page-header__subtitle"><?php echo get_post_meta(get_the_ID(), 'page_description', true); ?></p>
 	</section>

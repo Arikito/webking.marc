@@ -12,7 +12,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<section class="image-page-header image-page-header_blog container-fluid">
+			<section class="image-page-header image-page-header_<?php echo strtolower(get_queried_object()->name); ?> container-fluid">
 				<h1 class="image-page-header__title"><?php echo get_queried_object()->name; ?></h1>
 				<?php the_archive_description( '<div class="image-page-header__subtitle">', '</div>' ); ?>
 			</section>

@@ -29,9 +29,10 @@ input[type="reset"]{
 	padding-left: 2rem;
 	padding-right: 1.5rem;
 	color: #fff !important;
-	.glyphicon {
+	[class^="icon-"] {
+		vertical-align: middle;
 		font-size: 1.2rem;
-		color: transparentize($white, 0.5);
+		color: transparentize($white, .5);
 	}
 	&:hover {
 		background-color: $light-accent;

@@ -38,7 +38,7 @@
 						<div class="footer__copyright-container">
 							<div class="row">
 								<div class="col-md-9 col-md-offset-3">
-									<div class="footer__copyright">&copy; Copyright by M.A.R.C. <?php echo date('Y'); ?> All rights Reserved </div>
+									<div class="footer__copyright">&copy; <?php _e('Copyright by'); ?> M.A.R.C. <?php echo date('Y'); ?> <?php _e('All rights Reserved'); ?> </div>
 								</div>
 							</div>
 						</div>
@@ -47,13 +47,6 @@
 			</div>
 		</div>
 	</footer>
-	<!-- <footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'marctheme' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'marctheme' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'marctheme' ), 'marctheme', '<a href="https://automattic.com/" rel="designer">webking.studio</a>' ); ?>
-		</div>.site-info
-	</footer>#colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

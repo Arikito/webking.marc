@@ -118,6 +118,15 @@ function marctheme_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Our clients slider', 'marctheme' ),
+		'id'            => 'our-clients',
+		'description'   => esc_html__( 'Add carousel here.', 'marctheme' ),
+		'before_widget' => '<div id="%1$s" class="container widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="clients__title widget-title">',
+		'after_title'   => '</h3>',
+	) );
 }
 add_action( 'widgets_init', 'marctheme_widgets_init' );
 
@@ -125,12 +134,18 @@ add_action( 'widgets_init', 'marctheme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function marctheme_scripts() {
-	wp_enqueue_style( 'icon-font', 'https://i.icomoon.io/public/temp/71b112ffe3/marc/style.css' );
+	wp_enqueue_style( 'aos-styles', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css' );
+	wp_enqueue_script( 'aos-js', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', array(), '20151215', true );
+
+	wp_enqueue_style( 'icon-font', get_template_directory_uri().'/assets/icomoon/style.css' );
+
 	wp_enqueue_style( 'bootstrap-styles', get_template_directory_uri().'/assets/bootstrap/css/bootstrap.min.css' );
 
 	wp_enqueue_style( 'marctheme-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri().'/assets/bootstrap/js/bootstrap.min.js', array( 'jquery' ), '20151215', true );
+
+	wp_enqueue_script( 'icons-ligatures', get_template_directory_uri().'/assets/icomoon/liga.js', array( 'jquery' ), '20151215', true );
 
 	wp_enqueue_script( 'custom-js', get_template_directory_uri().'/js/main.js', array( 'jquery' ), '20151215', true );
 
