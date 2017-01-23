@@ -134,6 +134,7 @@ add_action( 'widgets_init', 'marctheme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function marctheme_scripts() {
+
 	wp_enqueue_style( 'aos-styles', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css' );
 	wp_enqueue_script( 'aos-js', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', array(), '20151215', true );
 
@@ -220,6 +221,3 @@ function setPostViews($postID) {
         update_post_meta($postID, $count_key, $count);
     }
 }
-
-
-

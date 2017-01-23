@@ -20,5 +20,8 @@ $(function(){
 		intro.play();
 		setTimeout(intro.stop.bind(intro), 11000);
 	}
+<<<<<<< HEAD
 	AOS.init();
+=======
+>>>>>>> origin/master
 });

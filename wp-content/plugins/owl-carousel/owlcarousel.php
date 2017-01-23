@@ -369,7 +369,7 @@ function owl_function($atts, $content = null) {
         $result .= '</div>';
     }
     $result .= '</div>';
-    
+
     /* Restore original Post Data */
     wp_reset_postdata();
 
