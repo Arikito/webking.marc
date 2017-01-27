@@ -30,16 +30,23 @@ $(function(){
  * home page scroll animation
  */
 
-(function(window, document, jQuery) {
+(function(window, document, $) {
+
+
+
+	// -------------------
+	// Elements
+	// -------------------
 
 	var $window = $(window);
 	var $document = $(document);
 
+	var $body;
 	var $section;
-	var $head;
 	var $items;
+	var $head;
 	var $lines;
-
+	var $links;
 
 
 
@@ -47,24 +54,35 @@ $(function(){
 	// Handlers
 	// -------------------
 
+	function animate() {
+		var index = $(this).parent().index();
+		var top = $items.eq(index).offset().top - $head.height();
+		$body.stop().animate({
+			scrollTop: top
+		}, 500);
+	}
+
 	function scroll() {
+
 		var top = $window.scrollTop();
 		var head = $head.height();
+		var offset = $section.offset().top;
+		var last = $items.last().offset().top;
 
-		if (top < $section.offset().top) {
+		if (top < offset) {
 			$head.removeClass('fixed');
 			$head.css('top', 0);
 		}
-		else if (top > $items.last().offset().top - head) {
+		else if (top > last - head) {
 			$head.removeClass('fixed');
-			$head.css('top', $items.last().offset().top - head - $section.offset().top);
+			$head.css('top', last - head - offset);
 		}
 		else {
 			$head.addClass('fixed');
 			$head.css('top', 0);
 		}
-		$items.each(function(index) {
 
+		$items.each(function(index) {
 
 			var min, max, val;
 			var $item = $items.eq(index);
@@ -89,21 +107,24 @@ $(function(){
 
 
 
-
 	// -------------------
 	// Initialization
 	// -------------------
 
 	function events() {
+		$links.on('click', animate);
 		$window.on('scroll', scroll);
+		$window.on('resize', scroll);
 		$window.trigger('scroll');
 	}
 
 	function elements() {
+		$body = $('html, body');
 		$section = $('.products-tabs ');
+		$items = $('.products-tabs__tab-content-item');
 		$head = $('.products-tabs__head');
 		$lines = $head.find('hr');
-		$items = $('.products-tabs__tab-content-item');
+		$links = $head.find('a');
 	}
 
 	function init() {

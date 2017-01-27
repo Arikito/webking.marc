@@ -247,7 +247,6 @@ ul {
 	position: relative;
 	background: $white;
 	padding: 115px 0 0 0;
-
 	.products-tabs__head {
 		position: absolute;
 		left: 0;
@@ -256,48 +255,41 @@ ul {
 		height: 115px;
 		background: $white;
 		z-index: 1;
-
+		overflow: auto;
 		&.fixed {
 			position: fixed;
 		}
-
-		.products-tabs__nav {
-			height: 100%;
-			display: table;
-			padding: 0;
-			border-top: 2px solid $accent;
-			border-bottom: 1px solid $border-color;
-
-			.products-tabs__nav-cell {
-				position: relative;
-				display: table-cell;
-				text-align: center;
-				vertical-align: middle;
-				padding: 0 15px;
-
-				a {
-					font-size: 1.8rem;
-					color: $font-color-basic;
-					cursor: pointer;
-					&:hover {
-						text-decoration: none;
-					}
-				}
-
-				hr {
-					position: absolute;
-					margin: 0;
-					border: 0;
-					bottom: 0;
-					left: 0;
-					width: 0;
-					height: 2px;
-					background: $accent;
-				}
+	}
+	.products-tabs__nav {
+		height: 100%;
+		display: table;
+		padding: 0;
+		border-top: 2px solid $accent;
+		border-bottom: 1px solid $border-color;
+	}
+	.products-tabs__nav-cell {
+		position: relative;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+		padding: 0 15px;
+		hr {
+			position: absolute;
+			margin: 0;
+			border: 0;
+			bottom: 0;
+			left: 0;
+			width: 0;
+			height: 2px;
+			background: $accent;
+		}
+		a {
+			font-size: 1.8rem;
+			color: $font-color-basic;
+			cursor: pointer;
+			&:hover {
+				text-decoration: none;
 			}
-
-
-
 		}
 	}
 
@@ -554,6 +546,14 @@ ul {
 		&.prod-cont-item_type_left-image {
 			.prod-cont-item__descr-title {
 				padding-left: 15px;
+			}
+		}
+	}
+	.products-tabs {
+		.products-tabs__nav-cell {
+			padding: 0 10px;
+			a {
+				font-size: 1.4rem;
 			}
 		}
 	}
