@@ -25,26 +25,34 @@ get_header(); ?>
 				</div>
 			</section>
 			<section class="products-tabs container-fluid">
+			    <div class="products-tabs__head">
+                    <div class="container products-tabs__nav">
+                        <div class="products-tabs__nav-cell">
+                            <a>Access Conflict Monitor</a>
+                            <hr>
+                        </div>
+                        <div class="products-tabs__nav-cell">
+                            <a>Internal Control Monitor</a>
+                            <hr>
+                        </div>
+                        <div class="products-tabs__nav-cell">
+                            <a>Risk Execution Monitor</a>
+                            <hr>
+                        </div>
+                        <div class="products-tabs__nav-cell">
+                            <a>Compliant Access Management</a>
+                            <hr>
+                        </div>
+                        <div class="products-tabs__nav-cell">
+                            <a>Privilege Access Management</a>
+                            <hr>
+                        </div>
+                    </div>
+
+                </div>
 				<div class="container">
-					<ul class="products-tabs__nav nav nav-tabs">
-						<li class="products-tabs__nav-item active">
-							<a class="products-tabs__nav-item-link" href="#access">Access Conflict Monitor</a>
-						</li>
-						<li class="products-tabs__nav-item">
-							<a class="products-tabs__nav-item-link" href="#internal">Internal Control Monitor</a>
-						</li>
-						<li class="products-tabs__nav-item">
-							<a class="products-tabs__nav-item-link" href="#risk">Risk Execution Monitor</a>
-						</li>
-						<li class="products-tabs__nav-item">
-							<a class="products-tabs__nav-item-link" href="#compliant">Compliant Access Management</a>
-						</li>
-						<li class="products-tabs__nav-item">
-							<a class="products-tabs__nav-item-link" href="#privielage">Privilege Access Management</a>
-						</li>
-					</ul>
-					<div class="products-tabs__tab-content tab-content">
-						<div class="products-tabs__tab-content-item tab-pane fade in active" id="access">
+					<div class="products-tabs__tab-content">
+						<div class="products-tabs__tab-content-item">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">
@@ -67,7 +75,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="products-tabs__tab-content-item tab-pane fade" id="internal">
+						<div class="products-tabs__tab-content-item">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">
@@ -91,7 +99,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="products-tabs__tab-content-item tab-pane fade" id="risk">
+						<div class="products-tabs__tab-content-item">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">
@@ -114,7 +122,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="products-tabs__tab-content-item tab-pane fade" id="compliant">
+						<div class="products-tabs__tab-content-item">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">
@@ -137,7 +145,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="products-tabs__tab-content-item tab-pane fade" id="privielage">
+						<div class="products-tabs__tab-content-item">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">

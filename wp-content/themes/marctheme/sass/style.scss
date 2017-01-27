@@ -237,42 +237,70 @@ ul {
 
 /* ------- MAIN PAGE ------- */
 
+#intro {
+	border-bottom: none;
+}
+
 /* products tabs block */
+
 .products-tabs {
+	position: relative;
 	background: $white;
-	.products-tabs__nav {
-		display: flex;
-		border: 0;
-		overflow-x: auto;
-		margin: 0;
-	}
-	.products-tabs__nav-item {
-		margin: 0 !important;
-		border-bottom: 1px solid $border-color;;
-		&:hover {
-			background-color: $light-gray;
+	padding: 115px 0 0 0;
+
+	.products-tabs__head {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 115px;
+		background: $white;
+		z-index: 1;
+
+		&.fixed {
+			position: fixed;
+		}
+
+		.products-tabs__nav {
+			height: 100%;
+			display: table;
+			padding: 0;
+			border-top: 2px solid $accent;
+			border-bottom: 1px solid $border-color;
+
+			.products-tabs__nav-cell {
+				position: relative;
+				display: table-cell;
+				text-align: center;
+				vertical-align: middle;
+				padding: 0 15px;
+
+				a {
+					font-size: 1.8rem;
+					color: $font-color-basic;
+					cursor: pointer;
+					&:hover {
+						text-decoration: none;
+					}
+				}
+
+				hr {
+					position: absolute;
+					margin: 0;
+					border: 0;
+					bottom: 0;
+					left: 0;
+					width: 0;
+					height: 2px;
+					background: $accent;
+				}
+			}
+
+
+
 		}
 	}
-	.products-tabs__nav-item.active {
-		border-bottom: 2px solid $accent;
-		color: $accent;
-		.products-tabs__nav-item-link {
-			color: $accent !important;
-		}
-	}
-	.products-tabs__nav-item-link {
-		color: $font-color-basic;
-		border: none !important;
-		margin: 0 !important;
-		text-align: center;
-		font-size: 1.8rem;
-		padding-top: 3rem !important;
-		padding-bottom: 3rem !important;
-		&:hover {
-			border-radius: 0 !important;
-			background-color: transparent !important;
-		}
-	}
+
 	.products-tabs__tab-content-item {
 		padding-top: 80px;
 	}

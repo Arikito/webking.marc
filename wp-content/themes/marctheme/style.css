@@ -994,35 +994,51 @@ ul {
     font-weight: bold; }
 
 /* ------- MAIN PAGE ------- */
+#intro {
+  border-bottom: none; }
+
 /* products tabs block */
 .products-tabs {
-  background: #fff; }
-  .products-tabs .products-tabs__nav {
-    display: flex;
-    border: 0;
-    overflow-x: auto;
-    margin: 0; }
-  .products-tabs .products-tabs__nav-item {
-    margin: 0 !important;
-    border-bottom: 1px solid #ededed; }
-    .products-tabs .products-tabs__nav-item:hover {
-      background-color: #fafafa; }
-  .products-tabs .products-tabs__nav-item.active {
-    border-bottom: 2px solid #2e9afe;
-    color: #2e9afe; }
-    .products-tabs .products-tabs__nav-item.active .products-tabs__nav-item-link {
-      color: #2e9afe !important; }
-  .products-tabs .products-tabs__nav-item-link {
-    color: #999999;
-    border: none !important;
-    margin: 0 !important;
-    text-align: center;
-    font-size: 1.8rem;
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important; }
-    .products-tabs .products-tabs__nav-item-link:hover {
-      border-radius: 0 !important;
-      background-color: transparent !important; }
+  position: relative;
+  background: #fff;
+  padding: 115px 0 0 0; }
+  .products-tabs .products-tabs__head {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 115px;
+    background: #fff;
+    z-index: 1; }
+    .products-tabs .products-tabs__head.fixed {
+      position: fixed; }
+    .products-tabs .products-tabs__head .products-tabs__nav {
+      height: 100%;
+      display: table;
+      padding: 0;
+      border-top: 2px solid #2e9afe;
+      border-bottom: 1px solid #ededed; }
+      .products-tabs .products-tabs__head .products-tabs__nav .products-tabs__nav-cell {
+        position: relative;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0 15px; }
+        .products-tabs .products-tabs__head .products-tabs__nav .products-tabs__nav-cell a {
+          font-size: 1.8rem;
+          color: #999999;
+          cursor: pointer; }
+          .products-tabs .products-tabs__head .products-tabs__nav .products-tabs__nav-cell a:hover {
+            text-decoration: none; }
+        .products-tabs .products-tabs__head .products-tabs__nav .products-tabs__nav-cell hr {
+          position: absolute;
+          margin: 0;
+          border: 0;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background: #2e9afe; }
   .products-tabs .products-tabs__tab-content-item {
     padding-top: 80px; }
   .products-tabs .products-tabs__video-block {
