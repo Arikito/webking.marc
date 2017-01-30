@@ -291,19 +291,15 @@ get_header(); ?>
 			<section class="clients container-fluid">
 				<div class="row">
 					<div class="container">
-						<!-- <?php if ( is_active_sidebar( 'our-clients' ) ) : ?>
-							<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-								<?php dynamic_sidebar( 'our-clients' ); ?>
-							</div>#primary-sidebar
-						<?php endif; ?> -->
 						<h3 class="clients__title">Our clients</h3>
-						<ul class="clients__list">
+						<?php echo do_shortcode( '[tc-owl-carousel carousel_cat="clients" order="ASC" loop="true"]' );?>
+						<!-- <ul class="clients__list">
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic1.png" alt="" /></li>
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic2.png" alt="" /></li>
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic3.png" alt="" /></li>
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic4.png" alt="" /></li>
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic5.png" alt="" /></li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 			</section>
@@ -311,29 +307,44 @@ get_header(); ?>
 				<div class="row">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-7 col-md-push-5">
+							<div class="col-md-12">
 								<h3 class="benefit__title">Who can benefit?</h3>
 								<p class="benefit__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 							</div>
-							<div class="col-md-5 col-md-pull-7">
-								<div class="benefit__list">
-									<div class="benefit__list-item">
-										<div class="benefit__list-icon">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic1.png" alt="benefit icon" />
+							<div class="col-md-12">
+								<div class="benefit__list row">
+									<div class="col-md-4">
+										<div class="benefit__list-item">
+											<div class="benefit__list-icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic2.png" alt="benefit icon" />
+											</div>
+											<div class="benefit__list-title-table">
+												<div class="benefit__list-title">Independent Auditors and SAP Professionals</div>
+											</div>
+											<p class="benefit__list-description">Quis deserunt repudiandae, deleniti. Ipsum, suscipit soluta similique, delectus eaque blanditiis! Illo soluta tempore, aliquam suscipit earum debitis.</p>
 										</div>
-										<div class="benefit__list-title">SAP Clients</div>
 									</div>
-									<div class="benefit__list-item">
-										<div class="benefit__list-icon">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic2.png" alt="benefit icon" />
+									<div class="col-md-4">
+										<div class="benefit__list-item">
+											<div class="benefit__list-icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic1.png" alt="benefit icon" />
+											</div>
+											<div class="benefit__list-title-table">
+												<div class="benefit__list-title">SAP Clients</div>
+											</div>
+											<p class="benefit__list-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error aliquid, laboriosam eum illo a dolorum officiis ut soluta molestiae animi sequi doloribus minus quasi, esse corporis amet. Maxime, culpa.</p>
 										</div>
-										<div class="benefit__list-title">Independent Auditors and SAP Professionals</div>
 									</div>
-									<div class="benefit__list-item">
-										<div class="benefit__list-icon">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic3.png" alt="benefit icon" />
+									<div class="col-md-4">
+										<div class="benefit__list-item">
+											<div class="benefit__list-icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic3.png" alt="benefit icon" />
+											</div>
+											<div class="benefit__list-title-table">
+												<div class="benefit__list-title">SAP Consulting Service Companies</div>
+											</div>
+											<p class="benefit__list-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse accusamus culpa, perspiciatis modi iure ipsam amet temporibus beatae fugiat velit et sunt vitae rerum consequuntur eum fuga laboriosam pariatur repellat!</p>
 										</div>
-										<div class="benefit__list-title">SAP Consulting Service Companies</div>
 									</div>
 								</div>
 							</div>
@@ -341,15 +352,6 @@ get_header(); ?>
 					</div>
 				</div>
 			</section>
-			<?php
-			while ( have_posts() ) : the_post();
-				get_template_part( 'template-parts/content', 'page' );
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			endwhile; // End of the loop.
-			?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php
