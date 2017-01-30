@@ -30,23 +30,16 @@ $(function(){
  * home page scroll animation
  */
 
-(function(window, document, $) {
-
-
-
-	// -------------------
-	// Elements
-	// -------------------
+(function(window, document, jQuery) {
 
 	var $window = $(window);
 	var $document = $(document);
 
-	var $body;
 	var $section;
-	var $items;
 	var $head;
+	var $items;
 	var $lines;
-	var $links;
+
 
 
 
@@ -54,35 +47,24 @@ $(function(){
 	// Handlers
 	// -------------------
 
-	function animate() {
-		var index = $(this).parent().index();
-		var top = $items.eq(index).offset().top - $head.height();
-		$body.stop().animate({
-			scrollTop: top
-		}, 500);
-	}
-
 	function scroll() {
-
 		var top = $window.scrollTop();
 		var head = $head.height();
-		var offset = $section.offset().top;
-		var last = $items.last().offset().top;
 
-		if (top < offset) {
+		if (top < $section.offset().top) {
 			$head.removeClass('fixed');
 			$head.css('top', 0);
 		}
-		else if (top > last - head) {
+		else if (top > $items.last().offset().top - head) {
 			$head.removeClass('fixed');
-			$head.css('top', last - head - offset);
+			$head.css('top', $items.last().offset().top - head - $section.offset().top);
 		}
 		else {
 			$head.addClass('fixed');
 			$head.css('top', 0);
 		}
-
 		$items.each(function(index) {
+
 
 			var min, max, val;
 			var $item = $items.eq(index);
@@ -107,24 +89,21 @@ $(function(){
 
 
 
+
 	// -------------------
 	// Initialization
 	// -------------------
 
 	function events() {
-		$links.on('click', animate);
 		$window.on('scroll', scroll);
-		$window.on('resize', scroll);
 		$window.trigger('scroll');
 	}
 
 	function elements() {
-		$body = $('html, body');
 		$section = $('.products-tabs ');
-		$items = $('.products-tabs__tab-content-item');
 		$head = $('.products-tabs__head');
 		$lines = $head.find('hr');
-		$links = $head.find('a');
+		$items = $('.products-tabs__tab-content-item');
 	}
 
 	function init() {
