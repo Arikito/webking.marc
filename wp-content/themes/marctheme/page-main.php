@@ -37,122 +37,123 @@ get_header(); ?>
 					    <span></span>
 					</div>
 					<div class="products-tabs__tab-content">
-
-						<div class="products-tabs__tab-content-item active">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="products-tabs__descr-block clearfix">
-										<p class="products-tabs__product-drscr-title">Access Conflict Monitor</p>
-										<div class="products-tabs__descr-descr-text">
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level. Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
-											<ul>
-												<li class="products-tabs__descr-list-item">Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
-												<li class="products-tabs__descr-list-item">Prepare SoD, Critical access reports at User and Role level and publish</li>
-												<li class="products-tabs__descr-list-item">Reports are generated at blazing speed and stored in database and can be reviewed at later stages.</li>
-												<li class="products-tabs__descr-list-item">Facilitate to run the access check at function level and SoD level, no separate risks to be defined in order to run at function level.</li>
-											</ul>
-										</div>
-										<a href="<?php echo get_permalink( get_page_by_title( 'acm' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="products-tabs__video-block"></div>
-								</div>
-							</div>
-						</div>
-						<div class="products-tabs__tab-content-item">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="products-tabs__descr-block clearfix">
-										<p class="products-tabs__product-drscr-title">Internal Control Monitor</p>
-										<div class="products-tabs__descr-descr-text">
-											<p>Monitor effectiveness of SAP Configuration, Master Data and Transactional key controls and report the discrepancies to business process owners.
-											</p>
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
-											<ul>
-												<li class="products-tabs__descr-list-item">Detect key configuration changes</li>
-												<li class="products-tabs__descr-list-item">Report configuration and Master Data deficiencies</li>
-												<li class="products-tabs__descr-list-item">Manage deficiencies via workflows, monitor stauts</li>
-												<li class="products-tabs__descr-list-item">Manual control testing. Forge excel, mail trails</li>
-											</ul>
-										</div>
-										<a href="<?php echo get_permalink( get_page_by_title( 'icm' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="products-tabs__video-block"></div>
-								</div>
-							</div>
-						</div>
-						<div class="products-tabs__tab-content-item">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="products-tabs__descr-block clearfix">
-										<p class="products-tabs__product-drscr-title">Risk Execution Monitor</p>
-										<div class="products-tabs__descr-descr-text">
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level. Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
-											<ul>
-												<li class="products-tabs__descr-list-item">Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
-												<li class="products-tabs__descr-list-item">Prepare SoD, Critical access reports at User and Role level and publish</li>
-												<li class="products-tabs__descr-list-item">Reports are generated at blazing speed and stored in database and can be reviewed at later stages.</li>
-												<li class="products-tabs__descr-list-item">Facilitate to run the access check at function level and SoD level, no separate risks to be defined in order to run at function level.</li>
-											</ul>
-										</div>
-										<a href="<?php echo get_permalink( get_page_by_title( 'rem' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="products-tabs__video-block"></div>
-								</div>
-							</div>
-						</div>
-						<div class="products-tabs__tab-content-item">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="products-tabs__descr-block clearfix">
-										<p class="products-tabs__product-drscr-title">Compliant Access Management</p>
-										<div class="products-tabs__descr-descr-text">
-											<p>User account provisioning management  supported by integrated Risk analysis and the workflow to track, accelerate  the approval process</p>
-											<ul>
-												<li class="products-tabs__descr-list-item">Centrally manage SAP user IDs</li>
-												<li class="products-tabs__descr-list-item">Integrated with risk analysis</li>
-												<li class="products-tabs__descr-list-item">Connect to multiple SAP systems</li>
-												<li class="products-tabs__descr-list-item">Active Directory Integration</li>
-												<li class="products-tabs__descr-list-item">Initiate periodic user acccess review</li>
-											</ul>
-										</div>
-										<a href="<?php echo get_permalink( get_page_by_title( 'cam' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="products-tabs__video-block"></div>
-								</div>
-							</div>
-						</div>
-						<div class="products-tabs__tab-content-item">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="products-tabs__descr-block clearfix">
-										<p class="products-tabs__product-drscr-title">Privilege Access Management</p>
-										<div class="products-tabs__descr-descr-text">
-											<p>Grant emergency/broad access  to support teams in a controlled way. All the transactions are used by Privilege ID are tracked and reviewed</p>
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
-											<ul>
-												<li class="products-tabs__descr-list-item">Eliminate SAP_ALL audit issue.</li>
-												<li class="products-tabs__descr-list-item">Manage support access assignments</li>
-												<li class="products-tabs__descr-list-item">Integration with Risk Analysis</li>
-												<li class="products-tabs__descr-list-item">Define review assist rules</li>
-											</ul>
-										</div>
-										<a href="<?php echo get_permalink( get_page_by_title( 'pam' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="products-tabs__video-block"></div>
-								</div>
-							</div>
+                        <div class="products-tabs__tab-scroll">
+                            <div class="products-tabs__tab-content-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__descr-block clearfix">
+                                            <p class="products-tabs__product-drscr-title">Access Conflict Monitor</p>
+                                            <div class="products-tabs__descr-descr-text">
+                                                <p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level. Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+                                                <p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+                                                <ul>
+                                                    <li class="products-tabs__descr-list-item">Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
+                                                    <li class="products-tabs__descr-list-item">Prepare SoD, Critical access reports at User and Role level and publish</li>
+                                                    <li class="products-tabs__descr-list-item">Reports are generated at blazing speed and stored in database and can be reviewed at later stages.</li>
+                                                    <li class="products-tabs__descr-list-item">Facilitate to run the access check at function level and SoD level, no separate risks to be defined in order to run at function level.</li>
+                                                </ul>
+                                            </div>
+                                            <a href="<?php echo get_permalink( get_page_by_title( 'acm' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__video-block"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-tabs__tab-content-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__descr-block clearfix">
+                                            <p class="products-tabs__product-drscr-title">Internal Control Monitor</p>
+                                            <div class="products-tabs__descr-descr-text">
+                                                <p>Monitor effectiveness of SAP Configuration, Master Data and Transactional key controls and report the discrepancies to business process owners.
+                                                </p>
+                                                <p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+                                                <ul>
+                                                    <li class="products-tabs__descr-list-item">Detect key configuration changes</li>
+                                                    <li class="products-tabs__descr-list-item">Report configuration and Master Data deficiencies</li>
+                                                    <li class="products-tabs__descr-list-item">Manage deficiencies via workflows, monitor stauts</li>
+                                                    <li class="products-tabs__descr-list-item">Manual control testing. Forge excel, mail trails</li>
+                                                </ul>
+                                            </div>
+                                            <a href="<?php echo get_permalink( get_page_by_title( 'icm' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__video-block"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-tabs__tab-content-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__descr-block clearfix">
+                                            <p class="products-tabs__product-drscr-title">Risk Execution Monitor</p>
+                                            <div class="products-tabs__descr-descr-text">
+                                                <p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level. Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+                                                <p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+                                                <ul>
+                                                    <li class="products-tabs__descr-list-item">Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
+                                                    <li class="products-tabs__descr-list-item">Prepare SoD, Critical access reports at User and Role level and publish</li>
+                                                    <li class="products-tabs__descr-list-item">Reports are generated at blazing speed and stored in database and can be reviewed at later stages.</li>
+                                                    <li class="products-tabs__descr-list-item">Facilitate to run the access check at function level and SoD level, no separate risks to be defined in order to run at function level.</li>
+                                                </ul>
+                                            </div>
+                                            <a href="<?php echo get_permalink( get_page_by_title( 'rem' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__video-block"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-tabs__tab-content-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__descr-block clearfix">
+                                            <p class="products-tabs__product-drscr-title">Compliant Access Management</p>
+                                            <div class="products-tabs__descr-descr-text">
+                                                <p>User account provisioning management  supported by integrated Risk analysis and the workflow to track, accelerate  the approval process</p>
+                                                <ul>
+                                                    <li class="products-tabs__descr-list-item">Centrally manage SAP user IDs</li>
+                                                    <li class="products-tabs__descr-list-item">Integrated with risk analysis</li>
+                                                    <li class="products-tabs__descr-list-item">Connect to multiple SAP systems</li>
+                                                    <li class="products-tabs__descr-list-item">Active Directory Integration</li>
+                                                    <li class="products-tabs__descr-list-item">Initiate periodic user acccess review</li>
+                                                </ul>
+                                            </div>
+                                            <a href="<?php echo get_permalink( get_page_by_title( 'cam' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__video-block"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-tabs__tab-content-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__descr-block clearfix">
+                                            <p class="products-tabs__product-drscr-title">Privilege Access Management</p>
+                                            <div class="products-tabs__descr-descr-text">
+                                                <p>Grant emergency/broad access  to support teams in a controlled way. All the transactions are used by Privilege ID are tracked and reviewed</p>
+                                                <p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+                                                <ul>
+                                                    <li class="products-tabs__descr-list-item">Eliminate SAP_ALL audit issue.</li>
+                                                    <li class="products-tabs__descr-list-item">Manage support access assignments</li>
+                                                    <li class="products-tabs__descr-list-item">Integration with Risk Analysis</li>
+                                                    <li class="products-tabs__descr-list-item">Define review assist rules</li>
+                                                </ul>
+                                            </div>
+                                            <a href="<?php echo get_permalink( get_page_by_title( 'pam' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="products-tabs__video-block"></div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 					</div>
 				</div>

@@ -1039,23 +1039,31 @@ ul {
   .products-tabs .products-tabs__nav-item.active {
     color: #2e9afe; }
   .products-tabs .products-tabs__progress {
-    height: 1px;
-    background: #ededed; }
+    height: 2px; }
+    .products-tabs .products-tabs__progress:before {
+      content: '';
+      display: block;
+      height: 1px;
+      background: #ededed; }
     .products-tabs .products-tabs__progress span {
       display: block;
+      margin-top: -1px;
       height: 2px;
       width: 20%;
-      background: #2e9afe;
-      transition: width 0.5s ease; }
+      background: #2e9afe; }
   .products-tabs .products-tabs__tab-content {
     position: relative;
-    overflow: auto;
+    overflow: hidden; }
+  .products-tabs .products-tabs__tab-scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
     overflow-x: hidden; }
   .products-tabs .products-tabs__tab-content-item {
     padding-top: 80px; }
-    .products-tabs .products-tabs__tab-content-item.active {
-      opacity: 1;
-      transform: translate3d(0, 0, 0); }
   .products-tabs .products-tabs__video-block {
     width: 100%;
     height: 440px;
