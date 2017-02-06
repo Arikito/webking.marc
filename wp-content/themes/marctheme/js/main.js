@@ -103,7 +103,7 @@ $(function(){
 
 	function events() {
 		$tabs.on('click', click);
-		$container.on('wheel', wheel);
+		// $container.on('wheel', wheel);
 		$window.on('resize', resize);
 		$window.trigger('resize');
 

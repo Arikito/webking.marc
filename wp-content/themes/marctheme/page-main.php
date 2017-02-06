@@ -37,6 +37,7 @@ get_header(); ?>
 					    <span></span>
 					</div>
 					<div class="products-tabs__tab-content">
+
 						<div class="products-tabs__tab-content-item active">
 							<div class="row">
 								<div class="col-md-6">
