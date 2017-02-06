@@ -36,8 +36,8 @@
 		.nav-menu__list{
 			float: left;
 			margin: 0;
-			> li{
-				&:last-of-type{
+			> li {
+				&.bordered {
 					// .nav-menu__item_support-btn
 					a{
 						border: 2px solid transparentize($accent, 0.9);
@@ -56,7 +56,7 @@
 					margin: 0;
 				}
 				// .nav-menu__link
-				a{
+				a {
 					@include animate(.4s);
 					color: inherit;
 					padding: 1rem;

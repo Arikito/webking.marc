@@ -26,25 +26,19 @@ get_header(); ?>
 			</section>
 			<section class="products-tabs container-fluid">
 				<div class="container">
-					<ul class="products-tabs__nav nav nav-tabs">
-						<li class="products-tabs__nav-item active">
-							<a class="products-tabs__nav-item-link" href="#access">Access Conflict Monitor</a>
-						</li>
-						<li class="products-tabs__nav-item">
-							<a class="products-tabs__nav-item-link" href="#internal">Internal Control Monitor</a>
-						</li>
-						<li class="products-tabs__nav-item">
-							<a class="products-tabs__nav-item-link" href="#risk">Risk Execution Monitor</a>
-						</li>
-						<li class="products-tabs__nav-item">
-							<a class="products-tabs__nav-item-link" href="#compliant">Compliant Access Management</a>
-						</li>
-						<li class="products-tabs__nav-item">
-							<a class="products-tabs__nav-item-link" href="#privielage">Privielage Access Management</a>
-						</li>
+					<ul class="products-tabs__nav nav">
+						<li class="products-tabs__nav-item active">Access Conflict Monitor</li>
+						<li class="products-tabs__nav-item">Internal Control Monitor</li>
+						<li class="products-tabs__nav-item">Risk Execution Monitor</li>
+						<li class="products-tabs__nav-item">Compliant Access Management</li>
+						<li class="products-tabs__nav-item">Privilege Access Management</li>
 					</ul>
-					<div class="products-tabs__tab-content tab-content">
-						<div class="products-tabs__tab-content-item tab-pane fade in active" id="access">
+					<div class="products-tabs__progress">
+					    <span></span>
+					</div>
+					<div class="products-tabs__tab-content">
+
+						<div class="products-tabs__tab-content-item active">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">
@@ -67,19 +61,20 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="products-tabs__tab-content-item tab-pane fade" id="internal">
+						<div class="products-tabs__tab-content-item">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">
 										<p class="products-tabs__product-drscr-title">Internal Control Monitor</p>
 										<div class="products-tabs__descr-descr-text">
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level. Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+											<p>Monitor effectiveness of SAP Configuration, Master Data and Transactional key controls and report the discrepancies to business process owners.
+											</p>
 											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
 											<ul>
-												<li class="products-tabs__descr-list-item">Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
-												<li class="products-tabs__descr-list-item">Prepare SoD, Critical access reports at User and Role level and publish</li>
-												<li class="products-tabs__descr-list-item">Reports are generated at blazing speed and stored in database and can be reviewed at later stages.</li>
-												<li class="products-tabs__descr-list-item">Facilitate to run the access check at function level and SoD level, no separate risks to be defined in order to run at function level.</li>
+												<li class="products-tabs__descr-list-item">Detect key configuration changes</li>
+												<li class="products-tabs__descr-list-item">Report configuration and Master Data deficiencies</li>
+												<li class="products-tabs__descr-list-item">Manage deficiencies via workflows, monitor stauts</li>
+												<li class="products-tabs__descr-list-item">Manual control testing. Forge excel, mail trails</li>
 											</ul>
 										</div>
 										<a href="<?php echo get_permalink( get_page_by_title( 'icm' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
@@ -90,7 +85,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="products-tabs__tab-content-item tab-pane fade" id="risk">
+						<div class="products-tabs__tab-content-item">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">
@@ -113,19 +108,19 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="products-tabs__tab-content-item tab-pane fade" id="compliant">
+						<div class="products-tabs__tab-content-item">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">
 										<p class="products-tabs__product-drscr-title">Compliant Access Management</p>
 										<div class="products-tabs__descr-descr-text">
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level. Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+											<p>User account provisioning management  supported by integrated Risk analysis and the workflow to track, accelerate  the approval process</p>
 											<ul>
-												<li class="products-tabs__descr-list-item">Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
-												<li class="products-tabs__descr-list-item">Prepare SoD, Critical access reports at User and Role level and publish</li>
-												<li class="products-tabs__descr-list-item">Reports are generated at blazing speed and stored in database and can be reviewed at later stages.</li>
-												<li class="products-tabs__descr-list-item">Facilitate to run the access check at function level and SoD level, no separate risks to be defined in order to run at function level.</li>
+												<li class="products-tabs__descr-list-item">Centrally manage SAP user IDs</li>
+												<li class="products-tabs__descr-list-item">Integrated with risk analysis</li>
+												<li class="products-tabs__descr-list-item">Connect to multiple SAP systems</li>
+												<li class="products-tabs__descr-list-item">Active Directory Integration</li>
+												<li class="products-tabs__descr-list-item">Initiate periodic user acccess review</li>
 											</ul>
 										</div>
 										<a href="<?php echo get_permalink( get_page_by_title( 'cam' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
@@ -136,19 +131,19 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="products-tabs__tab-content-item tab-pane fade" id="privielage">
+						<div class="products-tabs__tab-content-item">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="products-tabs__descr-block clearfix">
-										<p class="products-tabs__product-drscr-title">Privielage Access Management</p>
+										<p class="products-tabs__product-drscr-title">Privilege Access Management</p>
 										<div class="products-tabs__descr-descr-text">
-											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level. Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+											<p>Grant emergency/broad access  to support teams in a controlled way. All the transactions are used by Privilege ID are tracked and reviewed</p>
 											<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
 											<ul>
-												<li class="products-tabs__descr-list-item">Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
-												<li class="products-tabs__descr-list-item">Prepare SoD, Critical access reports at User and Role level and publish</li>
-												<li class="products-tabs__descr-list-item">Reports are generated at blazing speed and stored in database and can be reviewed at later stages.</li>
-												<li class="products-tabs__descr-list-item">Facilitate to run the access check at function level and SoD level, no separate risks to be defined in order to run at function level.</li>
+												<li class="products-tabs__descr-list-item">Eliminate SAP_ALL audit issue.</li>
+												<li class="products-tabs__descr-list-item">Manage support access assignments</li>
+												<li class="products-tabs__descr-list-item">Integration with Risk Analysis</li>
+												<li class="products-tabs__descr-list-item">Define review assist rules</li>
 											</ul>
 										</div>
 										<a href="<?php echo get_permalink( get_page_by_title( 'pam' ) ) ?>" class="products-tabs__descr-btn btn btn-primary"><?php _e("Read more")?> <span class="icon-keyboard_arrow_right"></span></a>
@@ -191,7 +186,7 @@ get_header(); ?>
 									</div>
 									<div class="col-sm-12 col-md-8">
 										<div class="benefits__item-title">Cloud</div>
-										<p class="benefits__item-description">Worlds fastest GRC solution deployment at your service. Bid it to end long-traditional GRC solution implementations.</p>
+										<p class="benefits__item-description">Flexible installation options like cloud based to ease maintenance or also have an option to host it in-house.</p>
 									</div>
 								</div>
 							</div>
@@ -208,7 +203,7 @@ get_header(); ?>
 									</div>
 									<div class="col-sm-12 col-md-8">
 										<div class="benefits__item-title">Remote Secure Access</div>
-										<p class="benefits__item-description">Worlds fastest GRC solution deployment at your service. Bid it to end long-traditional GRC solution implementations.</p>
+										<p class="benefits__item-description">Secured access to application from anywhere in the world with 256 bit encryption in place.</p>
 									</div>
 								</div>
 							</div>
@@ -223,7 +218,7 @@ get_header(); ?>
 									</div>
 									<div class="col-sm-12 col-md-8">
 										<div class="benefits__item-title">Choose What You Need</div>
-										<p class="benefits__item-description">Worlds fastest GRC solution deployment at your service. Bid it to end long-traditional GRC solution implementations.</p>
+										<p class="benefits__item-description">Option to install and activate services as per your business needs from MARC application portfolio.</p>
 									</div>
 								</div>
 							</div>
@@ -240,7 +235,7 @@ get_header(); ?>
 									</div>
 									<div class="col-sm-12 col-md-8">
 										<div class="benefits__item-title">Support &amp; Product Updates</div>
-										<p class="benefits__item-description">Worlds fastest GRC solution deployment at your service. Bid it to end long-traditional GRC solution implementations.</p>
+										<p class="benefits__item-description">Our support team is glad to help and support 24/5. Access our helpdesk portal to log a ticket, know the status, updates, etc.</p>
 									</div>
 								</div>
 							</div>
@@ -255,7 +250,7 @@ get_header(); ?>
 									</div>
 									<div class="col-sm-12 col-md-8">
 										<div class="benefits__item-title">Your Ideas</div>
-										<p class="benefits__item-description">Worlds fastest GRC solution deployment at your service. Bid it to end long-traditional GRC solution implementations.</p>
+										<p class="benefits__item-description">Submit your ideas for any specific requirements, reporting needs. M.A.R.C. realize it for you.</p>
 									</div>
 								</div>
 							</div>
@@ -282,19 +277,15 @@ get_header(); ?>
 			<section class="clients container-fluid">
 				<div class="row">
 					<div class="container">
-						<!-- <?php if ( is_active_sidebar( 'our-clients' ) ) : ?>
-							<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-								<?php dynamic_sidebar( 'our-clients' ); ?>
-							</div>#primary-sidebar
-						<?php endif; ?> -->
 						<h3 class="clients__title">Our clients</h3>
-						<ul class="clients__list">
+						<?php echo do_shortcode( '[tc-owl-carousel carousel_cat="clients" order="ASC" loop="true"]' );?>
+						<!-- <ul class="clients__list">
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic1.png" alt="" /></li>
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic2.png" alt="" /></li>
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic3.png" alt="" /></li>
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic4.png" alt="" /></li>
 							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic5.png" alt="" /></li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 			</section>
@@ -302,29 +293,44 @@ get_header(); ?>
 				<div class="row">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-7 col-md-push-5">
+							<div class="col-md-12">
 								<h3 class="benefit__title">Who can benefit?</h3>
 								<p class="benefit__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 							</div>
-							<div class="col-md-5 col-md-pull-7">
-								<div class="benefit__list">
-									<div class="benefit__list-item">
-										<div class="benefit__list-icon">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic1.png" alt="benefit icon" />
+							<div class="col-md-12">
+								<div class="benefit__list row">
+									<div class="col-md-4">
+										<div class="benefit__list-item">
+											<div class="benefit__list-icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic2.png" alt="benefit icon" />
+											</div>
+											<div class="benefit__list-title-table">
+												<div class="benefit__list-title">Independent Auditors and SAP Professionals</div>
+											</div>
+											<p class="benefit__list-description">Quis deserunt repudiandae, deleniti. Ipsum, suscipit soluta similique, delectus eaque blanditiis! Illo soluta tempore, aliquam suscipit earum debitis.</p>
 										</div>
-										<div class="benefit__list-title">SAP Clients</div>
 									</div>
-									<div class="benefit__list-item">
-										<div class="benefit__list-icon">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic2.png" alt="benefit icon" />
+									<div class="col-md-4">
+										<div class="benefit__list-item">
+											<div class="benefit__list-icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic1.png" alt="benefit icon" />
+											</div>
+											<div class="benefit__list-title-table">
+												<div class="benefit__list-title">SAP Clients</div>
+											</div>
+											<p class="benefit__list-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error aliquid, laboriosam eum illo a dolorum officiis ut soluta molestiae animi sequi doloribus minus quasi, esse corporis amet. Maxime, culpa.</p>
 										</div>
-										<div class="benefit__list-title">Independent Auditors and SAP Professionals</div>
 									</div>
-									<div class="benefit__list-item">
-										<div class="benefit__list-icon">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic3.png" alt="benefit icon" />
+									<div class="col-md-4">
+										<div class="benefit__list-item">
+											<div class="benefit__list-icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic3.png" alt="benefit icon" />
+											</div>
+											<div class="benefit__list-title-table">
+												<div class="benefit__list-title">SAP Consulting Service Companies</div>
+											</div>
+											<p class="benefit__list-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse accusamus culpa, perspiciatis modi iure ipsam amet temporibus beatae fugiat velit et sunt vitae rerum consequuntur eum fuga laboriosam pariatur repellat!</p>
 										</div>
-										<div class="benefit__list-title">SAP Consulting Service Companies</div>
 									</div>
 								</div>
 							</div>
@@ -332,15 +338,6 @@ get_header(); ?>
 					</div>
 				</div>
 			</section>
-			<?php
-			while ( have_posts() ) : the_post();
-				get_template_part( 'template-parts/content', 'page' );
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			endwhile; // End of the loop.
-			?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php

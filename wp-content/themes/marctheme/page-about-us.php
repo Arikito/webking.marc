@@ -1,14 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
+ * The template for displaying about us page
  * @package marctheme
  */
 
@@ -32,13 +24,10 @@ get_header(); ?>
 								<div class="about-us__descr">
 									<div class="about-us__descr-text">
 
-									10 + Years of GRC experience…. Proven Innovation experience…. 6 Long years of passion to build solutions ….collective result is M.A.R.C. Any company which is looking forward for SOD evaluation/Reporting solution and beyond to have their ERP environment fit and fine from risks/compliance threats.
+									<p> MARC represents the convergence of years of experience in the field of SAP and GRC consultancy. Our primary area of focus is Security and Access Controls, and their successful implementation. MARC's leading goal is simple: To allow our users to manage and control accesses efficiently and effectively. </p>
 
-									Cost, Time of implementation and Efficiency for M.A.R.C products are wisely considered while build. We are sure our products will bring smile on customers when they compare other solutions in the Market. M.A.R.C solution delivers what’s needed to be adequate to be compliant in the ERP environment …. We will definitely think about building solution make world better…for now we are working on making ERP systems to be compliant. We have witnessed room sized computers changing into sleek laptops, 1.44 MB floppy discs changing in to Terra bites compact pen drives….. Similarly compactness yet the adequacy ensured in M.A.R.C solutions…. Hope that explains
+<p> We understand that our clients require the most up-to-date and relevant solutions, and as such, we continually strive to improve the services we offer. We achieve this through close liason with our customers finding that a strong working relationship not only improves their experience but also our own product. We couple this with an ongoing developmental phase. This allows us to stay ahead of trends within the industry and provide our end users with the highest possible security for their specific needs. </p>
 
-									We don't care about the space, focus is to gain the customer's acceptance. Passion towards GRC, would like to contribute something back to the GRC world where customers, consultants , auditors get benefitted. Automated SoD report generation is something many customers are looking for. We would like to encourage every customer to follow the compliance and to give a feeling that GRC doesn't mean that is is all about expensive solutions. Analytics. Yes, we are half-way now. A solution which is easy to find the transaction discrepencies , detection of possible frauds in huge transactional data. by using the simple interface and do the checks on real-time. Risk Execution Monitoring module in M.A.R.C portfolio can be used to monitor the risks executed and critical tasks executed, which does more or similar to Privilege Access Management.
-
-									Privilige Access Management is coming soon.
 
 									</div>
 								</div>
@@ -69,7 +58,7 @@ get_header(); ?>
 													<a class="our-team__member-social-link" href="#">
 														<img src="<?php echo get_template_directory_uri(); ?>/img/tw_gray_icon.png" alt="twitter" />
 													</a>
-													<a class="our-team__member-social-link" href="#">
+													<a class="our-team__member-social-link" href="https://in.linkedin.com/in/jayasimhachandra">
 														<img src="<?php echo get_template_directory_uri(); ?>/img/in_gray_icon.png" alt="linkedin" />
 													</a>
 												</div>

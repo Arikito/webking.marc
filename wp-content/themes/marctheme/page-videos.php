@@ -1,9 +1,6 @@
 <?php
 /**
  * The template for displaying videos archive page
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
  * @package marctheme
  */
 
@@ -16,7 +13,7 @@ get_header(); ?>
 			'post_type'=> 'post',
 			'post_status' => 'publish',
 			'order' => 'DESC',
-			'posts_per_page' => 3,
+			'posts_per_page' => 6,
 			'paged' => $paged,
 			'tax_query' => array(
 				array(
