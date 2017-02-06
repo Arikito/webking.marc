@@ -20,4 +20,7 @@ $(function(){
 		intro.play();
 		setTimeout(intro.stop.bind(intro), 11000);
 	}
+
+	AOS.init();
+
 });

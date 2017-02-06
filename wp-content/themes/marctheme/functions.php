@@ -134,6 +134,9 @@ add_action( 'widgets_init', 'marctheme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function marctheme_scripts() {
+	wp_enqueue_style( 'aos-styles', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css' );
+	wp_enqueue_script( 'aos-js', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', array(), '20151215', true );
+
 	wp_enqueue_style( 'icon-font', get_template_directory_uri().'/assets/icomoon/style.css' );
 
 	wp_enqueue_style( 'bootstrap-styles', get_template_directory_uri().'/assets/bootstrap/css/bootstrap.min.css' );
