@@ -19,24 +19,28 @@
 		</div>
 	</section>
 	<section class="article-content">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 article-content__date-block">
-					<div class="article-content__date"><img class="blog-list__date-icon" src="<?php echo get_template_directory_uri(); ?>/img/clock-icon.png" alt=""> <?php marctheme_posted_on(); ?></div>
-					<div class="article-content__decor-line"></div>
-					<div class="article-content__category"><?php echo get_the_category(get_the_ID())[0]->cat_name;?></div>
-				</div>
-			</div>
-		</div>
 		<div class="article-content__content">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="col-md-12">
 						<div class="article-content__article-video"><?php echo get_post_meta(get_the_ID(), 'video', true); ?></div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 article-content__date-block">
+						<div class="article-content__date"><span class="icon-clock blog-list__date-icon"></span><?php marctheme_posted_on(); ?></div>
+						<div class="article-content__decor-line"></div>
+						<div class="article-content__category"><?php echo get_the_category(get_the_ID())[0]->cat_name;?></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<?php the_content(); ?>
+					</div>
+				</div>
 
-				<?php the_content(); ?>
 			</div>
 		</div>
 	</section>
