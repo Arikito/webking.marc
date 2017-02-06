@@ -38,7 +38,7 @@
 						<div class="footer__copyright-container">
 							<div class="row">
 								<div class="col-md-9 col-md-offset-3">
-									<div class="footer__copyright">&copy; Copyright by M.A.R.C. <?php echo date('Y'); ?> All rights Reserved </div>
+									<div class="footer__copyright">&copy; <?php _e('Copyright by'); ?> M.A.R.C. <?php echo date('Y'); ?> <?php _e('All rights Reserved'); ?> </div>
 								</div>
 							</div>
 						</div>
