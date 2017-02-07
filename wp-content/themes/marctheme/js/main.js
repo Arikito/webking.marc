@@ -20,8 +20,9 @@ $(function(){
 		intro.play();
 		setTimeout(intro.stop.bind(intro), 11000);
 	}
-
-	AOS.init();
+	$(document).ready(function(){
+		AOS.init();
+	});
 });
 
 
@@ -78,7 +79,6 @@ $(function(){
 
 		setTimeout(enable, duration);
 	}
-
 	function click() {
 		if (animation) return;
 		var index = $(this).index();
@@ -123,5 +123,4 @@ $(function(){
 
 
 	$document.ready(init);
-
 })(window, document, Math, jQuery);
