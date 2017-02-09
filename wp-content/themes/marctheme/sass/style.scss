@@ -236,25 +236,6 @@ ul {
 }
 
 
-@keyframes show-bottom {
-	0% {opacity: 0; transform: translate3d(0, 100%, 0);}
-	100% {opacity: 1; transform: translate3d(0, 0, 0);}
-}
-@keyframes show-top {
-	0% {opacity: 0; transform: translate3d(0, -100%, 0);}
-	100% {opacity: 1; transform: translate3d(0, 0, 0);}
-}
-@keyframes hide-bottom {
-	0% {opacity: 1; transform: translate3d(0, 0, 0);}
-	100% {opacity: 0; transform: translate3d(0, 100%, 0);}
-}
-@keyframes hide-top {
-	0% {opacity: 1; transform: translate3d(0, 0, 0);}
-	100% {opacity: 0; transform: translate3d(0, -100%, 0);}
-}
-
-
-
 /* ------- MAIN PAGE ------- */
 
 /* products tabs block */
@@ -262,55 +243,36 @@ ul {
 	background: $white;
 	.products-tabs__nav {
 		display: flex;
-		align-items: center;
-		text-align: center;
 		border: 0;
 		overflow-x: auto;
 		margin: 0;
 	}
 	.products-tabs__nav-item {
 		margin: 0 !important;
-		flex: 1;
-		padding: 3rem;
-		color: $font-color-basic;
-		text-align: center;
-		font-size: 1.8rem;
-		cursor: pointer;
+		border-bottom: 1px solid $border-color;;
 		&:hover {
 			background-color: $light-gray;
 		}
 	}
 	.products-tabs__nav-item.active {
+		border-bottom: 2px solid $accent;
 		color: $accent;
-	}
-	.products-tabs__progress {
-		height: 2px;
-		&:before {
-			content: '';
-			display: block;
-			height: 1px;
-			background: $border-color;
-		}
-		span {
-			display: block;
-			margin-top: -1px;
-			height: 2px;
-			width: 20%;
-			background: $accent;
+		.products-tabs__nav-item-link {
+			color: $accent !important;
 		}
 	}
-	.products-tabs__tab-content {
-		position: relative;
-		overflow: hidden;
-	}
-	.products-tabs__tab-scroll {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		overflow: scroll;
-		overflow-x: hidden;
+	.products-tabs__nav-item-link {
+		color: $font-color-basic;
+		border: none !important;
+		margin: 0 !important;
+		text-align: center;
+		font-size: 1.8rem;
+		padding-top: 3rem !important;
+		padding-bottom: 3rem !important;
+		&:hover {
+			border-radius: 0 !important;
+			background-color: transparent !important;
+		}
 	}
 	.products-tabs__tab-content-item {
 		padding-top: 80px;
