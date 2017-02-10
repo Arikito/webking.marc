@@ -24,7 +24,7 @@ get_header(); ?>
 						<div><img class="page-title__image" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/acm.svg" alt="acm illustration" /></div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -40,7 +40,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level
+										<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
 										<ul>
 											<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
 											<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
@@ -53,7 +53,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -69,7 +69,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Perform risk analysis simulation before applying changes on user authorizations
+										<p>Perform risk analysis simulation before applying changes on user authorizations</p>
 										<ul>
 											<li>Select users and roles to be added, perform simulation to know future potential conflicts.</li>
 											<li>Avoid introducing new SoD risk in SAP system by performing risk simulation</li>
@@ -82,7 +82,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -98,8 +98,8 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Perform the risk analysis to view the user risk spread across the systems.
-										Example : Shopping Cart Create (SRM) / PO Approval (ECC)
+										<p>Perform the risk analysis to view the user risk spread across the systems.
+											Example : Shopping Cart Create (SRM) / PO Approval (ECC)</p>
 										<ul>
 											<li>Authorizations are distributed to several systems, example R/3 & SRM</li>
 											<li>ACM helps to find the risks associated a user ID that spread across systems.</li>
@@ -111,7 +111,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -127,7 +127,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Perform Risk Analysis on Organizational Level.
+										<p>Perform Risk Analysis on Organizational Level.</p>
 										<ul>
 											<li>Organizational rule analysis can be enabled to avoid false positives.</li>
 											<li>Flexible option of Mass upload, import of organizational rules in to ACM via excel.</li>
@@ -138,7 +138,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -154,7 +154,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Master data for ACM are risk defenitions and are input for running risk analysis.
+										<p>Master data for ACM are risk defenitions and are input for running risk analysis.</p>
 										<ul>
 											<li>Define SoD Conflict risks, Critical access risks in rulebook</li>
 											<li>Direct upload of risks , rules in to application</li>
@@ -167,7 +167,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -183,7 +183,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Use the inbuilt conversion programs to translate third party rule sets in to ACM format.
+										<p>Use the inbuilt conversion programs to translate third party rule sets in to ACM format.</p>
 										<ul>
 											<li>Upload the other rule sets and convert them easily in to MARC format</li>
 											<li>Let us help you to convert the third party rule sets in to the ACM format , that minimizes time to implement ACM.</li>
@@ -195,7 +195,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -211,7 +211,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Enables to perform the risk analysis by uploading the SAP authorization data.
+										<p>Enables to perform the risk analysis by uploading the SAP authorization data.</p>
 										<ul>
 											<li>If the there is SAP integration to MARC not possible due to lower versions, in that case client can use the offline analysis option.</li>
 											<li>Extract the data by using the MARC : Data Extractorto a Access File and upload to ACM.</li>
@@ -224,7 +224,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -240,7 +240,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										ACM is integrated with Compliant Access management.
+										<p>ACM is integrated with Compliant Access management.</p>
 										<ul>
 											<li>Perform risk analysis before provisioning any user changes in to SAP system.</li>
 											<li>Helps to avoid any introduction of NEW SoD risks in to SAP system.</li>
@@ -253,7 +253,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -269,7 +269,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Create mitigation controls when SoD risk can’t be mitigated.
+										<p>Create mitigation controls when SoD risk can’t be mitigated.</p>
 										<ul>
 											<li>Business can setup mitigation controls where risk can’t be remediated, avoided.</li>
 											<li>Create Mitigation controls per system level and Mitigate users.Users mitigated can be excluded from risk analysis results.</li>
@@ -280,7 +280,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -296,7 +296,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Management view of dashboards enables quick identification of risk status and helps in decision making.
+										<p>Management view of dashboards enables quick identification of risk status and helps in decision making.</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>
@@ -309,7 +309,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -325,7 +325,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>
@@ -339,7 +339,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -355,7 +355,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an.
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an.</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>

@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header header" role="banner">
-		<div class="container" data-aos="fade-down">
+		<div class="container" data-aos="fade-down" data-aos-once="true">
 			<div class="sub-header">
 				<div class="logo-block">
 					<a href="<?php echo home_url();?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo"></a>

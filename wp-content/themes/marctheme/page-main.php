@@ -168,7 +168,7 @@ get_header(); ?>
 					<h3 class="benefits__title">Benefits to you</h3>
 					<div class="benefits__flex-container">
 						<div class="col-sm-6">
-							<div class="benefits__item" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+							<div class="benefits__item" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 								<div class="row">
 									<div class="col-sm-12 col-md-4">
 										<div class="benefits__item-icon">
@@ -183,7 +183,7 @@ get_header(); ?>
 							</div>
 						</div>
 						<div class="col-sm-6">
-							<div class="benefits__item" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
+							<div class="benefits__item" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 								<div class="row">
 									<div class="col-sm-12 col-md-4">
 										<div class="benefits__item-icon">
@@ -200,7 +200,7 @@ get_header(); ?>
 					</div>
 					<div class="benefits__flex-container">
 						<div class="col-sm-6">
-							<div class="benefits__item" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
+							<div class="benefits__item" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 								<div class="row">
 									<div class="col-sm-12 col-md-4">
 										<div class="benefits__item-icon">
@@ -215,7 +215,7 @@ get_header(); ?>
 							</div>
 						</div>
 						<div class="col-sm-6">
-							<div class="benefits__item" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+							<div class="benefits__item" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 								<div class="row">
 									<div class="col-sm-12 col-md-4">
 										<div class="benefits__item-icon">
@@ -232,7 +232,7 @@ get_header(); ?>
 					</div>
 					<div class="benefits__flex-container">
 						<div class="col-sm-6">
-							<div class="benefits__item benefits__item_no-border" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+							<div class="benefits__item benefits__item_no-border" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 								<div class="row">
 									<div class="col-sm-12 col-md-4">
 										<div class="benefits__item-icon">
@@ -247,7 +247,7 @@ get_header(); ?>
 							</div>
 						</div>
 						<div class="col-sm-6">
-							<div class="benefits__item benefits__item_no-border" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
+							<div class="benefits__item benefits__item_no-border" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 								<div class="row">
 									<div class="col-sm-12 col-md-4">
 										<div class="benefits__item-icon">
@@ -269,7 +269,7 @@ get_header(); ?>
 					<div class="container">
 						<div class="row">
 							<div class="col-md-9 col-md-offset-3">
-								<div class="no-risks__container" data-aos="fade" data-aos-anchor-placement="top-center">
+								<div class="no-risks__container" data-aos="fade" data-aos-anchor-placement="top-center" data-aos-once="true">
 									<h3 class="no-risks__title">No risks, no problems</h3>
 									<p class="no-risks__subtitle">The application suite is built on open source frameworks thus facilitating easy integration with other products and applications utilized by a client.</p>
 									<p class="no-risks__description">M.A.R.C. is vision and result of SAP GRC consultants with wide array of project experience focused on Security and Access Controls implementations. The secret ingredient of the M.A.R.C product suite is that we know how to manage, control and restrict accesses efficiently and effectively. Like any other technology that seeks to be relevant and up-to-date, M.A.R.C.’s development is an ongoing process, ensuring continual improvement.</p>
@@ -285,13 +285,6 @@ get_header(); ?>
 					<div class="container">
 						<h3 class="clients__title">Our clients</h3>
 						<?php echo do_shortcode( '[tc-owl-carousel carousel_cat="clients" order="ASC" loop="true"]' );?>
-						<!-- <ul class="clients__list">
-							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic1.png" alt="" /></li>
-							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic2.png" alt="" /></li>
-							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic3.png" alt="" /></li>
-							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic4.png" alt="" /></li>
-							<li class="clients__item"><img src="<?php echo get_template_directory_uri(); ?>/img/clients-ic5.png" alt="" /></li>
-						</ul> -->
 					</div>
 				</div>
 			</section>

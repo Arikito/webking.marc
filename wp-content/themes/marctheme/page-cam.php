@@ -24,7 +24,7 @@ get_header(); ?>
 						<div><img class="page-title__image" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/cam.svg" alt="cam illustration" /></div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -39,7 +39,8 @@ get_header(); ?>
 							</div>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
-									<div class="prod-cont-item__descr-text">Execute the risk analysis before provisioning any user changes in SAP to avoid introducing new risks.
+									<div class="prod-cont-item__descr-text">
+										<p>Execute the risk analysis before provisioning any user changes in SAP to avoid introducing new risks.</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>
@@ -53,7 +54,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -68,7 +69,8 @@ get_header(); ?>
 							</div>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
-									<div class="prod-cont-item__descr-text">Customize the approval, user notification emails according to the company Logo, signatures, policy information etc.
+									<div class="prod-cont-item__descr-text">
+										<p>Customize the approval, user notification emails according to the company Logo, signatures, policy information etc.</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>
@@ -82,7 +84,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -98,7 +100,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-									<div class="prod-cont-item__descr-text">Execute the risk analysis before provisioning any user changes in SAP to avoid introducing new risks.
+										<p>Execute the risk analysis before provisioning any user changes in SAP to avoid introducing new risks.</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>
@@ -112,7 +114,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -128,7 +130,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-									<div class="prod-cont-item__descr-text">Execute the risk analysis before provisioning any user changes in SAP to avoid introducing new risks.
+										<p>Execute the risk analysis before provisioning any user changes in SAP to avoid introducing new risks.</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>
@@ -142,7 +144,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -158,7 +160,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-									<div class="prod-cont-item__descr-text">Execute the risk analysis before provisioning any user changes in SAP to avoid introducing new risks.
+										<p>Execute the risk analysis before provisioning any user changes in SAP to avoid introducing new risks.</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>

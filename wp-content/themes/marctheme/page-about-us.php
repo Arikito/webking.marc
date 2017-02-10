@@ -23,12 +23,8 @@ get_header(); ?>
 							<div class="col-md-7 col-md-pull-5">
 								<div class="about-us__descr">
 									<div class="about-us__descr-text">
-
-									<p> MARC represents the convergence of years of experience in the field of SAP and GRC consultancy. Our primary area of focus is Security and Access Controls, and their successful implementation. MARC's leading goal is simple: To allow our users to manage and control accesses efficiently and effectively. </p>
-
-<p> We understand that our clients require the most up-to-date and relevant solutions, and as such, we continually strive to improve the services we offer. We achieve this through close liason with our customers finding that a strong working relationship not only improves their experience but also our own product. We couple this with an ongoing developmental phase. This allows us to stay ahead of trends within the industry and provide our end users with the highest possible security for their specific needs. </p>
-
-
+										<p> MARC represents the convergence of years of experience in the field of SAP and GRC consultancy. Our primary area of focus is Security and Access Controls, and their successful implementation. MARC's leading goal is simple: To allow our users to manage and control accesses efficiently and effectively. </p>
+										<p> We understand that our clients require the most up-to-date and relevant solutions, and as such, we continually strive to improve the services we offer. We achieve this through close liason with our customers finding that a strong working relationship not only improves their experience but also our own product. We couple this with an ongoing developmental phase. This allows us to stay ahead of trends within the industry and provide our end users with the highest possible security for their specific needs. </p>
 									</div>
 								</div>
 							</div>
@@ -38,7 +34,6 @@ get_header(); ?>
 				<section class="our-team">
 					<div class="container">
 						<p class="our-team__descr-title">Our team</p>
-
 						<div class="row">
 							<div class="col-md-6">
 								<div class="our-team__member-block">
@@ -97,7 +92,6 @@ get_header(); ?>
 				<section class="partners">
 					<div class="container">
 						<p class="partners__descr-title">Partners</p>
-
 						<div class="partners__parnter-block">
 							<div class="row">
 								<div class="col-md-3">
@@ -108,7 +102,6 @@ get_header(); ?>
 								<div class="col-md-9">
 									<div class="partners__parnter-descr-block">
 										<p class="partners__parnter-descr-text">2ARC originated from CSI. CSI - founded in 1997 by Klaas Piet Meindertsma cs - was from its inception, focused on SAP-audit services. Because of the market came an increased demand for general audit support, has previously formed a separate unit within the group in 2004. This Unit developed into a strong expert group with a portfolio of customers in the financial sector, manufacturing, transportation, government and SRA audit firms.</p>
-
 										<div class="partners__parnter-contacts-block">
 											<div class="row">
 												<div class="col-md-4">
@@ -136,7 +129,6 @@ get_header(); ?>
 								<div class="col-md-9">
 									<div class="partners__parnter-descr-block">
 										<p class="partners__parnter-descr-text">IBC combines deep industry knowledge, SAP technical know-how and unsurpassed delivery capabilities to drive breakthrough results. We can help your SAP business leverage in areas such as analytics – SAP FIORI, SAP tUI5, GRC and Mobility, to deliver value and innovation on SAP, Oracle, Microsoft, Business Object, and many other applications…).</p>
-
 										<div class="partners__parnter-contacts-block">
 											<div class="row">
 												<div class="col-md-4">
@@ -156,16 +148,13 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-<?php
-
-				// If comments are open or we have at least one comment, load up the comment template.
+				<?php // If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
 					comments_template();
 				endif;
 
 			endwhile; // End of the loop.
 			?>
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

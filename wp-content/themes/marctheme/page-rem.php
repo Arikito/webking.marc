@@ -24,7 +24,7 @@ get_header(); ?>
 						<div><img class="page-title__image" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/rem.svg" alt="rem illustration" /></div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -53,7 +53,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -82,7 +82,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -98,7 +98,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>
@@ -111,7 +111,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -127,7 +127,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Share risk execution information with risk analysis result to indicate the risks executed by a user.
+										<p>Share risk execution information with risk analysis result to indicate the risks executed by a user.</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>
@@ -140,7 +140,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -156,7 +156,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Analyse and Monitor Risk executed by users in SAP systems.
+										<p>Analyse and Monitor Risk executed by users in SAP systems.</p>
 										<ul>
 											<li>View SoD conflict information / Statistics on interactive dashboards.</li>
 											<li>Historical information view in dash boards.</li>

@@ -24,7 +24,7 @@ get_header(); ?>
 						<div><img class="page-title__image" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/icm.svg" alt="image" /></div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -40,7 +40,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Demonstrates the continued effectiveness of application Controls
+										<p>Demonstrates the continued effectiveness of application Controls</p>
 										<ul>
 											<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
 											<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
@@ -53,7 +53,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -69,7 +69,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Monitor changes to Master Data for suspicious activity Identifies unsual additions and deletions.
+										<p>Monitor changes to Master Data for suspicious activity Identifies unsual additions and deletions.</p>
 										<ul>
 											<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
 											<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
@@ -82,7 +82,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -98,7 +98,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Enforce governance through control owner and workflow
+										<p>Enforce governance through control owner and workflow</p>
 										<ul>
 											<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
 											<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
@@ -111,7 +111,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -127,7 +127,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Create, document control catalogue in ICM.
+										<p>Create, document control catalogue in ICM.</p>
 										<ul>
 											<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
 											<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
@@ -140,7 +140,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -156,7 +156,7 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Monitors changes to Master Data for suspicious activity Identifies unusual additions and deletions.
+										<p>Monitors changes to Master Data for suspicious activity Identifies unusual additions and deletions.</p>
 										<ul>
 											<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
 											<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
@@ -169,7 +169,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_left-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -185,7 +185,7 @@ get_header(); ?>
 							<div class="col-md-8">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Interactive dashboards to have overview on available controls by process, control failure stats etc.
+										<p>Interactive dashboards to have overview on available controls by process, control failure stats etc.</p>
 										<ul>
 											<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
 											<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
@@ -198,7 +198,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<section class="prod-cont-item prod-cont-item_type_right-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -214,8 +214,8 @@ get_header(); ?>
 							<div class="col-md-8 col-md-pull-4">
 								<div class="prod-cont-item__descr">
 									<div class="prod-cont-item__descr-text">
-										Test, assess all of your manual controls via ICM, thus avoid using excel based manual control testing burden.
-											<ul>
+										<p>Test, assess all of your manual controls via ICM, thus avoid using excel based manual control testing burden.</p>
+										<ul>
 											<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
 											<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
 											<li>Reports are generated at blazing speed and stored in database and can be reviewed at later stages.</li>
