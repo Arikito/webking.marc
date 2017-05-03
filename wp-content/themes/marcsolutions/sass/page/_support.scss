@@ -1,0 +1,61 @@
+/* ------ SUPPORT PAGE -------- */
+.support {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: $gray url(img/support_bg.png) fixed bottom right no-repeat;
+	background: $gray url(img/new/map.jpg) fixed center center no-repeat;
+	background-size: contain;
+	.support__list {
+		display: flex;
+		justify-content: center;
+		margin-top: 100px;
+		.support__block {
+			@include animate(.4s);
+			display: block;
+			padding: 3rem;
+			margin: 0 1vw;
+			flex-grow: 1;
+			flex-shrink: 1;
+			flex-basis: calc(25% - 2vw);
+			position: relative;
+			padding-bottom: 9rem;
+			&:hover,
+			&:focus {
+				text-decoration: none;
+				background: $white;
+				box-shadow: 0 34px 70px transparentize($black, .8);
+			}
+			.support__image {
+				text-align: center;
+				height: 80px;
+				img {
+					max-height: 100%;
+				}
+			}
+			.support__descr {
+				text-align: center;
+				.support__descr-title {
+					color: $accent;
+					font-size: 2rem;
+					text-transform: uppercase;
+					display: block;
+					margin: 2rem 0;
+				}
+				.support__descr-text {
+					color: $font-color-basic;
+					display: block;
+					font-size: 1.5rem;
+				}
+				.support__icon-arrow {
+					display: block;
+					font-size: 3rem;
+					color: transparentize($black, .8);
+					position: absolute;
+					bottom: 3rem;
+					left: 0;
+					right: 0;
+				}
+			}
+		}
+	}
+}

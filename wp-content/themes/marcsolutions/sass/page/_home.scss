@@ -1,0 +1,323 @@
+
+/* ------- HOME PAGE ------- */
+
+/* products tabs block */
+.clients {
+	position: relative;
+	background: #f9f9fa;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 0 3px 7px rgba(0, 0, 0, .04);
+	z-index: 100;
+	.owl-item {
+		text-align: center;
+		img {
+			display: inline-block;
+			width: auto;
+			max-height: 50px;
+		}
+		.carousel-item {
+			vertical-align: middle;
+			display: inline-block;
+			line-height: 50px;
+		}
+	}
+	.owl-wrapper,
+	.clients__list {
+		padding: 1em 0;
+		margin: 0;
+		display: flex;
+		justify-content: space-around;
+		overflow: hidden;
+	}
+}
+/* products block */
+.products {
+	padding-top: 100px;
+	padding-bottom: 120px;
+	background-color: $gray;
+	z-index: 99;
+	.products__list {
+			overflow: auto;
+		padding-top: 50px;
+	}
+	.product-item {
+		padding: 0 3vw;
+		margin-top: 50px;
+		.product-item__icon {
+			display: block;
+			width: 80px;
+			height: 80px;
+			line-height: 72px;
+			border: 2px solid $accent;
+			text-align: center;
+			vertical-align: middle;
+			margin: 0 auto;
+			border-radius: 50%;
+			img {
+				display: inline-block;
+			}
+		}
+		.product-item__title {
+			color: $accent;
+			text-transform: uppercase;
+			font-size: 2.05rem;
+			text-align: center;
+			font-weight: bold;
+			margin: 30px 0;
+			line-height: 2.5rem;
+			letter-spacing: .1em;
+		}
+		.product-item__description {
+			text-align: center;
+			color: $font-color-lightgray;
+		}
+	}
+}
+/* benefits block */
+.benefits {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: $white;
+	overflow: hidden;
+	.benefits__list {
+		padding: 80px 0;
+		overflow: auto;
+		.benefits__item {
+			padding: 40px;
+			height: 100%;
+			position: relative;
+			z-index: 99;
+			margin-bottom: 2rem;
+			margin-top: 2rem;
+			&:nth-of-type(even) {
+				.benefits__item-content {
+					.benefits__item-icon {
+						order: 2;
+					}
+					.benefits__item-info {
+						order: 1;
+					}
+				}
+			}
+			.benefits__item-content {
+				display: flex;
+				.benefits__item-icon {
+					order: 1;
+					position: relative;
+					width: 30%;
+					max-width: 300px;
+					flex-shrink: 0;
+					img {
+						max-height: 100%;
+						max-width: 100%;
+						position: relative;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						-ms-transform: translate(-50%, -50%);
+						-webkit-transform: translate(-50%, -50%);
+					}
+				}
+				.benefits__item-info {
+					padding: 0 30px;
+					order: 2;
+					flex-grow: 1;
+					.benefits__item-title {
+						font-size: 3rem;
+						line-height: 3rem;
+						margin-bottom: 1.5rem;
+						font-weight: bold;
+						text-transform: uppercase;
+						color: $accent;
+						letter-spacing: .3rem;
+					}
+					.benefits__item-description {
+						font-size: 2.2rem;
+						color: $font-color-basic
+					}
+				}
+			}
+		}
+	}
+}
+.no-risks {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+	border-top: 2px solid darken($gray, 5%);
+	background: $gray;
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	.no-risks__container {
+		text-align: center;
+		.no-risks__title {
+			font-size: 2.4rem;
+			color: $accent;
+			text-transform: uppercase;
+		}
+		.no-risks__description {
+			margin-top: 30px;
+			font-size: 1.8rem;
+			line-height: 2.5rem;
+			color: $font-color-basic;
+		}
+	}
+	@media (min-width: 992px) {
+		img {
+			float: right;
+		}
+		.no-risks__container {
+			text-align: left;
+			margin-left: 40px;
+			.btn {
+				margin-top: 30px;
+			}
+		}
+	}
+}
+.benefit {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	.benefit__list {
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 40px 0;
+	}
+	.benefit__list-item {
+		height: 100%;
+		background: $gray;
+		padding: 20px;
+		transition: all .4s ease-in-out;
+		-webkit-transition: all .4s ease-in-out;
+		border-radius: 1rem;
+		&:hover {
+			// transform: scale(1.05);
+			// -webkit-transform: scale(1.05);
+		}
+	}
+	.benefit__list-title-table {
+		display: table;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.benefit__list-title {
+		font-size: 2.3rem;
+		width: 100%;
+		height: 10rem;
+		display: table-cell;
+		vertical-align: middle;
+		color: $accent;
+		text-transform: uppercase;
+	}
+	.benefit__list-description {
+		color: $font-color-basic;
+		font-size: 1.8rem;
+		line-height: 3rem;
+	}
+	.benefit__list-icon {
+		height: 130px;
+		width: 130px;
+		border-radius: 65px;
+		border: 2px solid $accent;
+		margin: 30px auto;
+		img {
+			display: block;
+			max-height: 100%;
+			max-width: 100%;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+		}
+	}
+}
+.latest_news {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: $gray;
+	position: relative;
+	.latest_news__list {
+		margin-top: 100px;
+		.latest_news__item {
+			height: 100%;
+			transition: all .4s ease-in-out;
+			-webkit-transition: all .4s ease-in-out;
+			.news_item__thumb {
+				img {
+					object-fit: cover;
+					object-position: 50% 25%;
+					height: 280px;
+					width: 100%;
+					&.news_item__thumb_placeholder {
+						opacity: .5;
+						filter: grayscale(1);
+					}
+				}
+			}
+			.news_item__title-table {
+				min-height: 10rem;
+				padding: 3rem 0;
+			}
+			.news_item__title {
+				color: $accent;
+				font-size: 1.8rem;
+				line-height: 2.5rem;
+				letter-spacing: .2rem;
+				text-transform: uppercase;
+				max-height: 6rem;
+				display: block;
+				overflow: hidden;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			.news_item__date {
+				color: $font-color-lightgray;
+				font-size: 1.4rem;
+				line-height: 3rem;
+				letter-spacing: .2rem;
+				opacity: .5;
+			}
+			.news_item__description {
+				font-size: 2rem;
+				height: 12rem;
+				overflow: hidden;
+				margin: 0;
+			}
+			.btn-primary {
+				margin-top: 3rem;
+			}
+		}
+		.owl-nav {
+			[class^="owl"] {
+				&.owl-prev {
+					position: absolute;
+					top: 120px;
+					right: 105%;
+				}
+				&.owl-next {
+					position: absolute;
+					top: 120px;
+					left: 105%;
+				}
+				span {
+					@include animate(.4s);
+					color: transparentize($black, .8);
+					font-size: 4rem;
+				}
+				&:hover {
+					span {
+						color: transparentize($black, .5);
+						color: $accent;
+					}
+				}
+			}
+		}
+	}
+}

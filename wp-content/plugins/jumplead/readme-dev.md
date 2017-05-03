@@ -2,8 +2,8 @@
 
 ## Development Environment
 
-* Docker + Crane
-* In terminal, from the trunk folder: ```crane lift```
+* Docker + Docker Compose
+* In terminal, from the trunk folder: ```docker-compose up -d```
 * Access using your Docker machine's IP address
 * Add ```define('WP_DEBUG', true);``` to wp-config.php
 
@@ -23,7 +23,7 @@
 
 We use THREE different coding standards checkers.
 
-### PHP Compatabilty
+### PHP Compatibility
 
 [https://github.com/wimg/PHPCompatibility](https://github.com/wimg/PHPCompatibility)
 
@@ -37,7 +37,7 @@ Supports PHPCS <2.
 
 [https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards)
 
-Spports PHPCS 2+ only.
+Supports PHPCS 2+ only.
 
 * Outside of this project's folder, Install:
 

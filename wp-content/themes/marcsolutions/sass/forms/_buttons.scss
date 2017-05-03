@@ -1,0 +1,62 @@
+button,
+input[type="button"],
+// input[type="submit"],
+input[type="reset"]{
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: rgba(0, 0, 0, .8);
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
+
+
+.btn-primary {
+	outline: none !important;
+	background-color: $accent;
+	border-color: $accent;
+	padding: 1rem 3rem;
+	color: #fff !important;
+	border-radius: .2em;
+	text-transform: uppercase;
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, .25);
+	font-size: 1.2rem;
+	[class^="icon-"] {
+		vertical-align: middle;
+		font-size: 1.2rem;
+		color: transparentize($white, .5);
+	}
+	&:hover {
+		background-color: lighten($accent, 5%);
+		border-color: lighten($accent, 5%);
+	}
+	&:visited {
+		color: inherit;
+	}
+	&:focus {
+		background-color: $accent !important;
+		border-color: $accent !important;
+	}
+}
+.post-edit-link{
+	background-color: $accent;
+	color: $white;
+	padding: 8px 20px;
+	border-radius: .2em;
+	text-decoration: none;
+	margin-left: 2vw;
+}
+a.post-edit-link:visited{color: $white;}
+a.post-edit-link:hover, a.post-edit-link:focus{text-decoration: none;}
+a.post-edit-link:hover{background-color: $light-accent;}

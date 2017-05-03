@@ -1,0 +1,72 @@
+
+/* ------- ABOUT PAGE ---------- */
+.page-id-13 {
+	.site-main {
+		section {
+			margin-top: 100px;
+			&.who-we-are {
+				.content {
+					text-align: center;
+					// font-size: 1.8rem;
+					// line-height: 2.5rem;
+					// font-weight: 300;
+					margin-top: 3rem;
+				}
+			}
+			&.our-team {
+			}
+			&.mentors {
+				margin-bottom: 100px;
+			}
+		}
+		.persons-list {
+			display: flex;
+			margin-top: 50px;
+			padding: 0 1.5rem;
+			justify-content: center;
+			flex-wrap: wrap;
+			.person {
+				margin: 50px 1.5rem 0;
+				text-align: center;
+				flex-shrink: 0;
+				flex-grow: 0;
+				.person__photo {
+					width: 250px;
+					height: 250px;
+					border-radius: 50%;
+					object-fit: cover;
+				}
+				.person__name {
+					margin-top: 3rem;
+					font-weight: bold;
+					color: $font-color-title;
+					font-size: 1.8rem;
+				}
+				.person__position {
+					color: lighten($font-color-title, 34%);
+				}
+				.person__socials {
+					display: flex;
+					flex-wrap: nowrap;
+					justify-content: center;
+					.person__social-link {
+						@include animate(.4s);
+						color: lighten($font-color-title, 34%);
+						border: 2px solid lighten($font-color-title, 34%);
+						border-radius: 50%;
+						line-height: 4rem;
+						font-size: 2rem;
+						height: 4rem;
+						width: 4rem;
+						margin: 2rem .5rem;
+						&:hover {
+							text-decoration: none;
+							border-color: $accent;
+							color: $accent;
+						}
+					}
+				}
+			}
+		}
+	}
+}

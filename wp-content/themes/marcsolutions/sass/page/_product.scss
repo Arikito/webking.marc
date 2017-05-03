@@ -1,0 +1,135 @@
+/* ------ PRODUCT PAGE --------- */
+
+.product-page {
+	.benefits {
+		.benefits__list {
+			.benefits__item {
+				.benefits__item-content {
+					.benefits__item-icon {
+						padding: 5%;
+					}
+					.benefits__item-info {
+						.benefits__item-title {
+							font-size: 2.4rem;
+						}
+						.benefits__item-description {
+							font-size: 1.6rem;
+							li {
+								margin-bottom: 1rem;
+								padding-left: 3rem;
+								position: relative;
+								&:before {
+									content: '';
+									display: inline-block;
+									position: absolute;
+									left: .8rem;
+									top: .8rem;
+									height: .8rem;
+									width: .8rem;
+									// background: $white;
+									border-radius: 50%;
+									box-shadow: 0px 0px 0px 3px $accent;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.prod-cont-item {
+	padding-top: 80px;
+	&:last-of-type {
+		padding-bottom: 30px;
+	}
+	&.prod-cont-item_type_left-image {
+		.prod-cont-item__descr-title {
+			padding-left: calc(33% + 15px);
+		}
+	}
+	.prod-cont-item__descr-title {
+		font-size: 3.5rem;
+		font-weight: 300;
+	}
+	.prod-cont-item__descr-text {
+		color: $font-color-basic;
+		font-size: 1.4rem;
+		line-height: 1.8rem;
+		p {
+			// margin-bottom: 2rem;
+		}
+	}
+	ul {
+		margin-top: 1rem;
+	}
+	li {
+		margin-bottom: 1rem;
+		padding-left: 3rem;
+		position: relative;
+		&:before {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			left: .6rem;
+			top: .6rem;
+			height: .6rem;
+			width: .6rem;
+			background: #2e9afe;
+			border-radius: 50%;
+			box-shadow: 0px 0px 0px 6px rgba(46, 154, 254, 0.1);
+		}
+	}
+	.prod-cont-item__descr-image-block {
+		text-align: center;
+		// margin-top: 65px;
+		margin-bottom: 50px;
+	}
+	.prod-cont-item__descr-image {
+		img,
+		svg {
+			width: 150px;
+			margin-top: -50px;
+		}
+	}
+}
+@media screen and (max-width: 991px) {
+	.prod-cont-item {
+		padding-top: 2rem;
+		.prod-cont-item__descr-title {
+			text-align: center;
+			margin-bottom: 3rem;
+		}
+		.prod-cont-item__descr-image-block {
+			margin-bottom: 3rem;
+		}
+		.prod-cont-item__descr-image {
+			img,
+			svg {
+				margin-top: 0;
+			}
+		}
+		&.prod-cont-item_type_left-image {
+			.prod-cont-item__descr-title {
+				padding-left: 15px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 750px) {
+	img.page-title__image {
+		margin-top: 0;
+		height: 40vw;
+		object-fit: cover;
+	}
+}
+@media screen and (max-width: 480px) {
+	.prod-cont-item {
+		.prod-cont-item__descr-image {
+			img,
+			svg {
+				width: 40%;
+			}
+		}
+	}
+}

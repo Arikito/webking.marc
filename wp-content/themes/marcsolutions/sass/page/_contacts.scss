@@ -1,0 +1,65 @@
+
+/*------- CONTACTS PAGE -------*/
+.contacts {
+	padding: 100px 0;
+	background: $gray;
+	.contacts__flexbox {
+		display: flex;
+		flex-wrap: nowrap;
+		.contacts__block {
+			background: $white;
+			padding: 80px;
+			margin: 0 15px;
+			box-shadow: 0 2px 2px transparentize($black, .9);
+			border-radius: 3px;
+			&:last-of-type {
+				flex-basis: 70%;
+			}
+			&.contacts__form {
+				.contacts__send-form-item {
+					@include animate(.4s);
+					font-size: 1.2rem;
+					width: 100%;
+					border: 0;
+					line-height: 40px;
+					padding: 0;
+					border-radius: 0;
+					border-bottom: 1px solid $color__background-button;
+					margin-bottom: 10px;
+					resize: none;
+					&:focus {
+						// box-shadow: 0px 0px 0px 2px $accent;
+						outline: 0;
+						border-color: $border-color;
+					}
+				}
+				.contacts__send-btn {
+					// float: right;
+					margin-top: 20px;
+				}
+				.contacts__send-form-comment {
+					height: 100px;
+				}
+			}
+			.address-block {
+				.address-block__title {
+					color: $accent;
+					font-size: 2rem;
+					text-transform: uppercase;
+					font-weight: bold;
+				}
+				.address-block__text {
+					font-size: 1.5rem;
+					color: $border-color;
+					a {
+						color: $border-color;
+						font-size: 1.5rem;
+					}
+				}
+				&:not(:first-of-type) {
+					margin-top: 50px;
+				}
+			}
+		}
+	}
+}

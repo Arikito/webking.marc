@@ -1,7 +1,0 @@
-containers:
-    jumplead_wordpress:
-        image: mooloop/wordpress:latest
-        run:
-            publish: ["8000:80"]
-            volume: [".:/var/www/html/wp-content/plugins/jumplead/"]
-            detach: true

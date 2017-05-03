@@ -1,0 +1,71 @@
+
+/*------- CONTACTS PAGE -------*/
+.demo {
+	padding: 100px 0;
+	background: $gray;
+	.demo__flexbox {
+		display: flex;
+		flex-wrap: no-wrap;
+		.demo__block {
+			margin: 0 15px;
+			&:last-of-type {
+				padding: 30px;
+				flex-basis: 35%;
+				flex-shrink: 0;
+				box-shadow: 0 2px 2px transparentize($black, .9);
+				border-radius: 3px;
+				background: $white;
+			}
+			&.demo__form {
+				& > p {
+					color: transparentize($black, .5);
+					font-size: 2rem;
+					margin-bottom: 50px;
+				}
+				.demo__send-form-item {
+					@include animate(.4s);
+					font-size: 1.2rem;
+					width: 100%;
+					border: 0;
+					line-height: 40px;
+					padding: 0;
+					border-radius: 0;
+					border-bottom: 1px solid $color__background-button;
+					margin-bottom: 30px;
+					resize: none;
+					&:focus {
+						// box-shadow: 0px 0px 0px 2px $accent;
+						outline: 0;
+						border-color: $border-color;
+					}
+				}
+				.demo__send-btn {
+					// float: right;
+					margin: 20px auto 0;
+					display: block;
+				}
+				.demo__send-form-comment {
+					height: 100px;
+				}
+			}
+			.block__title {
+				color: $accent;
+				font-size: 1.8rem;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			.block__text {
+				font-size: 1.8rem;
+				color: $border-color;
+				a {
+					color: $border-color;
+					font-size: 1.5rem;
+				}
+			}
+			.block__image {
+				display: block;
+				margin: 30px auto;
+			}
+		}
+	}
+}
