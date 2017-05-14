@@ -484,153 +484,10 @@
 	"buffers":
 	[
 		{
-			"file": "wp-content/themes/marcsolutions/page-request-a-demo.php",
-			"settings":
-			{
-				"buffer_size": 1508,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/page-about-us.php",
-			"settings":
-			{
-				"buffer_size": 9081,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/page-main.php",
-			"settings":
-			{
-				"buffer_size": 14687,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/page-icm.php",
-			"settings":
-			{
-				"buffer_size": 9858,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/page-support.php",
-			"settings":
-			{
-				"buffer_size": 3443,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/page-contacts.php",
-			"settings":
-			{
-				"buffer_size": 2011,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/template-parts/post/content.php",
-			"settings":
-			{
-				"buffer_size": 1172,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/js/main.js",
-			"settings":
-			{
-				"buffer_size": 924,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/forms/_buttons.scss",
-			"settings":
-			{
-				"buffer_size": 1324,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "wp-content/themes/marcsolutions/sass/page/_contacts.scss",
 			"settings":
 			{
 				"buffer_size": 1301,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/page/_demo.scss",
-			"settings":
-			{
-				"buffer_size": 1385,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/style.scss",
-			"settings":
-			{
-				"buffer_size": 17298,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/page/_support.scss",
-			"settings":
-			{
-				"buffer_size": 1313,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/variables-site/_typography.scss",
-			"settings":
-			{
-				"buffer_size": 391,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/page/_home.scss",
-			"settings":
-			{
-				"buffer_size": 6094,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/page/_about-us.scss",
-			"settings":
-			{
-				"buffer_size": 1396,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/page/_services.scss",
-			"settings":
-			{
-				"buffer_size": 3040,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -638,33 +495,7 @@
 			"file": "wp-content/themes/marcsolutions/sass/media/_media.scss",
 			"settings":
 			{
-				"buffer_size": 4727,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/variables-site/_colors.scss",
-			"settings":
-			{
-				"buffer_size": 885,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/js/navigation.js",
-			"settings":
-			{
-				"buffer_size": 3124,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/navigation/_menus.scss",
-			"settings":
-			{
-				"buffer_size": 2804,
+				"buffer_size": 5390,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -686,16 +517,20 @@
 				"Grunt"
 			],
 			[
+				"npm update",
+				"npm: Update Local Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"gr",
 				"Grunt"
 			],
 			[
 				"theme",
 				"Material Theme: Activate theme"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"runt",
@@ -842,7 +677,7 @@
 				"Compare with..."
 			]
 		],
-		"width": 406.0
+		"width": 414.0
 	},
 	"console":
 	{
@@ -866,32 +701,56 @@
 		"/D/WebSites/webking.marc",
 		"/D/WebSites/webking.marc/wp-content",
 		"/D/WebSites/webking.marc/wp-content/themes",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/site",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/site/primary",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/variables-site"
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions"
 	],
 	"file_history":
 	[
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/typography/_typography.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-support.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-pam.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-main.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-up.php",
+		"/D/WebSites/webking.marc/wp-config.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/WebSites/webking.marc/package.json",
+		"/C/Users/Олександр/AppData/Roaming/MySQL/Workbench/connections.xml",
+		"/D/backup user folder/AppData/Roaming/MySQL/Workbench/connections.xml",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-acm.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/navigation/_menus.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/js/main.js",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/js/navigation.js",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/variables-site/_colors.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/media/_media.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_services.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_product.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_about-us.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_home.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/variables-site/_typography.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_support.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/style.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_demo.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_contacts.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/forms/_buttons.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-about-us.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/functions.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-pss.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-rem.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-cam.php",
+		"/D/WebSites/webking.marc/marc.sublime-workspace",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-pam.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-icm.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-main.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-request-a-demo.php",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-3/web.config",
+		"/D/WebSites/webking.marc/web.config",
+		"/D/WebSites/webking.marc/wp-settings.php",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/wp-settings.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-services.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/archive.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marctheme/archive.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/author.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-contacts.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-support.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/typography/_typography.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-up.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-latest_news.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_home.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_product.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_services.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_support.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/page-main.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_about-us.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_blog.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_article.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/site/primary/_comments.scss",
@@ -900,28 +759,17 @@
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/sass/style.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/single.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/header.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/functions.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/footer.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/category-updates.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-category.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content-video.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-video.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/author.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-page.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-contacts.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/archive.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/template-tags.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-about-us.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/variables-site/_colors.scss",
 		"/C/Users/Олександр/Documents/dumps/Dump20170419.sql",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/pages/_home.scss",
 		"/D/WebSites/wp-config.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/style.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/js/main.js",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/navigation/_menus.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/variables-site/_typography.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/variables-site/_variables-site.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/style.css",
 		"/D/WebSites/webking.marc/Gruntfile.js",
@@ -931,7 +779,6 @@
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/sass/navigation/_navigation.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/assets/icomoon/demo.html",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/functions.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marctheme/archive.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/footer.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/js/svg-icons.js",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/header.php",
@@ -949,7 +796,6 @@
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/img/illustrations/acm.svg",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/js/svg-icons.js",
 		"/D/www/projects/webking.marc/wp-config.php",
-		"/C/Windows/System32/drivers/etc/hosts",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-support.php",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-cam.php",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-acm.php",
@@ -986,23 +832,7 @@
 		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/page.php",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/header.php",
 		"/D/www/projects/webking.marc/wp-includes/nav-menu-template.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/index.html",
-		"/D/www/projects/webking.marc/wp-includes/general-template.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/navigation/_links.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/typography/_copy.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/elements/_lists.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/navigation/_menus.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/assets/js/navigation.js",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/resources/sass/_variables.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/resources/sass/style.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/mixins/_mixins-master.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/assets/bootstrap/js/bootstrap.min.js",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/style.css",
-		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/template-parts/post/content-video.php",
-		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/inc/back-compat.php",
-		"/D/www/projects/webking.marc/Gruntfile.js",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/contacts.html",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/blog.html"
+		"/D/www/projects/webking.marc/wp-content/themes/marc/index.html"
 	],
 	"find":
 	{
@@ -1013,6 +843,7 @@
 		"height": 136.0,
 		"where_history":
 		[
+			"D:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions",
 			"",
 			"D:\\www\\projects\\webking.xt\\,-*blueimp/*,-*plugins/*,-*node_modules/*,-*adm/*",
 			"D:\\www\\projects\\webking.xt\\,-*blueimp/*,-*plugins/*,-*node_modules/*",
@@ -1037,9 +868,60 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"992",
+			"\"hostName\">localhost",
+			"localhost",
+			"127",
+			"\"color_scheme\": \"Packages/User/Color Highlighter/themes/Material-Theme.tmTheme\",\n\t\t\t\t\t\t\t",
+			"page-pam",
+			"material",
+			"\"color_scheme\": \"Packages/User/Color Highlighter/themes/Material-Theme.tmTheme\",\n\t\t\t\t\t\t\t",
+			"material",
+			"\\n\\n",
+			"ю",
+			"б",
+			"ь",
+			"т",
+			"и",
+			"м",
+			"с",
+			"c",
+			"с",
+			"м",
+			"с",
+			"ч",
+			"я",
+			"є",
+			"ж",
+			"д",
+			"л",
+			"о",
+			"р",
+			"п",
+			"а",
+			"в",
+			"і",
+			"ф",
+			"ї",
+			"х",
+			"з",
+			"щ",
+			"ш",
+			"г",
+			"н",
+			"е",
+			"к",
+			"у",
+			"й",
+			"ц",
+			"й",
+			"\\n\\n",
+			"/n/n",
+			"8rem",
+			"{\n",
 			"$accent",
 			".jpg",
 			"new/",
@@ -1116,65 +998,15 @@
 			"Integration with CAM",
 			"Mitigation Controls",
 			"Integration with CAM",
-			"acm_iwc",
-			"Mitigation Controls",
-			">\n",
-			"Mitigation Controls",
-			"Offline analysis",
-			"Ruleset Converters",
-			"Central Rule Book",
-			"Org Level Analysis",
-			"Cross System Analysis",
-			"Simulation",
-			"Online Risk Analysis",
-			"<section class=\"prod-cont-item",
-			"svg-icon\" data-icon=\"\"",
-			"svg-icon\" data-icon=\"",
-			"benefits__item-icon",
-			"prod-cont__",
-			"benefits",
-			"<div class=\"container\">\n\t\t\t\t\t<div class=\"row\">",
-			"snake__itemcol",
-			"benefits__item-number",
-			"benefits__item ",
-			"benefits__item",
-			"services-tabs__tab-content",
-			"services-list__description",
-			"<span class=\"icon-keyboard_arrow_right\"></span>",
-			"services__",
-			"services-tabs__product-drscr-title",
-			"products-tabs__",
-			"<div class=\"services-tabs__tab-content-item",
-			"<div class=\"products-tabs__tab-content-item",
-			"div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t<div class=\"products-tabs__video-block\">",
-			"products-tabs",
-			"products",
-			"products-tabs__nav",
-			"<a class=\"products-tabs__nav-item-link\"",
-			"<a class=\"products-tabs__nav-item-link\" href=\"#access\">",
-			"<li class=\"products-tabs__nav-item",
-			"<div class=\"services-list__icon",
-			"services-list__icon ",
-			"services-list__icon",
-			"light-gray",
-			"submit_button",
-			"submit_field",
-			"form-submit",
-			"comment-form-comment",
-			"leave",
-			"blog-list",
-			"aba5a5",
-			"blog",
-			"<a href=\"#\" ",
-			"our_team",
-			"section"
+			"acm_iwc"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\\n",
 			",",
 			"/images/nofoto.png",
 			";\n",
@@ -1192,316 +1024,11 @@
 	"groups":
 	[
 		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "wp-content/themes/marcsolutions/page-request-a-demo.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1508,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								143,
-								95
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"history_list_is_closing": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "wp-content/themes/marcsolutions/page-about-us.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9081,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								416,
-								416
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 104.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "wp-content/themes/marcsolutions/page-main.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14687,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11036,
-								11036
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2337.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "wp-content/themes/marcsolutions/page-icm.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9858,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9822,
-								9822
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2509.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "wp-content/themes/marcsolutions/page-support.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3443,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1052,
-								1112
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"history_list_is_closing": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 284.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "wp-content/themes/marcsolutions/page-contacts.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2011,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								819,
-								1925
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 67.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "wp-content/themes/marcsolutions/template-parts/post/content.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1172,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								648,
-								233
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				}
-			]
-		},
-		{
 			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 7,
-					"file": "wp-content/themes/marcsolutions/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 924,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								185,
-								185
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"sftp_duplicate_views": 0,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "wp-content/themes/marcsolutions/sass/forms/_buttons.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1007,
-								1007
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 112.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
+					"buffer": 0,
 					"file": "wp-content/themes/marcsolutions/sass/page/_contacts.scss",
 					"semi_transient": false,
 					"settings":
@@ -1513,431 +1040,55 @@
 						"selection":
 						[
 							[
-								140,
-								140
+								207,
+								189
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "wp-content/themes/marcsolutions/sass/page/_demo.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								919,
-								919
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 229.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "wp-content/themes/marcsolutions/sass/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17298,
-						"regions":
-						{
-							"bookmarks":
-							{
-								"flags": 144,
-								"icon": "bookmark",
-								"regions":
-								[
-									[
-										6677,
-										6677
-									]
-								],
-								"scope": "bookmarks"
-							}
-						},
-						"selection":
-						[
-							[
-								6478,
-								6478
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"history_list_is_closing": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3041.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 12,
-					"file": "wp-content/themes/marcsolutions/sass/page/_support.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1313,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								202,
-								202
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 15.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "wp-content/themes/marcsolutions/sass/variables-site/_typography.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 391,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								307,
-								307
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 79.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "wp-content/themes/marcsolutions/sass/page/_home.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6094,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "wp-content/themes/marcsolutions/sass/page/_about-us.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1396,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								209,
-								209
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "wp-content/themes/marcsolutions/sass/page/_services.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3040,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1710,
-								1710
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 572.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
+					"buffer": 1,
 					"file": "wp-content/themes/marcsolutions/sass/media/_media.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4727,
+						"buffer_size": 5390,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								891,
-								784
+								2384,
+								2384
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"history_list_is_closing": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.y": 1904.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "wp-content/themes/marcsolutions/sass/variables-site/_colors.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 885,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								121,
-								97
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "wp-content/themes/marcsolutions/js/navigation.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3124,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1292,
-								1292
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "wp-content/themes/marcsolutions/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 924,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"sftp_duplicate_views": 0,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 39.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "wp-content/themes/marcsolutions/sass/navigation/_menus.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2804,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								814,
-								787
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"history_list_is_closing": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 443.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 21,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1971,7 +1122,7 @@
 		"cols":
 		[
 			0.0,
-			0.585329314522,
+			0.549721005917,
 			1.0
 		],
 		"rows":
@@ -2005,7 +1156,7 @@
 	"project": "marc.sublime-project",
 	"replace":
 	{
-		"height": 92.0
+		"height": 46.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -2015,16 +1166,84 @@
 		"selected_items":
 		[
 			[
+				"media.scss",
+				"wp-content\\themes\\marcsolutions\\sass\\media\\_media.scss"
+			],
+			[
+				"contacts.scss",
+				"wp-content\\themes\\marcsolutions\\sass\\page\\_contacts.scss"
+			],
+			[
+				"packge",
+				"package.json"
+			],
+			[
+				"page-acm",
+				"wp-content\\themes\\marcsolutions\\page-acm.php"
+			],
+			[
+				"web.c",
+				"web.config"
+			],
+			[
+				"page-services",
+				"wp-content\\themes\\marcsolutions\\page-services.php"
+			],
+			[
+				"page-up",
+				"wp-content\\themes\\marcsolutions\\page-up.php"
+			],
+			[
+				"page-rem",
+				"wp-content\\themes\\marcsolutions\\page-rem.php"
+			],
+			[
+				"page-cam",
+				"wp-content\\themes\\marcsolutions\\page-cam.php"
+			],
+			[
+				"page-pam",
+				"wp-content\\themes\\marcsolutions\\page-pam.php"
+			],
+			[
+				"page-icm",
+				"wp-content\\themes\\marcsolutions\\page-icm.php"
+			],
+			[
+				"page-about",
+				"wp-content\\themes\\marcsolutions\\page-about-us.php"
+			],
+			[
+				"page-main",
+				"wp-content\\themes\\marcsolutions\\page-main.php"
+			],
+			[
+				"product.scss",
+				"wp-content\\themes\\marcsolutions\\sass\\page\\_product.scss"
+			],
+			[
+				"page-ac",
+				"wp-content\\themes\\marcsolutions\\page-acm.php"
+			],
+			[
+				"archive.php",
+				"wp-content\\themes\\marcsolutions\\archive.php"
+			],
+			[
+				"about.scs",
+				"wp-content\\themes\\marcsolutions\\sass\\page\\_about-us.scss"
+			],
+			[
+				"about-us.scss",
+				"wp-content\\themes\\marcsolutions\\sass\\page\\_about-us.scss"
+			],
+			[
 				"services.scss",
 				"wp-content\\themes\\marcsolutions\\sass\\page\\_services.scss"
 			],
 			[
 				"support.scss",
 				"wp-content\\themes\\marcsolutions\\sass\\page\\_support.scss"
-			],
-			[
-				"page-icm",
-				"wp-content\\themes\\marcsolutions\\page-icm.php"
 			],
 			[
 				"style.scss",
@@ -2047,40 +1266,8 @@
 				"wp-content\\themes\\marcsolutions\\page-support.php"
 			],
 			[
-				"page-main",
-				"wp-content\\themes\\marcsolutions\\page-main.php"
-			],
-			[
 				"page-support",
 				"wp-content\\themes\\marcsolutions\\page-support.php"
-			],
-			[
-				"page-about",
-				"wp-content\\themes\\marcsolutions\\page-about-us.php"
-			],
-			[
-				"page-up",
-				"wp-content\\themes\\marcsolutions\\page-up.php"
-			],
-			[
-				"page-pam",
-				"wp-content\\themes\\marcsolutions\\page-pam.php"
-			],
-			[
-				"page-rem",
-				"wp-content\\themes\\marcsolutions\\page-rem.php"
-			],
-			[
-				"page-cam",
-				"wp-content\\themes\\marcsolutions\\page-cam.php"
-			],
-			[
-				"page-acm",
-				"wp-content\\themes\\marcsolutions\\page-acm.php"
-			],
-			[
-				"contacts.scss",
-				"wp-content\\themes\\marcsolutions\\sass\\page\\_contacts.scss"
 			],
 			[
 				"services",
@@ -2139,10 +1326,6 @@
 				"wp-content\\themes\\marcsolutions\\single.php"
 			],
 			[
-				"archive.php",
-				"wp-content\\themes\\marcsolutions\\archive.php"
-			],
-			[
 				"solutionscolor.scss",
 				"wp-content\\themes\\marcsolutions\\sass\\variables-site\\_colors.scss"
 			],
@@ -2165,10 +1348,6 @@
 			[
 				"solutionscategory.php",
 				"wp-content\\themes\\marcsolutions\\category-updates.php"
-			],
-			[
-				"page-ac",
-				"wp-content\\themes\\marcsolutions\\page-acm.php"
 			],
 			[
 				"page",
@@ -2205,10 +1384,6 @@
 			[
 				"solutionsfooter.php",
 				"wp-content\\themes\\marcsolutions\\footer.php"
-			],
-			[
-				"media.scss",
-				"wp-content\\themes\\marcsolutions\\sass\\media\\_media.scss"
 			],
 			[
 				"menus",
@@ -2501,30 +1676,6 @@
 			[
 				"usersedit",
 				"adm\\core\\contr\\usersedit.php"
-			],
-			[
-				"cp_admin_ae",
-				"adm\\core\\tpl\\cp_admin_ae.tpl"
-			],
-			[
-				"adminedit.php",
-				"adm\\core\\contr\\adminedit.php"
-			],
-			[
-				"main",
-				"adm\\core\\tpl\\_global\\main.tpl"
-			],
-			[
-				"bonus_explain",
-				"themes\\default\\tpl\\_global\\bonus_explain.tpl"
-			],
-			[
-				"cart.php",
-				"~core\\contr\\ajax\\cart.php"
-			],
-			[
-				"product.css",
-				"themes\\default\\css\\page_styles\\product.css"
 			]
 		],
 		"width": 0.0
@@ -2537,7 +1688,11 @@
 		[
 			[
 				"",
-				"D:\\WebSites\\rus-line\\2nd lvl\\rus-line.sublime-project"
+				"D:\\WebSites\\webking.xt\\xt.sublime-project"
+			],
+			[
+				"xt",
+				"D:\\WebSites\\webking.xt\\xt.sublime-project"
 			],
 			[
 				"barbat",

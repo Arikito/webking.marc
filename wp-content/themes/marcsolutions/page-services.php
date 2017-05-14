@@ -60,10 +60,13 @@ get_header(); ?>
 											<div class="services-tabs__descr-block clearfix">
 												<p class="services-tabs__product-drscr-title">M.A.R.C for SAP</p>
 												<div class="services-tabs__descr-descr-text">
-													<p>A perfect choice for supporting your:<br>A Powerful SOD identification and reporting application for SAP systems</p>
-													<p>Сompliance tool for SAP Control Monitoring</p>
-													<p>Risk Execution Monitor: it’s a M.A.R.C risk execution detection engine which helps you to identify potential business Sod risks executed by an SAP User</p>
-													<p>SAP Access, identity management services in a shared -service model which facilitate effective services at low-cost mode</p>
+													<p>A perfect choice for supporting your:</p>
+													<ul>
+														<li>A Powerful SOD identification and reporting application for SAP systems</li>
+														<li>Compliance tool for SAP Control Monitoring</li>
+														<li>Risk Execution Monitor: it’s a M.A.R.C risk execution detection engine which helps you to identify potential business Sod risks executed by an SAP User</li>
+														<li>SAP Access, identity management services in a shared -service model which facilitate effective services at low-cost mode</li>
+													</ul>
 												</div>
 											</div>
 										</div>
@@ -76,8 +79,10 @@ get_header(); ?>
 												<p class="services-tabs__product-drscr-title">M.A.R.C for Non - SAP</p>
 												<div class="services-tabs__descr-descr-text">
 													<p>We are open to customize M.A.R.C solution to adopt its capabilities to be extended to any Non SAP system as well.</p>
-													<p>A customizable SOD identification and reporting tool for Non - SAP systems</p>
-													<p>Customizable compliance tool for Non - SAP Control Monitoring for critical business configurations</p>
+													<ul>
+														<li>A customizable SOD identification and reporting tool for Non - SAP systems</li>
+														<li>Customizable compliance tool for Non - SAP Control Monitoring for critical business configurations</li>
+													</ul>
 												</div>
 											</div>
 										</div>

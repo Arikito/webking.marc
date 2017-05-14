@@ -228,7 +228,7 @@ ul {
 .page-title {
 	padding-top: 270px;
 	padding-bottom: 170px;
-	background-image: url(img/home_bg.png);
+	background-image: url(img/new/home_bg.jpg);
 	background-size: cover;
 	// background: #ffffff; /* Old browsers */
 	// background: -moz-linear-gradient(top,	#ffffff 0%, #f5f6fa 100%); /* FF3.6-15 */
@@ -237,15 +237,14 @@ ul {
 	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f6fa',GradientType=0 ); /* IE6-9 */
 
 	.page-title__title {
-		font-size: 6.2rem;
+		font-size: 4.2rem;
 		font-weight: bold;
 		text-align: center;
 		color: transparentize($white, .2);
 	}
 	.page-title__descr {
 		color: transparentize($white, .2);
-		font-weight: 300;
-		font-size: 2rem;
+		font-size: 2.5rem;
 		text-align: center;
 	}
 	.page-title__short-title {

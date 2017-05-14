@@ -2,11 +2,25 @@
 
 .product-page {
 	.benefits {
+		padding-top: 40px;
 		.benefits__list {
+			padding-top: 50px;
 			.benefits__item {
 				.benefits__item-content {
 					.benefits__item-icon {
-						padding: 5%;
+						padding: 0 30px;
+						width: 130px;
+						box-sizing: content-box;
+						svg {
+							max-height: 100%;
+							max-width: 100%;
+							position: relative;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%, -50%);
+							-ms-transform: translate(-50%, -50%);
+							-webkit-transform: translate(-50%, -50%);
+						}
 					}
 					.benefits__item-info {
 						.benefits__item-title {

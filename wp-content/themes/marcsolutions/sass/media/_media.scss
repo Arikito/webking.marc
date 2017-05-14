@@ -114,10 +114,15 @@ object {
 			}
 		}
 	}
+
 	.services-tabs {
 		.services-tabs__nav {
 			.services-tabs__nav-item {
 				.services-tabs__nav-item-link {
+					img {
+						width: 50%;
+						margin: 0 10%;
+					}
 					.services-tabs__nav-item-label {
 						display: none;
 					}
@@ -139,6 +144,18 @@ object {
 			.demo__block {
 				&:last-of-type {
 					flex-basis: 50%;
+				}
+			}
+		}
+	}
+	.contacts {
+		.contacts__flexbox {
+			flex-wrap: wrap;
+			.contacts__block {
+				flex-basis: 100% !important;
+				margin: 0;
+				&:last-of-type {
+					margin-top: 15px;
 				}
 			}
 		}
@@ -276,10 +293,20 @@ object {
 	}
 	.services-tabs {
 		.services-tabs__nav {
+			padding: 30px 0;
 			.services-tabs__nav-item {
-				img {
-					width: 80%;
-					margin: 0 10%;
+				&.active {
+					&::after {
+						top: calc(100% + 29px);
+						left: calc(50% - 15px);
+						border-width: 15px;
+					}
+				}
+				.services-tabs__nav-item-link {
+					img {
+						width: 80%;
+						margin: 0 10%;
+					}
 				}
 			}
 		}
@@ -290,6 +317,20 @@ object {
 				flex-basis: 70%;
 				flex-grow: 0;
 				margin: 0 0 5vw;
+			}
+		}
+	}
+	.product-page {
+		.benefits {
+			.benefits__list {
+				.benefits__item {
+					.benefits__item-content {
+						justify-content: center;
+						.benefits__item-icon {
+							// width: 100%;
+						}
+					}
+				}
 			}
 		}
 	}
