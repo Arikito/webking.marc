@@ -20,7 +20,7 @@
 
  *
 
- * @package marctheme
+ * @package marcsolutions
 
  */
 
@@ -64,7 +64,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="process">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/cam_cup.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cam_cup.png" alt="" />
 
 							</div>
 
@@ -102,7 +102,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="letter">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/cam_nt.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cam_nt.png" alt="" />
 
 							</div>
 
@@ -140,7 +140,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="board">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/cam_dash.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cam_dash.png" alt="" />
 
 							</div>
 
@@ -178,7 +178,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="chain">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/cam_wf.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cam_wf.png" alt="" />
 
 							</div>
 
@@ -216,7 +216,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="lock">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/cam_pass.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cam_pass.png" alt="" />
 
 							</div>
 

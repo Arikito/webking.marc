@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying services page
- * @package marctheme
+ * @package marcsolutions
  */
 
 get_header(); ?>
@@ -20,31 +20,31 @@ get_header(); ?>
 					<ul class="services-tabs__nav nav nav-tabs">
 						<li class="services-tabs__nav-item">
 							<a class="services-tabs__nav-item-link" href="#access">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/1.svg" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/1.svg" alt="">
 								<span class="services-tabs__nav-item-label">M.A.R.C for SAP</span>
 							</a>
 						</li>
 						<li class="services-tabs__nav-item">
 							<a class="services-tabs__nav-item-link" href="#internal">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/2.svg" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/2.svg" alt="">
 								<span class="services-tabs__nav-item-label">M.A.R.C for Non - SAP</span>
 							</a>
 						</li>
 						<li class="services-tabs__nav-item active">
 							<a class="services-tabs__nav-item-link" href="#risk">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/3.svg" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/3.svg" alt="">
 								<span class="services-tabs__nav-item-label">Security and Authorization Scan, Implementation</span>
 							</a>
 						</li>
 						<li class="services-tabs__nav-item">
 							<a class="services-tabs__nav-item-link" href="#compliant">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/4.svg" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/4.svg" alt="">
 								<span class="services-tabs__nav-item-label">GRC Access Control Implementation</span>
 							</a>
 						</li>
 						<li class="services-tabs__nav-item">
 							<a class="services-tabs__nav-item-link" href="#privielage">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/5.svg" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/5.svg" alt="">
 								<span class="services-tabs__nav-item-label">Access & Identity Management Support Services</span>
 							</a>
 						</li>

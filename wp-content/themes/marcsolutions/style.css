@@ -1,23 +1,13 @@
-/*!
-Theme Name: Marc Solutionss
+/*
+Theme Name: Marc Solutions
 Theme URI: http://underscores.me/
 Author: Alexander Parkhomenko
 Author URI: https://plus.google.com/u/0/+%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%9F%D0%B0%D1%80%D1%85%D0%BE%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE
 Description: Marc Solutions Theme
-Version: 1.0.0
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: marcsolutions
-Tags:
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-marc solutions theme is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -1125,7 +1115,7 @@ ul {
 .page-title {
   padding-top: 270px;
   padding-bottom: 170px;
-  background-image: url(img/new/home_bg.jpg);
+  background-image: url(assets/images/new/home_bg.jpg);
   background-size: cover; }
   .page-title .page-title__title {
     font-size: 4.2rem;
@@ -1161,51 +1151,51 @@ ul {
 
 .image-page-header {
   background-color: #2e9afe;
-  background-image: url(img/new/header_blog2.jpg);
+  background-image: url(assets/images/new/header_blog2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 80px; }
   .image-page-header.image-page-header_blog {
-    background-image: url(img/new/header_blog2.jpg);
+    background-image: url(assets/images/new/header_blog2.jpg);
     background-color: #fff; }
   .image-page-header.image-page-header_services {
-    background-image: url(img/new/header_up.png); }
+    background-image: url(assets/images/new/header_up.png); }
   .image-page-header.image-page-header_videos {
-    background-image: url(img/icon-page-header-videos.png); }
+    background-image: url(assets/images/icon-page-header-videos.png); }
   .image-page-header.image-page-header_updates {
-    background-image: url(img/icon-page-header-updates.png); }
+    background-image: url(assets/images/icon-page-header-updates.png); }
   .image-page-header.image-page-header_contacts {
-    background-image: url(img/new/header_contacts5.jpg);
+    background-image: url(assets/images/new/header_contacts5.jpg);
     background-color: #fff; }
   .image-page-header.image-page-header_support {
-    background-image: url(img/new/header_support.jpg);
+    background-image: url(assets/images/new/header_support.jpg);
     background-color: #fff; }
   .image-page-header.image-page-header_request-a-demo {
-    background-image: url(img/new/header_demo.jpg);
+    background-image: url(assets/images/new/header_demo.jpg);
     background-color: #fff;
     background-position: center top; }
   .image-page-header.image-page-header_acm {
-    background-image: url(img/new/header_acm.png);
+    background-image: url(assets/images/new/header_acm.png);
     background-size: contain; }
   .image-page-header.image-page-header_icm {
-    background-image: url(img/new/header_icm.png);
+    background-image: url(assets/images/new/header_icm.png);
     background-size: contain; }
   .image-page-header.image-page-header_cam {
-    background-image: url(img/new/header_cam.png);
+    background-image: url(assets/images/new/header_cam.png);
     background-size: contain; }
   .image-page-header.image-page-header_rem {
-    background-image: url(img/new/header_rem.png);
+    background-image: url(assets/images/new/header_rem.png);
     background-size: contain; }
   .image-page-header.image-page-header_pam {
-    background-image: url(img/new/header_pam.png);
+    background-image: url(assets/images/new/header_pam.png);
     background-size: contain; }
   .image-page-header.image-page-header_up {
-    background-image: url(img/new/header_up.png);
+    background-image: url(assets/images/new/header_up.png);
     background-size: contain; }
   .image-page-header.image-page-header_about-us {
-    background-image: url(img/new/header_about2.jpg);
+    background-image: url(assets/images/new/header_about2.jpg);
     background-color: #fff; }
   .image-page-header .image-page-header__title {
     font-size: 3rem;
@@ -1226,25 +1216,25 @@ ul {
 # About us page
 --------------------------------------------------------------*/
 /* ------- ABOUT PAGE ---------- */
-.page-id-13 .site-main section {
+.about-us .site-main section {
   margin-top: 100px; }
-  .page-id-13 .site-main section.who-we-are .content {
+  .about-us .site-main section.who-we-are .content {
     text-align: center;
     margin-top: 3rem; }
-  .page-id-13 .site-main section.mentors {
+  .about-us .site-main section.mentors {
     margin-bottom: 100px; }
-.page-id-13 .site-main .persons-list {
+.about-us .site-main .persons-list {
   display: flex;
   margin-top: 50px;
   padding: 0 1.5rem;
   justify-content: center;
   flex-wrap: wrap; }
-  .page-id-13 .site-main .persons-list .person {
+  .about-us .site-main .persons-list .person {
     margin: 50px 1.5rem 0;
     text-align: center;
     flex-shrink: 0;
     flex-grow: 0; }
-    .page-id-13 .site-main .persons-list .person .person__photo {
+    .about-us .site-main .persons-list .person .person__photo {
       -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
       -moz-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
       -ms-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1255,18 +1245,18 @@ ul {
       border-radius: 50%;
       filter: grayscale(100%) brightness(0.9);
       object-fit: cover; }
-    .page-id-13 .site-main .persons-list .person .person__name {
+    .about-us .site-main .persons-list .person .person__name {
       margin-top: 3rem;
       font-weight: bold;
       color: #26272d;
       font-size: 1.8rem; }
-    .page-id-13 .site-main .persons-list .person .person__position {
+    .about-us .site-main .persons-list .person .person__position {
       color: #76798b; }
-    .page-id-13 .site-main .persons-list .person .person__socials {
+    .about-us .site-main .persons-list .person .person__socials {
       display: flex;
       flex-wrap: nowrap;
       justify-content: center; }
-      .page-id-13 .site-main .persons-list .person .person__socials .person__social-link {
+      .about-us .site-main .persons-list .person .person__socials .person__social-link {
         -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         -moz-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         -ms-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1280,11 +1270,11 @@ ul {
         height: 4rem;
         width: 4rem;
         margin: 2rem .5rem; }
-        .page-id-13 .site-main .persons-list .person .person__socials .person__social-link:hover {
+        .about-us .site-main .persons-list .person .person__socials .person__social-link:hover {
           text-decoration: none;
           border-color: #2e9afe;
           color: #2e9afe; }
-    .page-id-13 .site-main .persons-list .person:hover .person__photo {
+    .about-us .site-main .persons-list .person:hover .person__photo {
       filter: grayscale(0%); }
 
 /*--------------------------------------------------------------
@@ -1607,8 +1597,8 @@ ul {
 .support {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: #f8f8f8 url(img/support_bg.png) fixed bottom right no-repeat;
-  background: #f8f8f8 url(img/new/map.jpg) fixed center center no-repeat;
+  background: #f8f8f8 url(assets/images/support_bg.png) fixed bottom right no-repeat;
+  background: #f8f8f8 url(assets/images/new/map.jpg) fixed center center no-repeat;
   background-size: contain; }
   .support .support__list {
     display: flex;

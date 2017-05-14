@@ -20,7 +20,7 @@
 
  *
 
- * @package marctheme
+ * @package marcsolutions
 
  */
 
@@ -64,7 +64,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="share">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/rem_rer.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rem_rer.png" alt="" />
 
 							</div>
 
@@ -104,7 +104,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="filter">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/rem_ds.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rem_ds.png" alt="" />
 
 							</div>
 
@@ -144,7 +144,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="time">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/rem_ds2.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rem_ds2.png" alt="" />
 
 							</div>
 
@@ -184,7 +184,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="puzzle">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/rem_iwacm.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rem_iwacm.png" alt="" />
 
 							</div>
 
@@ -224,7 +224,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="board">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/rem_dash.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rem_dash.png" alt="" />
 
 							</div>
 

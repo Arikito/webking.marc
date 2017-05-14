@@ -20,7 +20,7 @@
 
  *
 
- * @package marctheme
+ * @package marcsolutions
 
  */
 
@@ -44,7 +44,7 @@ get_header(); ?>
 
 							<p class="page-title__descr">Reliable Compliance Solutions made Accessible</p>
 
-							<a href="<?php echo get_page_link( 557 ) ?>" class="btn demo_cta">Request a Demo</a>
+							<a href="<?php echo get_permalink( get_page_by_path( 'request-a-demo' ) ) ?>" class="btn demo_cta">Request a Demo</a>
 
 						</div>
 
@@ -86,7 +86,7 @@ get_header(); ?>
 
 								<div class="product-item__icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/Shape 172.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/Shape 172.png" alt="">
 
 								</div>
 
@@ -100,7 +100,7 @@ get_header(); ?>
 
 								<div class="product-item__icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/Shape 173.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/Shape 173.png" alt="">
 
 								</div>
 
@@ -114,7 +114,7 @@ get_header(); ?>
 
 								<div class="product-item__icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/Shape 174.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/Shape 174.png" alt="">
 
 								</div>
 
@@ -128,7 +128,7 @@ get_header(); ?>
 
 								<div class="product-item__icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/Shape 176.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/Shape 176.png" alt="">
 
 								</div>
 
@@ -142,7 +142,7 @@ get_header(); ?>
 
 								<div class="product-item__icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/Shape 178.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/Shape 178.png" alt="">
 
 								</div>
 
@@ -156,7 +156,7 @@ get_header(); ?>
 
 								<div class="product-item__icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/product_icons/Shape 179.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/product_icons/Shape 179.png" alt="">
 
 								</div>
 
@@ -194,7 +194,7 @@ get_header(); ?>
 
 								<div class="benefits__item-icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/benefits-ic1.png" alt="" />
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/benefits-ic1.png" alt="" />
 
 								</div>
 
@@ -218,7 +218,7 @@ get_header(); ?>
 
 								<div class="benefits__item-icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/benefits-ic2.png" alt="" />
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/benefits-ic2.png" alt="" />
 
 								</div>
 
@@ -242,7 +242,7 @@ get_header(); ?>
 
 								<div class="benefits__item-icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/benefits-ic3.png" alt="" />
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/benefits-ic3.png" alt="" />
 
 								</div>
 
@@ -266,7 +266,7 @@ get_header(); ?>
 
 								<div class="benefits__item-icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/benefits-ic4.png" alt="" />
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/benefits-ic4.png" alt="" />
 
 								</div>
 
@@ -290,7 +290,7 @@ get_header(); ?>
 
 								<div class="benefits__item-icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/benefits-ic5.png" alt="" />
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/benefits-ic5.png" alt="" />
 
 								</div>
 
@@ -314,7 +314,7 @@ get_header(); ?>
 
 								<div class="benefits__item-icon">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/img/benefits-ic6.png" alt="" />
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/benefits-ic6.png" alt="" />
 
 								</div>
 
@@ -348,7 +348,7 @@ get_header(); ?>
 
 								<?php // echo do_shortcode( '[tc-owl-carousel carousel_cat="no-risks-slides" order="ASC" loop="true"]' );?>
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/no-risks.png" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/no-risks.png" alt="">
 
 							</div>
 
@@ -398,7 +398,7 @@ get_header(); ?>
 
 									<div class="benefit__list-icon">
 
-										<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic3.png" alt="benefit icon" />
+										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-ic3.png" alt="benefit icon" />
 
 									</div>
 
@@ -420,7 +420,7 @@ get_header(); ?>
 
 									<div class="benefit__list-icon">
 
-										<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic2.png" alt="benefit icon" />
+										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-ic2.png" alt="benefit icon" />
 
 									</div>
 
@@ -442,7 +442,7 @@ get_header(); ?>
 
 									<div class="benefit__list-icon">
 
-										<img src="<?php echo get_template_directory_uri(); ?>/img/benefit-ic1.png" alt="benefit icon" />
+										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-ic1.png" alt="benefit icon" />
 
 									</div>
 

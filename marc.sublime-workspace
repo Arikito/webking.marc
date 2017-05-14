@@ -484,18 +484,10 @@
 	"buffers":
 	[
 		{
-			"file": "wp-content/themes/marcsolutions/sass/page/_contacts.scss",
+			"file": "wp-content/themes/marcsolutions/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 1301,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/marcsolutions/sass/media/_media.scss",
-			"settings":
-			{
-				"buffer_size": 5390,
+				"buffer_size": 16985,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -509,7 +501,7 @@
 	"command_palette":
 	{
 		"height": 227.0,
-		"last_filter": "grunt",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -677,7 +669,7 @@
 				"Compare with..."
 			]
 		],
-		"width": 414.0
+		"width": 406.0
 	},
 	"console":
 	{
@@ -701,79 +693,111 @@
 		"/D/WebSites/webking.marc",
 		"/D/WebSites/webking.marc/wp-content",
 		"/D/WebSites/webking.marc/wp-content/themes",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions"
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions",
+		"/D/WebSites/webking.marc/wp-content/themes/twentysixteen"
 	],
 	"file_history":
 	[
-		"/D/WebSites/webking.marc/wp-config.php",
-		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/media/_media.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/index.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/style.css",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_support.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/functions.php",
+		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/style.css",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-icm.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-cam.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-acm.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-about-us.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-557.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/index.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-main.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-pam.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-pss.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-rem.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-request-a-demo.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-services.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-support.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-category.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-updates.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-video.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/footer.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/header.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-latest_news.php",
+		"/D/WebSites/webking.marc/wp-includes/theme-compat/header.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/assets/images/coffee.jpg",
+		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/rtl.css",
+		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/functions.php",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/index.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/jetpack.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/extras.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/customizer.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/custom-header.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/comments.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/category-updates.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/author.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/archive.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/404.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content-video.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/template-tags.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/layouts/content-sidebar.css",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/layouts/sidebar-content.css",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-contacts.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-videos.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-search.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-page.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-none.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/single.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sidebar.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/search.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/rtl.css",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/readme.txt",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_contacts.scss",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_about-us.scss",
+		"/D/WebSites/webking.marc/Gruntfile.js",
+		"/D/WebSites/webking.marc/wp-admin/admin-footer.php",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/header.php",
+		"/D/WebSites/webking.marc/wp-admin/edit.php",
 		"/D/WebSites/webking.marc/package.json",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/web.config",
+		"/D/WebSites/webking.marc/web.config",
+		"/D/WebSites/webking.marc/wp-config.php",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/D/WebSites/webking.marc/wp-includes/version.php",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/version.php",
+		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Users/Олександр/AppData/Roaming/MySQL/Workbench/connections.xml",
 		"/D/backup user folder/AppData/Roaming/MySQL/Workbench/connections.xml",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-acm.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/navigation/_menus.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/js/main.js",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/js/navigation.js",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/variables-site/_colors.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/media/_media.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_services.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_product.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_about-us.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_home.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/variables-site/_typography.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_support.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/style.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_demo.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_contacts.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/forms/_buttons.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-about-us.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/functions.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-pss.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-rem.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-cam.php",
 		"/D/WebSites/webking.marc/marc.sublime-workspace",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-pam.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-icm.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-main.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-request-a-demo.php",
 		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-3/web.config",
-		"/D/WebSites/webking.marc/web.config",
 		"/D/WebSites/webking.marc/wp-settings.php",
 		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/wp-settings.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-services.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/archive.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/archive.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/author.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-contacts.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-support.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/typography/_typography.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-up.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-latest_news.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/page-main.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_blog.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_article.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/site/primary/_comments.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/comments.php",
 		"/D/WebSites/webking.marc/wp-includes/comment-template.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/sass/style.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/single.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/header.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/footer.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/category-updates.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-category.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content-video.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-video.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content-page.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/template-tags.php",
 		"/C/Users/Олександр/Documents/dumps/Dump20170419.sql",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/pages/_home.scss",
 		"/D/WebSites/wp-config.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/variables-site/_variables-site.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/style.css",
-		"/D/WebSites/webking.marc/Gruntfile.js",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/index.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/js/main.js",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/sass/navigation/_menus.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/marctheme/sass/navigation/_navigation.scss",
@@ -801,38 +825,7 @@
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-acm.php",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/style.scss",
 		"/D/www/projects/webking.marc/wp-content/themes/marc/template-parts/post/content-none.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/forms/_forms.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/forms/_buttons.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/content-updates.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-main.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/content-video.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-videos.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/variables-site/_typography.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/variables-site/_colors.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-rem.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-pam.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-icm.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/template-parts/post/content.php",
-		"/C/Users/Олександр/Downloads/1.html",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/videos.html",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/post/content.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/content-category.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/index.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/functions.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/footer.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/post/content-video.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-contacts.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-services.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/single.php",
-		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/functions.php",
-		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/single.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/content — копия.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/template-parts/content.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page.php",
-		"/D/www/projects/webking.marc/wp-content/themes/twentyseventeen/page.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/header.php",
-		"/D/www/projects/webking.marc/wp-includes/nav-menu-template.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/index.html"
+		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/forms/_forms.scss"
 	],
 	"find":
 	{
@@ -871,6 +864,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"get_template_directory_uri().'/img/",
+			"news_item__thumb_placeholder",
+			"url(img/",
+			"<?php echo get_template_directory_uri(); ?>/assets/images",
+			"<?php echo get_template_directory_uri(); ?>/img/",
+			"\\n\\n",
+			"marctheme",
 			"992",
 			"\"hostName\">localhost",
 			"localhost",
@@ -991,21 +991,19 @@
 			"benefits__item-description",
 			"benefits__item-title",
 			"prod-cont-item__descr-title",
-			"acm_",
-			"acm_iwc",
-			"Integration with CAM",
-			"acm_iwc",
-			"Integration with CAM",
-			"Mitigation Controls",
-			"Integration with CAM",
-			"acm_iwc"
+			"acm_"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"url(assets/images/",
+			"<?php echo get_template_directory_uri(); ?>/assets/images/",
+			"<?php echo get_template_directory_uri(); ?>/assets/images",
+			"\\n",
+			"marcsolutions",
 			"\\n",
 			",",
 			"/images/nofoto.png",
@@ -1024,38 +1022,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "wp-content/themes/marcsolutions/sass/page/_contacts.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1301,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								207,
-								189
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -1063,20 +1031,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "wp-content/themes/marcsolutions/sass/media/_media.scss",
+					"buffer": 0,
+					"file": "wp-content/themes/marcsolutions/sass/style.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5390,
+						"buffer_size": 16985,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2384,
-								2384
+								6716,
+								6724
 							]
 						],
 						"settings":
@@ -1085,7 +1053,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1904.0,
+						"translation.y": 3304.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1156,7 +1124,7 @@
 	"project": "marc.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 92.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1165,6 +1133,58 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"header.php",
+				"wp-content\\themes\\marcsolutions\\header.php"
+			],
+			[
+				"page-main.",
+				"wp-content\\themes\\marcsolutions\\page-main.php"
+			],
+			[
+				"style.scss",
+				"wp-content\\themes\\marcsolutions\\sass\\style.scss"
+			],
+			[
+				"funct",
+				"wp-content\\themes\\marcsolutions\\functions.php"
+			],
+			[
+				"page-main",
+				"wp-content\\themes\\marcsolutions\\page-main.php"
+			],
+			[
+				"contacts",
+				"wp-content\\themes\\marcsolutions\\page-contacts.php"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"about-us.",
+				"wp-content\\themes\\marcsolutions\\page-about-us.php"
+			],
+			[
+				"page/",
+				"wp-content\\themes\\marcsolutions\\sass\\page\\_about-us.scss"
+			],
+			[
+				"footer.php",
+				"wp-content\\themes\\marcsolutions\\footer.php"
+			],
+			[
+				"wp-c",
+				"wp-config.php"
+			],
+			[
+				"wp-co",
+				"wp-config.php"
+			],
 			[
 				"media.scss",
 				"wp-content\\themes\\marcsolutions\\sass\\media\\_media.scss"
@@ -1214,10 +1234,6 @@
 				"wp-content\\themes\\marcsolutions\\page-about-us.php"
 			],
 			[
-				"page-main",
-				"wp-content\\themes\\marcsolutions\\page-main.php"
-			],
-			[
 				"product.scss",
 				"wp-content\\themes\\marcsolutions\\sass\\page\\_product.scss"
 			],
@@ -1244,10 +1260,6 @@
 			[
 				"support.scss",
 				"wp-content\\themes\\marcsolutions\\sass\\page\\_support.scss"
-			],
-			[
-				"style.scss",
-				"wp-content\\themes\\marcsolutions\\sass\\style.scss"
 			],
 			[
 				"page/about",
@@ -1414,16 +1426,8 @@
 				"wp-content\\themes\\marcsolutions\\sass\\navigation\\_menus.scss"
 			],
 			[
-				"page-main.",
-				"wp-content\\themes\\marctheme\\page-main.php"
-			],
-			[
 				"function.php",
 				"wp-content\\themes\\marctheme\\functions.php"
-			],
-			[
-				"grunt",
-				"Gruntfile.js"
 			],
 			[
 				"acm.svg",
@@ -1462,10 +1466,6 @@
 				"wp-content\\themes\\marctheme\\sass\\navigation\\_navigation.scss"
 			],
 			[
-				"header.php",
-				"wp-content\\themes\\marctheme\\header.php"
-			],
-			[
 				"/marctheme/post/content",
 				"wp-content\\themes\\marctheme\\template-parts\\post\\content.php"
 			],
@@ -1496,10 +1496,6 @@
 			[
 				"archive.",
 				"wp-content\\themes\\marctheme\\archive.php"
-			],
-			[
-				"footer.php",
-				"wp-content\\themes\\marctheme\\footer.php"
 			],
 			[
 				"content.php",
@@ -1648,34 +1644,6 @@
 			[
 				"pricelist.php",
 				"~core\\contr\\pricelist.php"
-			],
-			[
-				"price",
-				"~core\\contr\\price.php"
-			],
-			[
-				"promo_cer",
-				"themes\\default\\tpl\\cp_promo_certificate.tpl"
-			],
-			[
-				"style.css",
-				"themes\\default\\css\\style.css"
-			],
-			[
-				"cp_cab_orders",
-				"themes\\default\\tpl\\cp_customer_cab_orders_prod_list.tpl"
-			],
-			[
-				"cabinet.php",
-				"~core\\contr\\cabinet.php"
-			],
-			[
-				"cp_user_ae",
-				"adm\\core\\tpl\\cp_user_ae.tpl"
-			],
-			[
-				"usersedit",
-				"adm\\core\\contr\\usersedit.php"
 			]
 		],
 		"width": 0.0

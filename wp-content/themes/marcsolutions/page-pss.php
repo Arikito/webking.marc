@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package marctheme
+ * @package marcsolutions
  */
 
 get_header();
@@ -34,7 +34,7 @@ $post_slug = $post->post_name; ?>
 						<div class="benefits__item-number snake__number">1</div>
 						<div class="benefits__item-content" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true">
 							<div class="benefits__item-icon svg-icon" data-icon="share">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/rem_rer.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rem_rer.png" alt="" />
 							</div>
 							<div class="benefits__item-info">
 								<div class="benefits__item-title">Risk Execution Report</div>
@@ -54,7 +54,7 @@ $post_slug = $post->post_name; ?>
 						<div class="benefits__item-number snake__number">2</div>
 						<div class="benefits__item-content" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true">
 							<div class="benefits__item-icon svg-icon" data-icon="filter">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/rem_ds.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rem_ds.png" alt="" />
 							</div>
 							<div class="benefits__item-info">
 								<div class="benefits__item-title">Define Scope</div>
@@ -74,7 +74,7 @@ $post_slug = $post->post_name; ?>
 						<div class="benefits__item-number snake__number">3</div>
 						<div class="benefits__item-content" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-once="true">
 							<div class="benefits__item-icon svg-icon" data-icon="time">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/rem_ds2.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rem_ds2.png" alt="" />
 							</div>
 							<div class="benefits__item-info">
 								<div class="benefits__item-title">Define Scope</div>
@@ -93,7 +93,7 @@ $post_slug = $post->post_name; ?>
 						<div class="benefits__item-number snake__number">4</div>
 						<div class="benefits__item-content" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true">
 							<div class="benefits__item-icon svg-icon" data-icon="puzzle">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_int.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_int.png" alt="" />
 							</div>
 							<div class="benefits__item-info">
 								<div class="benefits__item-title">Integration with ACM</div>
@@ -111,7 +111,7 @@ $post_slug = $post->post_name; ?>
 						<div class="benefits__item-number snake__number">5</div>
 						<div class="benefits__item-content" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-once="true">
 							<div class="benefits__item-icon svg-icon" data-icon="board">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/cam_dash.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cam_dash.png" alt="" />
 							</div>
 							<div class="benefits__item-info">
 								<div class="benefits__item-title">REM Dashboard</div>

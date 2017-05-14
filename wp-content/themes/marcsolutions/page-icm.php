@@ -20,7 +20,7 @@
 
  *
 
- * @package marctheme
+ * @package marcsolutions
 
  */
 
@@ -64,7 +64,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="loupe">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/icm_mc.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icm_mc.png" alt="" />
 
 							</div>
 
@@ -100,7 +100,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="file">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/icm_mmdc.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icm_mmdc.png" alt="" />
 
 							</div>
 
@@ -136,7 +136,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="meeting">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/icm_co.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icm_co.png" alt="" />
 
 							</div>
 
@@ -172,7 +172,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="case">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/icm_cc.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icm_cc.png" alt="" />
 
 							</div>
 
@@ -208,7 +208,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="clock">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/icm_ccm.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icm_ccm.png" alt="" />
 
 							</div>
 
@@ -244,7 +244,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="chart">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_dash.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_dash.png" alt="" />
 
 							</div>
 
@@ -280,7 +280,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="book">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_crb.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_crb.png" alt="" />
 
 							</div>
 

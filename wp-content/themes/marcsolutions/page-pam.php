@@ -20,7 +20,7 @@
 
  *
 
- * @package marctheme
+ * @package marcsolutions
 
  */
 
@@ -64,7 +64,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="key">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/pam_pa.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pam_pa.png" alt="" />
 
 							</div>
 
@@ -100,7 +100,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="settings">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/pam_ec.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pam_ec.png" alt="" />
 
 							</div>
 
@@ -136,7 +136,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="chain">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/pam_wf.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pam_wf.png" alt="" />
 
 							</div>
 
@@ -172,7 +172,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="mail">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/pam_noty.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pam_noty.png" alt="" />
 
 							</div>
 
@@ -208,7 +208,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="zoom">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/pam_rtacl.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pam_rtacl.png" alt="" />
 
 							</div>
 
@@ -244,7 +244,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="chart">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/pam_dash.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pam_dash.png" alt="" />
 
 							</div>
 

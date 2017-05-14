@@ -14,7 +14,7 @@
 
  *
 
- * @package marctheme
+ * @package marcsolutions
 
  */
 
@@ -40,7 +40,7 @@
 
 						<div class="footer__logo">
 
-							<img src="<?php echo get_template_directory_uri(); ?>/img/Marc_Logo2.svg" alt="MARC logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Marc_Logo2.svg" alt="MARC logo">
 
 						</div>
 

@@ -20,7 +20,7 @@
 
  *
 
- * @package marctheme
+ * @package marcsolutions
 
  */
 
@@ -64,7 +64,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="radar">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_aim.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_aim.png" alt="" />
 
 							</div>
 
@@ -100,7 +100,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="user">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_simulation.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_simulation.png" alt="" />
 
 							</div>
 
@@ -136,7 +136,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="network">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_csa.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_csa.png" alt="" />
 
 							</div>
 
@@ -174,7 +174,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="planet">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_ola.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_ola.png" alt="" />
 
 							</div>
 
@@ -210,7 +210,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="book">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_crb.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_crb.png" alt="" />
 
 							</div>
 
@@ -246,7 +246,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="exchange">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_rc.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_rc.png" alt="" />
 
 							</div>
 
@@ -282,7 +282,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="notebook">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_oa.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_oa.png" alt="" />
 
 							</div>
 
@@ -318,7 +318,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="window">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_iwc.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_iwc.png" alt="" />
 
 							</div>
 
@@ -354,7 +354,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="list">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_mc.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_mc.png" alt="" />
 
 							</div>
 
@@ -390,7 +390,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="chart">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_dash.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_dash.png" alt="" />
 
 							</div>
 
@@ -428,7 +428,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="mail">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_noty.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_noty.png" alt="" />
 
 							</div>
 
@@ -466,7 +466,7 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-icon svg-icon" data-icon="puzzle">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/acm_int.png" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/acm_int.png" alt="" />
 
 							</div>
 
