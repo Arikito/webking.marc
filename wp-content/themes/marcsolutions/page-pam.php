@@ -51,7 +51,7 @@ $post_slug = $post->post_name; ?>
 
 		<main id="main" class="site-main" role="main">
 			<section class="benefits">
-				<p class="products__description section-description">Nullam sit amet odio eu est aliquet euismod a a urna. Nullam sit amet odio eu</p>
+				<p class="products__description section-description">Privileged Access Management: grants temporary broad access for emergency situations to privileged ID’s for support teams in a controlled way. All the transactions used by these Privileged ID’s are tracked and reviewed.</p>
 				<div class="section-separator"></div>
 
 				<div class="benefits__list snake">
@@ -74,13 +74,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+									<p>Grant privileged access to support teams in a controlled way.</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>Get rid of permanent assignment of super user roles to users in production systems.</li>
 
-										<li>Historical information view in dash boards.</li>
+										<li>Instead grant privileged access on ‘need basis’ only</li>
 
 									</ul>
 
@@ -110,13 +110,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+									<p>Easy and straight forward representation of the emergency access process.</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>ID based configuration which is easy to understand and to configure</li>
 
-										<li>Historical information view in dash boards.</li>
+										<li>Simple UI to manage privileged id accounts , reviewers, owners etc.</li>
 
 									</ul>
 
@@ -146,13 +146,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+									<p>Configurable workflow for privileged access management to define who approves the activation of privileged ID’s and who reviews the log of Privilege ID usage.</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>Avoid manual follow-up activities to grant requests for privileged access: automated workflow does it for you.</li>
 
-										<li>Historical information view in dash boards.</li>
+										<li>Complete audit trail reports help to analyse, investigate when privilege access was requested, approved and reviewed.</li>
 
 									</ul>
 
@@ -182,13 +182,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+									<p>Configuration of notifications to Requesters, Owners and Reviewers:</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>Notification to privileged access owner when there is any request entered</li>
 
-										<li>Historical information view in dash boards.</li>
+										<li>Upon completion of privileged access usage: executed transaction details.</li>
 
 									</ul>
 
@@ -218,13 +218,15 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+									<p>View transactions executed by privileged IDs in SAP systems.</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>Analyse the respective change documents</li>
 
-										<li>Historical information view in dash boards.</li>
+										<li>View SoD risks executed by a privileged ID within requested duration</li>
+
+										<li>Usage of PAM review rules to have critical changes highlighted while reviewing  privileged access usage.</li>
 
 									</ul>
 
@@ -254,13 +256,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+									<p>Interactive drill-down dashboard to visualize privileged access usage across connected SAP systems.</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>Understand how many times privileged access check-out</li>
 
-										<li>Historical information view in dash boards.</li>
+										<li>Overview of overall PAM requests for given duration i.e. requests approved, usage approved, rejected.</li>
 
 									</ul>
 

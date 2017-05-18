@@ -35,9 +35,7 @@ $post_slug = $post->post_name; ?>
 
 				<div class="row">
 
-					<h3 class="benefits__title section-title">Who we are?</h3>
-
-					<p class="products__description section-description">Nullam sit amet odio eu est aliquet euismod a a urna. Nullam sit amet odio eu</p>
+					<h3 class="benefits__title section-title">Who we are?</h3>				
 
 					<div class="section-separator"></div>
 
@@ -59,7 +57,7 @@ $post_slug = $post->post_name; ?>
 
 					<h3 class="benefits__title section-title">Our team</h3>
 
-					<p class="products__description section-description">Nullam sit amet odio eu est aliquet euismod a a urna. Nullam sit amet odio eu</p>
+					<p class="products__description section-description">Get to know about MARC Family</p>
 
 					<div class="section-separator"></div>
 
@@ -237,7 +235,7 @@ $post_slug = $post->post_name; ?>
 
 					<h3 class="benefits__title section-title">Our mentors &amp; advisor</h3>
 
-					<p class="products__description section-description">Nullam sit amet odio eu est aliquet euismod a a urna. Nullam sit amet odio eu</p>
+					<p class="products__description section-description">MARC mentors are GRC subject experts and renowned in SAP Audit and GRC</p>
 
 					<div class="section-separator"></div>
 

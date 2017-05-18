@@ -51,7 +51,7 @@ $post_slug = $post->post_name; ?>
 
 		<main id="main" class="site-main" role="main">
 			<section class="benefits">
-				<p class="products__description section-description">Nullam sit amet odio eu est aliquet euismod a a urna. Nullam sit amet odio eu</p>
+				<p class="products__description section-description">Internal Control Monitor: monitors effectiveness of SAP Configuration, Master Data and Transactional key controls and report the discrepancies to business process owners.</p>
 				<div class="section-separator"></div>
 
 				<div class="benefits__list snake">
@@ -74,13 +74,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Demonstrates the continued effectiveness of application Controls</p>
+									<p>Demonstrates the continued effectiveness of Application Controls</p>
 
 									<ul>
 
-										<li>Automated process for analyzing sensive SAP configurations and report exceptions.</li>
+										<li>Automated process for analysing sensitive SAP configurations and report exceptions.</li>
 
-										<li>Example : Changes to three-way match config, PO release group changes.</li>
+										<li>Example: Changes to three-way match configuration, PO release group changes.</li>
 
 									</ul>
 
@@ -110,13 +110,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Monitor changes to Master Data for suspicious activity Identifies unsual additions and deletions.</p>
+									<p>Monitor changes to Master Data for critical data elements. Identifies unusual additions and deletions.</p>
 
 									<ul>
 
-										<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
+										<li>Connect multiple SAP systems to ICM and report critical data changes.</li>
 
-										<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
+										<li>Distribute reports to appropriate control owners and publish</li>
 
 										</ul>
 
@@ -146,11 +146,11 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Enforce governance through control owner and workflow</p>
+									<p>Enforce governance through control owner and workflows.</p>
 
 									<ul>
 
-										<li>Repor control deficiency to respective owners.</li>
+										<li>Report control deficiency to respective owners.</li>
 
 										<li>Review issues/deficiencies and remediation status and report.</li>
 
@@ -218,13 +218,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Monitors changes to Master Data for suspicious activity Identifies unusual additions and deletions.</p>
+									<p>Automates changes to critical configuration settings. Identifies unusual additions and deletions.</p>
 
 									<ul>
 
-										<li>Connect multiple SAP systems to ACM and perform online Risk Analysis to real-time reports.</li>
+										<li>Connect multiple SAP systems to ICM and perform continuous check on configuration settings.</li>
 
-										<li>Prepare SoD, Critical access reports at User and Role level and publish</li>
+										<li>Auto-generates red/green status per control and initiates alerts to appropriate control owners.</li>
 
 									</ul>
 
@@ -258,9 +258,9 @@ $post_slug = $post->post_name; ?>
 
 									<ul>
 
-										<li>Interactive dashboards to drilldown through control monitoring findings.</li>
+										<li>Interactive dashboards to drilldown throughout control monitoring findings.</li>
 
-										<li>Presents overall healh of automated and manual control assessemtns</li>
+										<li>Presents overall health status check of automated and manual control assessments.</li>
 
 									</ul>
 
@@ -290,13 +290,15 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Test, assess all of your manual controls via ICM, thus avoid using excel based manual control testing burden.</p>
+									<p>Facilitates execution of all of your manual controls via ICM, thus avoid using excel based manual control testing burden.</p>
 
 									<ul>
 
-										<li>Single source for all automated and manula controls.</li>
+										<li>Single source for definition of all automated and manual controls.</li>
 
-										<li>provides insight to work paparers, test executions and results</li>
+										<li>Facilitates documentation and execution of control assessments and test procedures </li>
+
+										<li>Provides insight to work papers, evidence of test executions and results.</li>
 
 									</ul>
 

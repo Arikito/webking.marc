@@ -44,13 +44,13 @@ $post_slug = $post->post_name; ?>
 
 						<h3 class="products__title section-title">Support</h3>
 
-						<p class="products__description section-description">Nullam sit amet odio eu est aliquet euismod a a urna. Nullam sit amet odio eu</p>
+						<p class="products__description section-description">Get the most out our application.</p>
 
 						<div class="section-separator"></div>
 
 						<nav class="support__list">
 
-							<a href="<?php echo get_permalink( get_page_by_title( 'Videos' ) ) ?>" class="support__block">
+							<a href="#" class="support__block">
 
 								<div class="support__image">
 

@@ -45,6 +45,10 @@ function marcsolutions_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
+	add_image_size( 'marcsolutions-featured-image', 2000, 1200, true );
+
+	add_image_size( 'marcsolutions-thumbnail-avatar', 100, 100, true );
+
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'menu-1' => esc_html__( 'Header', 'marcsolutions' ),
@@ -130,27 +134,25 @@ add_action( 'widgets_init', 'marcsolutions_widgets_init' );
  */
 function marcsolutions_scripts() {
 	wp_enqueue_style( 'aos-styles', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css' );
-	wp_enqueue_script( 'aos-js', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', array(), '20151215', true );
+	wp_enqueue_script( 'aos-js', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', array(), false, true );
 
-	wp_enqueue_style( 'icon-font', get_template_directory_uri().'/assets/icomoon/style.css' );
 
 	wp_enqueue_style( 'bootstrap-styles', get_template_directory_uri().'/assets/bootstrap/css/bootstrap.min.css' );
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri().'/assets/bootstrap/js/bootstrap.min.js', array( 'jquery' ), false, true );
+
+	wp_enqueue_style( 'icon-font', get_template_directory_uri().'/assets/icomoon/style.css' );
+	wp_enqueue_script( 'icons-ligatures', get_template_directory_uri().'/assets/icomoon/liga.js', array( 'jquery' ), false, true );
+
+	wp_enqueue_script( 'custom-js', get_template_directory_uri().'/js/main.min.js', array( 'jquery' ), false, true );
+
+	wp_enqueue_script( 'svg-icons-js', get_template_directory_uri().'/js/svg-icons.min.js', array( ), false, true );
+
+	wp_enqueue_script( 'animate-js', get_template_directory_uri().'/js/animate.min.js', array( ), false, true );
 
 	wp_enqueue_style( 'marcsolutions-style', get_stylesheet_uri() );
+	wp_enqueue_script( 'marcsolutions-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), false, true );
+	wp_enqueue_script( 'marcsolutions-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.min.js', array(), false, true );
 
-	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri().'/assets/bootstrap/js/bootstrap.min.js', array( 'jquery' ), '20151215', true );
-
-	wp_enqueue_script( 'icons-ligatures', get_template_directory_uri().'/assets/icomoon/liga.js', array( 'jquery' ), '20151215', true );
-
-	wp_enqueue_script( 'custom-js', get_template_directory_uri().'/js/main.js', array( 'jquery' ), '20151215', true );
-
-	wp_enqueue_script( 'svg-icons-js', get_template_directory_uri().'/js/svg-icons.js', true );
-
-	wp_enqueue_script( 'animate-js', get_template_directory_uri().'/js/animate.js', true );
-
-	wp_enqueue_script( 'marcsolutions-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'marcsolutions-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

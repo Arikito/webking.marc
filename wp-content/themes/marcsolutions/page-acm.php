@@ -51,7 +51,7 @@ $post_slug = $post->post_name; ?>
 
 		<main id="main" class="site-main" role="main">
 			<section class="benefits">
-				<p class="products__description section-description">Nullam sit amet odio eu est aliquet euismod a a urna. Nullam sit amet odio eu</p>
+				<p class="products__description section-description">Access Conflict Monitor: find and remediate Segregation of Duties (SoD) conflicts and critical access violations. Analyse down to authorization object field level.</p>
 				<div class="section-separator"></div>
 
 				<div class="benefits__list snake">
@@ -74,7 +74,7 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Find and remediate SoD conflict and critical access violations. Analyze at the lowest authorization level</p>
+									<p>Find and remediate SoD conflicts and critical access violations. Analyse down to the authorization field level.</p>
 
 									<ul>
 
@@ -114,9 +114,9 @@ $post_slug = $post->post_name; ?>
 
 									<ul>
 
-										<li>Avoid introducing new SoD risk in SAP system by performing risk simulation</li>
+										<li>Avoid introducing new SoD risks in SAP system by performing risk simulation</li>
 
-										<li>Works as a preventive control.</li>
+										<li>Works as pro-active implementation of preventive SoD controls</li>
 
 									</ul>
 
@@ -146,15 +146,14 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Perform the risk analysis to view the user risk spread across the systems.
-
-										Example : Shopping Cart Create (SRM) / PO Approval (ECC)</p>
+									<p>Perform the risk analysis to view the user risks spread across the systems. Example : Shopping Cart Create (SRM) / PO Approval (ECC)
+									</p>
 
 									<ul>
 
-										<li>Authorizations are distributed to several systems, example R/3 & SRM</li>
+										<li>Authorizations are distributed to several systems, example ECC & SRM</li>
 
-										<li>ACM helps to find the risks associated a user ID that spread across systems.</li>
+										<li>ACM helps to find the risks associated to a user ID across systems</li>
 
 									</ul>
 
@@ -188,7 +187,7 @@ $post_slug = $post->post_name; ?>
 
 									<ul>
 
-										<li>Organizational rule analysis can be enabled to avoid false positives.</li>
+										<li>Organizational rule analysis can be enabled to avoid false positives and to limit the risk analysis to specific organizational entities in the SAP system</li>
 
 										<li>Flexible option of Mass upload, import of organizational rules in to ACM via excel.</li>
 
@@ -262,7 +261,7 @@ $post_slug = $post->post_name; ?>
 
 										<li>Upload the other rule sets and convert them easily in to MARC format</li>
 
-										<li>Avoid manual creation of rule sets which can lead to errors, false positives, negatives.</li>
+										<li>Avoid manual creation of rule sets which can lead to errors, false positives or false negatives.</li>
 
 									</ul>
 
@@ -292,13 +291,15 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Enables to perform the risk analysis by uploading the SAP authorization data.</p>
+									<p>Enables to perform the risk analysis by uploading the SAP authorization data obtained via data download from the SAP system under review</p>
 
 									<ul>
 
-										<li>If the there is SAP integration to MARC not possible due to lower versions, in that case client can use the offline analysis option.</li>
+										<li>In case  SAP integration to MARC not possible due to lower versions or not (yet) preferred for any reason, offline analysis option can be used.</li>
 
-										<li>Extract the data by using the MARC : Data Extractorto a Access File and upload to ACM.</li>
+										<li>Extract the data by using the MARC Data Extractor to a MS Access File and upload to ACM.</li>
+
+										<li>Best solution for independent auditors and external consultants.</li>
 
 									</ul>
 
@@ -328,7 +329,7 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>ACM is integrated with Compliant Access management.</p>
+									<p>ACM is integrated with Compliant Access Management (CAM).</p>
 
 									<ul>
 
@@ -364,7 +365,7 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Create mitigation controls when SoD risk can’t be mitigated.</p>
+									<p>Create mitigation controls when SoD risk can’t be remediated.</p>
 
 									<ul>
 
@@ -438,7 +439,7 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+									<p>Configurable notification templates help to send information to respective risk owners, mitigation owners, in following cases:</p>
 
 									<ul>
 
@@ -472,17 +473,17 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-info">
 
-								<div class="benefits__item-title">Integrations</div>
+								<div class="benefits__item-title">Impact Analysis</div>
 
 								<div class="benefits__item-description">
 
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an.</p>
+									<p>Avoid introducing new SoD , critical access conflicts with role updates in production system.</p>
 
 									<ul>
 
-										<li>ACM rulebook is integrated with PAM and REM.</li>
+										<li>Perform intended role change in ACM prior to effectively changing the role in SAP.</li>
 
-										<li>Use existin SoD risk data to </li>
+										<li>Execute impact analysis to see to analyse if intended role change leads to new user level SoD conflicts.</li>
 
 										</li>
 

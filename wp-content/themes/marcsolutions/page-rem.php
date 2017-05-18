@@ -51,7 +51,7 @@ $post_slug = $post->post_name; ?>
 
 		<main id="main" class="site-main" role="main">
 			<section class="benefits">
-				<p class="products__description section-description">Nullam sit amet odio eu est aliquet euismod a a urna. Nullam sit amet odio eu</p>
+				<p class="products__description section-description">Risk Execution Monitor: analyses potential actual occurrence of SoD and Critical actions on user level and drill-down to details like transaction, user and when transactions were potentially executed.</p>
 				<div class="section-separator"></div>
 
 				<div class="benefits__list snake">
@@ -74,17 +74,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Analyse and Monitor Risk executed by users in SAP systems.</p>
+									<p>Analyses risks potentially executed by users in connected SAP systems.</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>selected SoD risks.</li>
 
-										<li>Historical information view in dash boards.</li>
-
-										<li>Export results option to PDF, EXCEL files and as a JPG.</li>
-
-										<li>Summary drill down option like risks by business process, criticality ,number of active uses, expired users of a selected system.</li>
+										<li>Selected rules (tasks/functions)</li>
 
 									</ul>
 
@@ -114,17 +110,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Define the scope for Risk/Rules to be monitored with REM, this increases to focus only critical risk executions to be checked.</p>
+									<p>Unlike other traditional solutions which dump all the information on SoD risk, REM can be configured in such a way that transaction usage records are viewed only for </p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>Selected SoD risks.</li>
 
-										<li>Historical information view in dash boards.</li>
-
-										<li>Export results option to PDF, EXCEL files and as a JPG.</li>
-
-										<li>Summary drill down option like risks by business process, criticality ,number of active uses, expired users of a selected system.</li>
+										<li>Selected rules (tasks/functions).</li>
 
 									</ul>
 
@@ -150,21 +142,21 @@ $post_slug = $post->post_name; ?>
 
 							<div class="benefits__item-info">
 
-								<div class="benefits__item-title">Define Scope</div>
+								<div class="benefits__item-title">HISOTORIAL INFO</div>
 
 								<div class="benefits__item-description">
 
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+									<p>Transaction usage statistics are stored in REM on SoD risk level, rule level and individual transaction level, thus facilitating to drilldown for a historical period.</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>Per risk.</li>
 
-										<li>Historical information view in dash boards.</li>
+										<li>Per rule.</li>
 
-										<li>Export results option to PDF, EXCEL files and as a JPG.</li>
+										<li>Per transaction</li>
 
-										<li>Summary drill down option like risks by business process, criticality ,number of active uses, expired users of a selected system.</li>
+										<li>Per user</li>
 
 									</ul>
 
@@ -194,17 +186,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Share risk execution information with risk analysis result to indicate the risks executed by a user.</p>
+									<p>Access conflict Monitor shares risk, rule definition data to log the risk executed by users.</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>No need to setting of critical, SoD relevant transactions again..</li>
 
-										<li>Historical information view in dash boards.</li>
-
-										<li>Export results option to PDF, EXCEL files and as a JPG.</li>
-
-										<li>Summary drill down option like risks by business process, criticality ,number of active uses, expired users of a selected system.</li>
+										<li>Share risks executed , transactions executed with SoD results to understand SoD risks associated with user and risks executed by a user.</li>
 
 									</ul>
 
@@ -234,17 +222,13 @@ $post_slug = $post->post_name; ?>
 
 								<div class="benefits__item-description">
 
-									<p>Analyse and Monitor Risk executed by users in SAP systems.</p>
+									<p>Interactive drill-down dashboard to visualize SoD, critical risks executed.</p>
 
 									<ul>
 
-										<li>View SoD conflict information / Statistics on interactive dashboards.</li>
+										<li>•	Risks potentially executed grouped by business process</li>
 
-										<li>Historical information view in dash boards.</li>
-
-										<li>Export results option to PDF, EXCEL files and as a JPG.</li>
-
-										<li>Summary drill down option like risks by business process, criticality ,number of active uses, expired users of a selected system.</li>
+										<li>Transactions performed by a user.</li>
 
 									</ul>
 

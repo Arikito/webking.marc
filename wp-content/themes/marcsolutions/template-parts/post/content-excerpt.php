@@ -1,40 +1,30 @@
-<?php
-/**
- * Template part for displaying posts with excerpts
- *
- * Used in Search Results and for Recent Posts in Front Page panels.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Twenty_Seventeen
- * @since 1.0
- * @version 1.0
- */
-
-?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-	<header class="entry-header">
-		<?php if ( 'post' === get_post_type() ) : ?>
-			<div class="entry-meta">
-				<?php
-					echo twentyseventeen_time_link();
-					twentyseventeen_edit_link();
-				?>
-			</div><!-- .entry-meta -->
-		<?php elseif ( 'page' === get_post_type() && get_edit_post_link() ) : ?>
-			<div class="entry-meta">
-				<?php twentyseventeen_edit_link(); ?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-	</header><!-- .entry-header -->
-
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-
-</article><!-- #post-## -->
+<?php
+/**
+ * Template part for displaying posts with excerpts
+ */
+?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<section class="image-page-header image-page-header_<?php echo strtolower(get_queried_object()->name); ?> container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="image-page-header__title"><?php echo get_the_category(get_the_ID())[0]->name;?></div>
+				<div class="image-page-header__subtitle"><?php echo get_the_category(get_the_ID())[0]->description;?></div>
+			</div>
+		</div>
+	</section>
+	<section class="article-content container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="article__title"><?php the_title();?></h1>
+				<div class="article__subtitle">
+					<div class="article__date"><?php _e('Posted'); ?> <?php echo get_the_date(__( 'M j, Y' )); ?> <?php _e('by'); ?> <?php the_author_posts_link(); ?> </div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="article-content__content">
+					<?php the_excerpt(); ?>
+				</div>
+			</div>
+		</div>
+	</section>
+</article><!-- #post-## -->

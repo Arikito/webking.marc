@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"l",
+				"latest"
+			],
+			[
 				"text-",
 				"text-indent"
 			],
@@ -194,10 +198,6 @@
 			[
 				"pr",
 				"products"
-			],
-			[
-				"l",
-				"last-child"
 			],
 			[
 				"prod",
@@ -484,10 +484,134 @@
 	"buffers":
 	[
 		{
+			"file": "wp-content/themes/marcsolutions/page-main.php",
+			"settings":
+			{
+				"buffer_size": 15752,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcsolutions/functions.php",
+			"settings":
+			{
+				"buffer_size": 7061,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 1276,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 209,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcsolutions/template-parts/post/content-gallery.php",
+			"settings":
+			{
+				"buffer_size": 1075,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 429 files for \"twentyseventeen\" (regex)\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\assets\\css\\colors-dark.css:\n  295  .colors-dark .entry-title a,\n  296  \n  297: .colors-dark.twentyseventeen-front-page .panel-content .recent-posts article,\n  298  \n  299  .colors-dark .entry-footer .cat-links a,\n  ...\n  445  .colors-dark .page-title,\n  446  \n  447: .colors-dark.page:not(.twentyseventeen-front-page) .entry-title,\n  448  \n  449  .colors-dark .page-links a .page-number,\n  ...\n  467  .colors-dark.search .entry-meta a.post-edit-link,\n  468  \n  469: .colors-custom .twentyseventeen-panel .recent-posts .entry-header .edit-link {\n  470  \n  471  \tcolor: #ddd;\n  ...\n  739  \n  740  \n  741: .colors-dark.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child),\n  742  \n  743  .colors-dark .widget ul li {\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\assets\\css\\ie8.css:\n  123  \n  124  \n  125: .has-header-image.twentyseventeen-front-page .custom-header,\n  126  \n  127  .has-header-image.home.blog .custom-header {\n  ...\n  149  \n  150  \n  151: .has-header-image.twentyseventeen-front-page .site-branding,\n  152  \n  153  .has-header-image.home.blog .site-branding {\n  ...\n  269  \n  270  \n  271: .twentyseventeen-front-page.has-header-image .custom-header,\n  272  \n  273  .blog.home.has-header-image .custom-header,\n  ...\n  285  \n  286  \n  287: .twentyseventeen-front-page .custom-header-media,\n  288  \n  289  .blog.home .custom-header-media {\n  ...\n  295  \n  296  \n  297: .twentyseventeen-front-page.has-header-image .site-branding,\n  298  \n  299  .home.blog.has-header-image .site-branding {\n  ...\n  419  \n  420  \n  421: .rtl .has-header-image.twentyseventeen-front-page .site-branding,\n  422  \n  423  .rtl .has-header-image.home.blog .site-branding {\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\assets\\css\\ie9.css:\n    9  \n   10  \n   11: .has-header-image.twentyseventeen-front-page .custom-header,\n   12  \n   13: .has-header-video.twentyseventeen-front-page .custom-header,\n   14  \n   15  .has-header-image.home.blog .custom-header,\n   ..\n   39  \n   40  \n   41: \t.has-header-image.twentyseventeen-front-page .custom-header,\n   42  \n   43: \t.has-header-video.twentyseventeen-front-page .custom-header,\n   44  \n   45  \t.has-header-image.home.blog .custom-header,\n   ..\n   47  \t.has-header-video.home.blog .custom-header,\n   48  \n   49: \t.twentyseventeen-front-page.has-header-image .custom-header-media,\n   50  \n   51  \t.home.blog.has-header-image .custom-header-media,\n   ..\n   65  \n   66  \n   67: \t.has-header-image.twentyseventeen-front-page .custom-header,\n   68  \n   69: \t.has-header-video.twentyseventeen-front-page .custom-header,\n   70  \n   71  \t.has-header-image.home.blog .custom-header,\n   ..\n   73  \t.has-header-video.home.blog .custom-header,\n   74  \n   75: \t.twentyseventeen-front-page.has-header-image .custom-header-media,\n   76  \n   77  \t.home.blog.has-header-image .custom-header-media,\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\assets\\js\\customize-preview.js:\n   33  \t\t\t// Only on the front page.\n   34  \n   35: \t\t\tif ( ! $( 'body' ).hasClass( 'twentyseventeen-front-page' ) ) {\n   36  \n   37  \t\t\t\treturn;\n   ..\n  131  \t\t\t\tif ( ! to.length ) {\n  132  \n  133: \t\t\t\t\t$( '#twentyseventeen-custom-header-styles' ).remove();\n  134  \n  135  \t\t\t\t}\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\assets\\js\\global.js:\n    1: /* global twentyseventeenScreenReaderText */\n    2  \n    3  (function( $ ) {\n    .\n   29  \t\t$formatQuote = $body.find( '.format-quote blockquote' ),\n   30  \n   31: \t\tisFrontPage = $body.hasClass( 'twentyseventeen-front-page' ) || $body.hasClass( 'home blog' ),\n   32  \n   33  \t\tnavigationFixedClass = 'site-navigation-fixed',\n   ..\n  211  \tfunction setQuotesIcon() {\n  212  \n  213: \t\t$( twentyseventeenScreenReaderText.quote ).prependTo( $formatQuote );\n  214  \n  215  \t}\n  ...\n  233  \t\t\t$body.hasClass( 'error404' ) ||\n  234  \n  235: \t\t\t$body.hasClass( 'twentyseventeen-front-page' )\n  236  \n  237  \t\t) ) {\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\assets\\js\\navigation.js:\n    1: /* global twentyseventeenScreenReaderText */\n    2  \n    3  /**\n    .\n   27  \t\tvar dropdownToggle = $( '<button />', { 'class': 'dropdown-toggle', 'aria-expanded': false })\n   28  \n   29: \t\t\t.append( twentyseventeenScreenReaderText.icon )\n   30  \n   31: \t\t\t.append( $( '<span />', { 'class': 'screen-reader-text', text: twentyseventeenScreenReaderText.expand }) );\n   32  \n   33  \n   ..\n   47  \t\t\t.find( '.screen-reader-text' )\n   48  \n   49: \t\t\t.text( twentyseventeenScreenReaderText.collapse );\n   50  \n   51  \t\t// Set the active submenu initial state.\n   ..\n   75  \n   76  \n   77: \t\t\tscreenReaderSpan.text( screenReaderSpan.text() === twentyseventeenScreenReaderText.expand ? twentyseventeenScreenReaderText.collapse : twentyseventeenScreenReaderText.expand );\n   78  \n   79  \t\t});\n   ..\n  119  \n  120  \n  121: \t\tmenuToggle.on( 'click.twentyseventeen', function() {\n  122  \n  123  \t\t\tsiteNavContain.toggleClass( 'toggled-on' );\n  ...\n  153  \n  154  \n  155: \t\t\t\t$( document.body ).on( 'touchstart.twentyseventeen', function( e ) {\n  156  \n  157  \t\t\t\t\tif ( ! $( e.target ).closest( '.main-navigation li' ).length ) {\n  ...\n  167  \t\t\t\tsiteNavigation.find( '.menu-item-has-children > a, .page_item_has_children > a' )\n  168  \n  169: \t\t\t\t\t.on( 'touchstart.twentyseventeen', function( e ) {\n  170  \n  171  \t\t\t\t\t\tvar el = $( this ).parent( 'li' );\n  ...\n  189  \t\t\t} else {\n  190  \n  191: \t\t\t\tsiteNavigation.find( '.menu-item-has-children > a, .page_item_has_children > a' ).unbind( 'touchstart.twentyseventeen' );\n  192  \n  193  \t\t\t}\n  ...\n  199  \t\tif ( 'ontouchstart' in window ) {\n  200  \n  201: \t\t\t$( window ).on( 'resize.twentyseventeen', toggleFocusClassTouchScreen );\n  202  \n  203  \t\t\ttoggleFocusClassTouchScreen();\n  ...\n  207  \n  208  \n  209: \t\tsiteNavigation.find( 'a' ).on( 'focus.twentyseventeen blur.twentyseventeen', function() {\n  210  \n  211  \t\t\t$( this ).parents( '.menu-item, .page_item' ).toggleClass( 'focus' );\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\template-parts\\post\\content-audio.php:\n   33  \t\tif ( is_sticky() && is_home() ) :\n   34  \n   35: \t\t\techo twentyseventeen_get_svg( array( 'icon' => 'thumb-tack' ) );\n   36  \n   37  \t\tendif;\n   ..\n   49  \t\t\t\t\tif ( is_single() ) :\n   50  \n   51: \t\t\t\t\t\ttwentyseventeen_posted_on();\n   52  \n   53  \t\t\t\t\telse :\n   54  \n   55: \t\t\t\t\t\techo twentyseventeen_time_link();\n   56  \n   57: \t\t\t\t\t\ttwentyseventeen_edit_link();\n   58  \n   59  \t\t\t\t\tendif;\n   ..\n  109  \t\t\t<a href=\"<?php the_permalink(); ?>\">\n  110  \n  111: \t\t\t\t<?php the_post_thumbnail( 'twentyseventeen-featured-image' ); ?>\n  112  \n  113  \t\t\t</a>\n  ...\n  157  \t\t\tthe_content( sprintf(\n  158  \n  159: \t\t\t\t__( 'Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>', 'twentyseventeen' ),\n  160  \n  161  \t\t\t\tget_the_title()\n  ...\n  167  \t\t\twp_link_pages( array(\n  168  \n  169: \t\t\t\t'before'      => '<div class=\"page-links\">' . __( 'Pages:', 'twentyseventeen' ),\n  170  \n  171  \t\t\t\t'after'       => '</div>',\n  ...\n  189  \t<?php if ( is_single() ) : ?>\n  190  \n  191: \t\t<?php twentyseventeen_entry_footer(); ?>\n  192  \n  193  \t<?php endif; ?>\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\template-parts\\post\\content-excerpt.php:\n   43  \t\t\t\t<?php\n   44  \n   45: \t\t\t\t\techo twentyseventeen_time_link();\n   46  \n   47: \t\t\t\t\ttwentyseventeen_edit_link();\n   48  \n   49  \t\t\t\t?>\n   ..\n   55  \t\t\t<div class=\"entry-meta\">\n   56  \n   57: \t\t\t\t<?php twentyseventeen_edit_link(); ?>\n   58  \n   59  \t\t\t</div><!-- .entry-meta -->\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\template-parts\\post\\content-image.php:\n   31  \t\tif ( is_sticky() && is_home() ) :\n   32  \n   33: \t\t\techo twentyseventeen_get_svg( array( 'icon' => 'thumb-tack' ) );\n   34  \n   35  \t\tendif;\n   ..\n   47  \t\t\t\t\tif ( is_single() ) :\n   48  \n   49: \t\t\t\t\t\ttwentyseventeen_posted_on();\n   50  \n   51  \t\t\t\t\telse :\n   52  \n   53: \t\t\t\t\t\techo twentyseventeen_time_link();\n   54  \n   55: \t\t\t\t\t\ttwentyseventeen_edit_link();\n   56  \n   57  \t\t\t\t\tendif;\n   ..\n   85  \t\t\t<a href=\"<?php the_permalink(); ?>\">\n   86  \n   87: \t\t\t\t<?php the_post_thumbnail( 'twentyseventeen-featured-image' ); ?>\n   88  \n   89  \t\t\t</a>\n   ..\n  109  \t\t\tthe_content( sprintf(\n  110  \n  111: \t\t\t\t__( 'Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>', 'twentyseventeen' ),\n  112  \n  113  \t\t\t\tget_the_title()\n  ...\n  119  \t\t\twp_link_pages( array(\n  120  \n  121: \t\t\t\t'before'      => '<div class=\"page-links\">' . __( 'Pages:', 'twentyseventeen' ),\n  122  \n  123  \t\t\t\t'after'       => '</div>',\n  ...\n  141  \t<?php if ( is_single() ) : ?>\n  142  \n  143: \t\t<?php twentyseventeen_entry_footer(); ?>\n  144  \n  145  \t<?php endif; ?>\n\nD:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions\\template-parts\\post\\content-none.php:\n   31  \t<header class=\"page-header\">\n   32  \n   33: \t\t<h1 class=\"page-title\"><?php _e( 'Nothing Found', 'twentyseventeen' ); ?></h1>\n   34  \n   35  \t</header>\n   ..\n   43  \n   44  \n   45: \t\t\t<p><?php printf( __( 'Ready to publish your first post? <a href=\"%1$s\">Get started here</a>.', 'twentyseventeen' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>\n   46  \n   47  \n   ..\n   51  \n   52  \n   53: \t\t\t<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'twentyseventeen' ); ?></p>\n   54  \n   55  \t\t\t<?php\n\n60 matches across 10 files\n",
+			"settings":
+			{
+				"buffer_size": 9433,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "wp-content/themes/marcsolutions/template-parts/post/content-none.php",
+			"settings":
+			{
+				"buffer_size": 1099,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "web.config",
+			"settings":
+			{
+				"buffer_size": 1036,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcsolutions/template-parts/post/content-image.php",
+			"settings":
+			{
+				"buffer_size": 1075,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcsolutions/template-parts/post/content-audio.php",
+			"settings":
+			{
+				"buffer_size": 1056,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "wp-content/themes/marcsolutions/sass/style.scss",
 			"settings":
 			{
 				"buffer_size": 16985,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcsolutions/style.css",
+			"settings":
+			{
+				"buffer_size": 60357,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcsolutions/sass/page/_home.scss",
+			"settings":
+			{
+				"buffer_size": 6160,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-config.php",
+			"settings":
+			{
+				"buffer_size": 3361,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/marcsolutions/sass/page/_article.scss",
+			"settings":
+			{
+				"buffer_size": 1209,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -501,7 +625,7 @@
 	"command_palette":
 	{
 		"height": 227.0,
-		"last_filter": "",
+		"last_filter": "grunt",
 		"selected_items":
 		[
 			[
@@ -690,19 +814,24 @@
 	},
 	"expanded_folders":
 	[
-		"/D/WebSites/webking.marc",
-		"/D/WebSites/webking.marc/wp-content",
-		"/D/WebSites/webking.marc/wp-content/themes",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions",
-		"/D/WebSites/webking.marc/wp-content/themes/twentysixteen"
+		"/D/WebSites/webking.marc"
 	],
 	"file_history":
 	[
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/style.css",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/gd-config.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content-excerpt.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/assets/css/colors-dark.css",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content.php",
+		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/inc/icon-functions.php",
+		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/functions.php",
+		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/functions.php",
+		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/inc/template-tags.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/media/_media.scss",
 		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/index.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/style.css",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/sass/page/_support.scss",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/functions.php",
 		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/style.css",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-icm.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/page-cam.php",
@@ -726,7 +855,6 @@
 		"/D/WebSites/webking.marc/wp-includes/theme-compat/header.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/assets/images/coffee.jpg",
 		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/rtl.css",
-		"/D/WebSites/webking.marc/wp-content/themes/twentyseventeen/functions.php",
 		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/index.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/jetpack.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/extras.php",
@@ -737,7 +865,6 @@
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/author.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/archive.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/404.php",
-		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/post/content-video.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/template-parts/content.php",
 		"/D/WebSites/webking.marc/wp-content/themes/marcsolutions/inc/template-tags.php",
@@ -764,7 +891,6 @@
 		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/web.config",
 		"/D/WebSites/webking.marc/web.config",
 		"/D/WebSites/webking.marc/wp-config.php",
-		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/wp-config.php",
 		"/D/WebSites/webking.marc/wp-includes/version.php",
 		"/C/Users/Олександр/AppData/Local/Temp/fz3temp-2/version.php",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -819,13 +945,7 @@
 		"/D/Intro.html",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/img/illustrations/acm.svg",
 		"/D/www/projects/webking.marc/wp-content/themes/marctheme/js/svg-icons.js",
-		"/D/www/projects/webking.marc/wp-config.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-support.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-cam.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/page-acm.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/style.scss",
-		"/D/www/projects/webking.marc/wp-content/themes/marc/template-parts/post/content-none.php",
-		"/D/www/projects/webking.marc/wp-content/themes/marctheme/sass/forms/_forms.scss"
+		"/D/www/projects/webking.marc/wp-config.php"
 	],
 	"find":
 	{
@@ -836,6 +956,8 @@
 		"height": 136.0,
 		"where_history":
 		[
+			"D:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions",
+			"D:\\WebSites\\webking.marc\\wp-content\\themes\\",
 			"D:\\WebSites\\webking.marc\\wp-content\\themes\\marcsolutions",
 			"",
 			"D:\\www\\projects\\webking.xt\\,-*blueimp/*,-*plugins/*,-*node_modules/*,-*adm/*",
@@ -864,6 +986,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"''",
+			"http",
+			"\\n\\n",
+			"twentyseventeen",
+			"twentyseventeen_entry_footer",
+			"twentyseventeen",
+			"twentyseventeen-featured-image",
+			"twentyseventeen",
+			"\\n\\n",
+			"twentyseventeen",
+			"\\n\\n",
+			"twentyfifteen",
+			"marcsolutions",
+			"\\n\\n",
+			"twentyseventeen",
+			"\\n\\n",
 			"get_template_directory_uri().'/img/",
 			"news_item__thumb_placeholder",
 			"url(img/",
@@ -975,30 +1113,15 @@
 			"/img/rem_",
 			"svg-icon\" data-icon=\"",
 			" svg-icon\" data-icon=\"",
-			"benefits__item-description",
-			"benefits__item-title",
-			"prod-cont-item__descr-title",
-			"/img/acm_",
-			"/img/pam_",
-			" svg-icon\" data-icon=\"",
-			"svg-icon\" data-icon=\"",
-			"/img/acm_",
-			"/img/icm_",
-			"/img/acm_",
-			"/img/icm_",
-			"svg-icon\" data-icon=\"",
-			" svg-icon\" data-icon=\"",
-			"benefits__item-description",
-			"benefits__item-title",
-			"prod-cont-item__descr-title",
-			"acm_"
+			"benefits__item-description"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\\n",
 			"url(assets/images/",
 			"<?php echo get_template_directory_uri(); ?>/assets/images/",
 			"<?php echo get_template_directory_uri(); ?>/assets/images",
@@ -1022,8 +1145,565 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/marcsolutions/page-main.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15752,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										10812,
+										10812
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								13782,
+								13782
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4220.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/marcsolutions/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4616,
+								4600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								506,
+								513
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JavaScript (Gruntfile).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "wp-content/themes/marcsolutions/template-parts/post/content-gallery.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1075,
+								62
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9433,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										200,
+										215
+									],
+									[
+										398,
+										413
+									],
+									[
+										590,
+										605
+									],
+									[
+										724,
+										739
+									],
+									[
+										966,
+										981
+									],
+									[
+										1116,
+										1131
+									],
+									[
+										1249,
+										1264
+									],
+									[
+										1398,
+										1413
+									],
+									[
+										1526,
+										1541
+									],
+									[
+										1698,
+										1713
+									],
+									[
+										1925,
+										1940
+									],
+									[
+										2001,
+										2016
+									],
+									[
+										2151,
+										2166
+									],
+									[
+										2228,
+										2243
+									],
+									[
+										2406,
+										2421
+									],
+									[
+										2586,
+										2601
+									],
+									[
+										2663,
+										2678
+									],
+									[
+										2841,
+										2856
+									],
+									[
+										3148,
+										3163
+									],
+									[
+										3272,
+										3287
+									],
+									[
+										3439,
+										3454
+									],
+									[
+										3626,
+										3641
+									],
+									[
+										3816,
+										3831
+									],
+									[
+										3984,
+										3999
+									],
+									[
+										4137,
+										4152
+									],
+									[
+										4327,
+										4342
+									],
+									[
+										4447,
+										4462
+									],
+									[
+										4580,
+										4595
+									],
+									[
+										4765,
+										4780
+									],
+									[
+										4806,
+										4821
+									],
+									[
+										4849,
+										4864
+									],
+									[
+										4965,
+										4980
+									],
+									[
+										5126,
+										5141
+									],
+									[
+										5381,
+										5396
+									],
+									[
+										5617,
+										5632
+									],
+									[
+										5748,
+										5763
+									],
+									[
+										5915,
+										5930
+									],
+									[
+										5936,
+										5951
+									],
+									[
+										6218,
+										6233
+									],
+									[
+										6362,
+										6377
+									],
+									[
+										6444,
+										6459
+									],
+									[
+										6494,
+										6509
+									],
+									[
+										6649,
+										6664
+									],
+									[
+										6837,
+										6852
+									],
+									[
+										7010,
+										7025
+									],
+									[
+										7143,
+										7158
+									],
+									[
+										7351,
+										7366
+									],
+									[
+										7400,
+										7415
+									],
+									[
+										7517,
+										7532
+									],
+									[
+										7757,
+										7772
+									],
+									[
+										7901,
+										7916
+									],
+									[
+										7983,
+										7998
+									],
+									[
+										8033,
+										8048
+									],
+									[
+										8188,
+										8203
+									],
+									[
+										8376,
+										8391
+									],
+									[
+										8549,
+										8564
+									],
+									[
+										8682,
+										8697
+									],
+									[
+										8950,
+										8965
+									],
+									[
+										9132,
+										9147
+									],
+									[
+										9354,
+										9369
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								8957,
+								8957
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wp-content/themes/marcsolutions/template-parts/post/content-none.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1099,
+								1099
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "web.config",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1019,
+								1019
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (Config).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "wp-content/themes/marcsolutions/template-parts/post/content-image.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1074,
+								1074
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "wp-content/themes/marcsolutions/template-parts/post/content-audio.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1056,
+								1056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -1031,7 +1711,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 0,
+					"buffer": 10,
 					"file": "wp-content/themes/marcsolutions/sass/style.scss",
 					"semi_transient": false,
 					"settings":
@@ -1043,8 +1723,8 @@
 						"selection":
 						[
 							[
-								6716,
-								6724
+								361,
+								361
 							]
 						],
 						"settings":
@@ -1053,10 +1733,127 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3304.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "wp-content/themes/marcsolutions/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								625,
+								625
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "wp-content/themes/marcsolutions/sass/page/_home.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3662,
+								3662
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2484.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "wp-config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1030,
+								1030
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 392.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "wp-content/themes/marcsolutions/sass/page/_article.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -1090,7 +1887,7 @@
 		"cols":
 		[
 			0.0,
-			0.549721005917,
+			0.788296673574,
 			1.0
 		],
 		"rows":
@@ -1134,6 +1931,46 @@
 		"selected_items":
 		[
 			[
+				"style.css",
+				"wp-content\\themes\\marcsolutions\\style.css"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"gruntfi",
+				"Gruntfile.js"
+			],
+			[
+				"functions.php",
+				"wp-content\\themes\\marcsolutions\\functions.php"
+			],
+			[
+				"page-main",
+				"wp-content\\themes\\marcsolutions\\page-main.php"
+			],
+			[
+				"wp-config",
+				"wp-config.php"
+			],
+			[
+				"content.php",
+				"wp-content\\themes\\marcsolutions\\template-parts\\post\\content.php"
+			],
+			[
+				"content-gall",
+				"wp-content\\themes\\marcsolutions\\template-parts\\post\\content-gallery.php"
+			],
+			[
+				"home.scss",
+				"wp-content\\themes\\marcsolutions\\sass\\page\\_home.scss"
+			],
+			[
+				"article.scss",
+				"wp-content\\themes\\marcsolutions\\sass\\page\\_article.scss"
+			],
+			[
 				"header.php",
 				"wp-content\\themes\\marcsolutions\\header.php"
 			],
@@ -1148,10 +1985,6 @@
 			[
 				"funct",
 				"wp-content\\themes\\marcsolutions\\functions.php"
-			],
-			[
-				"page-main",
-				"wp-content\\themes\\marcsolutions\\page-main.php"
 			],
 			[
 				"contacts",
@@ -1302,10 +2135,6 @@
 				"wp-content\\themes\\marcsolutions\\page-acm.php"
 			],
 			[
-				"home.scss",
-				"wp-content\\themes\\marcsolutions\\sass\\page\\_home.scss"
-			],
-			[
 				"main.js",
 				"wp-content\\themes\\marcsolutions\\js\\main.js"
 			],
@@ -1380,10 +2209,6 @@
 			[
 				"navigation.js",
 				"wp-content\\themes\\marcsolutions\\js\\navigation.js"
-			],
-			[
-				"functions.php",
-				"wp-content\\themes\\marcsolutions\\functions.php"
 			],
 			[
 				"updates",
@@ -1496,10 +2321,6 @@
 			[
 				"archive.",
 				"wp-content\\themes\\marctheme\\archive.php"
-			],
-			[
-				"content.php",
-				"wp-content\\themes\\marctheme\\template-parts\\post\\content.php"
 			],
 			[
 				"archive",
@@ -1620,30 +2441,6 @@
 			[
 				"cp_customer_cab_agent",
 				"themes\\default\\tpl\\cp_customer_cab_agent.tpl"
-			],
-			[
-				"product_ae",
-				"adm\\core\\tpl\\cp_product_ae.tpl"
-			],
-			[
-				"productedit",
-				"adm\\core\\contr\\productedit.php"
-			],
-			[
-				"price_list.css",
-				"themes\\default\\css\\page_styles\\price_list.css"
-			],
-			[
-				"pricelist",
-				"~core\\contr\\pricelist.php"
-			],
-			[
-				"price_list.tpl",
-				"themes\\default\\tpl\\price_list.tpl"
-			],
-			[
-				"pricelist.php",
-				"~core\\contr\\pricelist.php"
 			]
 		],
 		"width": 0.0
@@ -1686,7 +2483,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

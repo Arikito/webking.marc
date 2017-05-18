@@ -48,7 +48,7 @@ $post_slug = $post->post_name; ?>
 
 							<p class="block__title">Request a demo today!</p>
 
-							<p class="block__text">Ready to take a deeper dive into the app? Fill out the form below to request a live demo from a M.A.R.C team member.</p>
+							<p class="block__text">Ready to take a deeper dive into the app? Fill out the form below to request a live demo from MARC .</p>
 
 							<img class="block__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo.png" alt="">
 
@@ -56,7 +56,7 @@ $post_slug = $post->post_name; ?>
 
 						<div class="demo__block demo__form">
 
-							<p>Ready to take a deeper dive into the app? Fill out the form below to request a live demo from a M.A.R.C team member.</p>
+							<p>Fill your details and submit to have a custom demo</p>
 
 							<?php echo do_shortcode('[contact-form-7 id="268" title="Demo request form"]'); ?>
 

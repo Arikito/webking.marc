@@ -54,7 +54,7 @@ get_header(); ?>
 
 							<div class="contacts__address-block address-block">
 
-								<p class="address-block__title">Our adress</p>
+								<p class="address-block__title">Our address</p>
 
 								<p class="address-block__text">Prestige Omega, No-104, EPIP Zone Whitefield, Bangalore-560066</p>
 
